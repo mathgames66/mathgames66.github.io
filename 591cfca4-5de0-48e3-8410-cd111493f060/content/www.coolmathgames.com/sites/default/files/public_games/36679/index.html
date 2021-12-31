@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dodge – Play it now at CoolmathGames.com</title>
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+<body>
+  <button onclick="toggleSound(this)" class="show-if-not-touch options">
+    <img src="images/DodgeSoundOn.png" alt="Sound Options">
+  </button>
+  <div class="trackpad show-if-touch" id="trackpad"><img class="show-if-touch" id="touch-cursor" src="images/cursor.png"></img><span id="move-indicator">MOVE HERE</span></div>
+	<div id="touch-buttons" class="touch-buttons show-if-touch">
+    <button style="background-size: 17% !important; border-right-width: calc(var(--border-size) / 2); border-bottom-width: calc(var(--border-size) / 2);" class="pico-btn" id="btn-p"><b></b></button>
+    <button style="border-left-width: calc(var(--border-size) / 2); border-bottom-width: calc(var(--border-size) / 2);" class="pico-btn" id="switch"></button><br>
+		<button style="border-right-width: calc(var(--border-size) / 2); border-top-width: calc(var(--border-size) / 2);"class="pico-btn" id="btn-x"></button>
+		<button style="border-left-width: calc(var(--border-size) / 2); border-top-width: calc(var(--border-size) / 2);"class="pico-btn" id="btn-o"></button>
+  </div>
+  <div class="gamepad show-if-touch" id="gamepad">
+    <div class="pico-btn up"></div>
+    <div class="pico-btn right"></div>
+    <div class="pico-btn down"></div>
+    <div class="pico-btn left"></div>
+  </div>
+	<center><div id="canvas_container" style="width:512px;">
+  <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+  <script>
+    function toggleSound(element) {
+      Module.pico8ToggleSound();
+      element.children[0].classList.toggle("fa-volume-mute");
+      element.children[0].classList.toggle("fa-volume-up");
+    }
+  </script>
+  <script type="text/javascript">
+
+		var canvas = document.getElementById("canvas");
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+		// show Emscripten environment where the canvas is
+		// arguments are passed to PICO-8
+		
+		var Module = {};
+		Module.canvas = canvas;
+		
+		/*
+			// When pico8_buttons is defined, PICO-8 takes each int to be a live bitfield
+			// representing the state of each player's buttons
+			
+			var pico8_buttons = [0, 0, 0, 0, 0, 0, 0, 0]; // max 8 players
+			pico8_buttons[0] = 2 | 16; // example: player 0, RIGHT and Z held down
+			
+			// when pico8_gpio is defined, reading and writing to gpio pins will
+			// read and write to these values */
+			var pico8_gpio = new Array(128);
+      pico8_gpio[0] = 64; // player X on mobile
+      pico8_gpio[1] = 64; // player Y on mobile
+		
+	</script>
+	  
+	<script>
+		// key blocker. prevent cursor keys from scrolling page while playing cart.
+		
+		function onKeyDown_blocker(event) {
+			event = event || window.event;
+			var o = document.activeElement;
+			if (!o || o == document.body || o.tagName == "canvas" || o.id == "trackpad") {
+				if ([32, 37, 38, 39, 40].indexOf(event.keyCode) > -1) {
+					if (event.preventDefault) event.preventDefault();
+				}
+			}
+		}
+		document.addEventListener('keydown', onKeyDown_blocker, false);
+         
+	</script>
+        
+	<br>
+	<br>	
+	</div></center>
+	<br><br>
+  <script src="mobile.js"></script>
+  <script src="app.js"></script>
+  <!-- iOS Zoom on rotation bug fix -->
+  <script>(function(a){function j(){c.setAttribute("content",f),document.body.innerHTML=document.body.innerHTML,g=!0}function k(){c.setAttribute("content",e),g=!1}function l(b){h=Math.abs(a.orientation),i=Math.abs(b.accelerationIncludingGravity.x),i>8&&h===0?g&&k():g||j()}var b=a.document;if(!b.querySelectorAll)return;var c=b.querySelectorAll("meta[name=viewport]")[0],d=c&&c.getAttribute("content"),e=d+", maximum-scale=1.0",f=d+", maximum-scale=10.0",g=!0,h=a.orientation,i=0;if(!c)return;a.addEventListener("orientationchange",j,!1),a.addEventListener("devicemotion",l,!1)})(this);</script>
+</body></html>
