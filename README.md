@@ -1,5 +1,7 @@
 # mg66db.github.io
 
+Baldi's Basics Field Trip Camping Remake - b92261bf-dae7-4055-bd8a-8eb6d069a6fc
+
 Big NEON Tower VS Tiny Square - bc03a207-9c3d-4879-b102-c4c33cac48c9
 
 Dodge (God-Awful Coolmathgames Sitelocked Verison) - 591cfca4-5de0-48e3-8410-cd111493f060 (WIP)
