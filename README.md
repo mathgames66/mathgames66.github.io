@@ -14,4 +14,6 @@ GoBattle.io Alpha - f9054a09-e557-4384-aff4-0d0f4f2f9058 (WIP)
 
 Hook Job - bbf26339-43d7-4ed1-b899-12375e66a8b9 
 
+Mari0 - ca2cd940-b69b-43fc-b330-9b25b98be6f4
+
 Pikwip - a990811b-9405-4f5d-b15a-c9803efe2f23
