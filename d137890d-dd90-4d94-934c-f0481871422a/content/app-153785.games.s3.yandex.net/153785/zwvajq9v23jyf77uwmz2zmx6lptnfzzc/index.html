@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="promo/styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>Om Nom Run</title>
+
+    <script src="https://yandex.ru/games/sdk/v2"></script>
+    <script>
+        YaGames.init({
+            adv: {
+                onAdvClose: wasShown => {
+                    console.log("[YANDEX]: on Adv closed " + wasShown);
+                }
+            }
+        }).then(ysdk => {
+            console.log("[YANDEX]: INIT");
+            
+            window.famobi_yandex_ysdk = ysdk;
+            window.famobi_yandex_ad_wait = 180000;
+
+            window.famobi_yandex_initialAdFinished = false;
+            window.famobi_yandex_gamePaused = false;
+
+            console.warn("!!!!!!!!!!!!!!YANDEX INITIAL AD REQUEST!!!!!!!!!!!!!!");
+            ysdk.adv.showFullscreenAdv({
+                callbacks: {
+                    onOpen: function() {
+                        console.log("[YANDEX]: Initial Ad Opened");
+                    },
+                    onClose: function(wasShown) {
+                        if(wasShown) {
+                            window.famobi_yandex_last_ad = Date.now();
+                        }
+
+                        window.famobi_yandex_initialAdFinished = true;
+
+                        if(typeof(game) !== "undefined") {
+                            if(!window.famobi_yandex_gamePaused) {
+                                game.pauseGame();
+                            }
+                            game.unpauseGame();
+                        }
+
+                        console.log("[YANDEX]: Initial Ad Closed");
+                    },
+                    onError: function(error) {
+                        console.error("[YANDEX]: Initial Ad Failed");
+                        console.error(error)
+                    },
+                    onOffline: function() {
+                        console.log("[YANDEX]: No Internet Connection");
+                    }
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        // Package-ID
+        window.famobi_gameID = "om-nom-run";
+        window.famobi_gameJS = [
+            "preloader.js",
+            "playcanvas-stable.min.js",
+            "__settings__.js",
+            "__modules__.js",
+            "__start__.js",
+            "__loading__.js",
+            function(){
+                // do nothing, be happy
+            }
+        ];
+
+        window.famobi_pregameJS = window.famobi_pregameJS || [];
+        window.famobi_pregameJS.push(function() {
+            var self = this;
+
+            var urlParams = self.getUrlParams();
+            if (true || urlParams && urlParams["fg_env"] == "staging") {
+                return;
+            }
+
+            var affiliates = [
+                "A-0D1OG",
+                "A-0JICA",
+                "A-0JOKG",
+                "A-0ZI29",
+                "A-14GK6",
+                "A-1CNRU",
+                "A-1CZFE",
+                "A-1KE8R",
+                "A-1V5D7",
+                "A-28FQU",
+                "A-34VRK",
+                "A-3RJC9",
+                "A-4QBH7",
+                "A-4X01A",
+                "A-5U0J1",
+                "A-7EDR3",
+                "A-83CXT",
+                "A-8NTWJ",
+                "A-8ZSFV",
+                "A-ADJXZ",
+                "A-ALBUC",
+                "A-ASNFC",
+                "A-AW78X",
+                "A-AYVHW",
+                "A-C4H57",
+                "A-CBLFJ",
+                "A-CDTEST",
+                "A-CRAZYGAMES",
+                "A-CRAZYGAMES2",
+                "A-CRAZYGAMES3",
+                "A-CRAZYGAMES4",
+                "A-CRAZYGAMES5",
+                "A-D2980",
+                "A-DC230",
+                "A-DW96H",
+                "A-E6415",
+                "A-EI65H",
+                "A-F47K8",
+                "A-FAMOBI-COM",
+                "A-FSP0W",
+                "A-GAMESXLCOM",
+                "A-GIUVR",
+                "A-HL602",
+                "A-HUAWEI-BROWSER",
+                "A-HUAWEI-BROWSER-OMNOM",
+                "A-HUAWEI-QUICKAPP-OMNOM",
+                "A-HUAWEI-QUICKAPPS",
+                "A-I1ZHB",
+                "A-I27YN",
+                "A-INY7M",
+                "A-JHXRK",
+                "A-KMHG6",
+                "A-LSARB",
+                "A-MINESKIGAMES",
+                "A-N1HIP",
+                "A-ODAF9",
+                "A-P9JTS",
+                "A-Q5GV9",
+                "A-QAXTZ",
+                "A-QE6IG",
+                "A-QLBD2",
+                "A-QVDP6",
+                "A-RFTZC",
+                "A-RN1BU",
+                "A-RZUC4",
+                "A-S6N8D",
+                "A-SRFB8",
+                "A-ST315",
+                "A-SU86Z",
+                "A-T17UQ",
+                "A-TSTLNK",
+                "A-UGDSH",
+                "A-UIFC4",
+                "A-UWCF7",
+                "A-VMYRO",
+                "A-X95FH",
+                "A-XL4GE",
+                "A-XNKGI",
+                "A-YEK7Z",
+                "A-YQZJ1",
+                "A-Z6HDO",
+                "A1000-1",
+                "A1200-1",
+                "A1200-10",
+                "A1200-101",
+                "A1200-2",
+                "A1200-20",
+                "A1200-3",
+                "A1200-30",
+                "A1200-4",
+                "A1200-40",
+                "A1200-5",
+                "A1202-1",
+                "Et-01-TA",
+                "Et-02-TA"
+            ];
+
+            if (affiliates.indexOf(self.config.aid) > -1)
+                return;
+
+            window.location.replace("https://html5games.com");
+
+            window.famobi_gameJS = [];
+            return new Promise(function(resolve, reject) {});
+        });
+
+        (function (document, url, fgJS, firstJS) {
+                fgJS = document.createElement('script');
+                firstJS = document.getElementsByTagName('script')[0];
+                fgJS.src = url + encodeURIComponent(document.location.href);
+                firstJS.parentNode.insertBefore(fgJS, firstJS);
+        })(document, 'html5games/gameapi/v1.js?e=');
+    </script>
+</head>
+<body>
+    <div id="application-splash-wrapper">
+        <div id="application-splash">
+            <div id="loaderBar"></div>
+            <span id="loadingText">0%</span>
+        </div>
+        <img id="logo" src="img/logo.png">
+    </div>
+</body>
+</html>
