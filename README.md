@@ -24,7 +24,7 @@ Hook Job - bbf26339-43d7-4ed1-b899-12375e66a8b9
 
 Mari0 - ca2cd940-b69b-43fc-b330-9b25b98be6f4
 
-(Broken) Om Nom: Run - d137890d-dd90-4d94-934c-f0481871422a (SCREW YOU GAMESNACKS)
+(Broken) Om Nom: Run - d137890d-dd90-4d94-934c-f0481871422a
 
 Pikwip - a990811b-9405-4f5d-b15a-c9803efe2f23
 
