@@ -3,7 +3,11 @@
 # welcome to the mathgames66 database
 mg66db.github.io is a storage site for many games on mathgames66 (https://sites.google.com/view/mathgames66)
 
---for webdevs--
+if you want to use these games for your site or want to view the source code of these games, visit https://github.com/mg66db/mg66db.github.io
+
+--for webmasters--
+
+(each game listed is embeddable via iframe from each index.html page and downloadable to be self-hosted via mad4fp)
 
 # where each specific game is located
 
