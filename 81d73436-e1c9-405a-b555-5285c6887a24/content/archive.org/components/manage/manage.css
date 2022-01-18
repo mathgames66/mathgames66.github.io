@@ -1,0 +1,64 @@
+
+
+#manage-ids {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
+#manage-help > div {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 125%;
+  padding-right: 10px;
+}
+
+#manage-help .btn-info {
+  background-color: #777;
+  border-color: #666;
+}
+
+
+#manage-help > p {
+  text-align: center;
+}
+
+.item-ia.manage-item  .item-img {
+  opacity: .8;
+}
+
+.item-ia.manage-item  .item-img:hover {
+  opacity: .9;
+}
+
+.manage-check {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 4px;
+  background-color: black;
+  border-radius: 3px;
+}
+
+#confirm-remove-items .btn {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.task-pending {
+  opacity: .20;
+}
+
+/* Bulk remove items modal */
+#confirm-remove-items .modal-content {
+  padding: 1rem;
+}
+
+#confirm-remove-items h2 {
+  font-size: 2.4rem;
+}
