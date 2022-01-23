@@ -43,6 +43,8 @@ Retro Bowl - 481fe2bb-34d2-43f5-be59-24c481e96c25
 
 (Broken) snow! - 3aa9e2b1-5ef4-44e1-bb64-994c720082fa
 
+Super Puffer Fish - 61ff39c5-d773-4b55-badb-4e79ce3e3337
+
 Terramino - e0ac91da-4f41-47c4-9b1a-9ea4a1c836de
 
 Tunnel Rush - 411490ae-fc51-4959-a594-1c76f2786896
