@@ -39,6 +39,8 @@ Mari0 - ca2cd940-b69b-43fc-b330-9b25b98be6f4
 
 Pikwip - a990811b-9405-4f5d-b15a-c9803efe2f23
 
+Red Panda Surfer - 8e0a1e2c-ac44-490e-95db-953f5e064c3f
+
 Retro Bowl - 481fe2bb-34d2-43f5-be59-24c481e96c25
 
 (Broken) snow! - 3aa9e2b1-5ef4-44e1-bb64-994c720082fa
