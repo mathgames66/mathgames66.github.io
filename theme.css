@@ -1,0 +1,55 @@
+
+body {
+    background: rgb(42,0,69);
+    background: linear-gradient(90deg, rgba(42,0,69,1) 0%, rgba(0,118,190,1) 100%);)
+}
+
+
+wgTitle {
+    display: block;
+    text-align:center;
+    font-size:40px;
+    font-family:Arial;
+    color:white;
+}
+
+wgDev {
+    display: block;
+    text-align:center;
+    font-size:20px;
+    font-family:Arial;
+    color:white;
+}
+wgEmbed {
+    display: block;
+    text-align:center;
+}
+header {
+    display: block;
+    text-align:center;
+    font-size:20px;
+    background:white;
+    color:black;
+    font-family:Arial;
+}
+iframe {
+  height: 590px;
+  width: 100%;
+  resize: both;
+  overflow: auto;
+  border-style: solid;
+  border-color:black;
+}
+
+comments {
+    display: block;
+    text-align:center;
+}
+
+commentsi {
+    display: block;
+    text-align:center;
+    font-size:40px;
+    font-family:Arial;
+    color:white;
+}
