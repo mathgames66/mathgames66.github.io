@@ -23,17 +23,15 @@ Github - To upload the sites
 
 
 
-(each game listed is embeddable via iframe from each index.html page and downloadable to be self-hosted via mad4fp)
 
-# where each specific game is located
+# where each specific webgame is located
+(each webgame listed is embeddable via iframe from each index.html page and downloadable to be self-hosted via mad4fp)
 
 A Small World Cup - fc4e8813-3c89-4a21-bd68-18eb126e4e38
 
 Backrooms (Alpha) - 989654c0-6c6e-40e4-956c-1db1ec95bd76
 
 Baldi's Basics Field Trip Camping Remake - b92261bf-dae7-4055-bd8a-8eb6d069a6fc
-
-Brave Explorers - a077d804-4f7c-4303-8991-5918bc13a80d
 
 Cluster Rush - d23ed974-4630-4906-b0b7-2c7322a5ba7d
 
