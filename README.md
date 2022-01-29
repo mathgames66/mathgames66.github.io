@@ -11,7 +11,7 @@ Flashpoint Core: MAD4FP - Downloading the webgames
 
 Github Pages - To store the games
 
-Boardhost - Forum
+Giscus - Comments
 
 # What Is Used to Build UnblockedGamesArchive
 
@@ -40,8 +40,6 @@ Dodge (itch.io version) - b15a710a-702a-400e-aaeb-21f54c8545c8
 Dodge (Raven Version) - 94e0266a-f5f0-4659-9f9b-256f4396caa9
 
 Dodge! - 528b6a9a-adf9-42ec-ab6d-2eb61e919d26
-
-Dreader - 8939bb69-dda9-4fa3-a481-2bed4f2cedc3
 
 Hook Job - bbf26339-43d7-4ed1-b899-12375e66a8b9 
 
