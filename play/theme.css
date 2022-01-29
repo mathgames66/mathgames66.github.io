@@ -24,13 +24,19 @@ wgEmbed {
     display: block;
     text-align:center;
 }
-header {
-    display: block;
-    text-align:center;
-    font-size:20px;
-    background:white;
-    color:black;
-    font-family:Arial;
+
+a {
+    color:green;
+    background:#181818;
+    border-radius:20%;
+
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color:lightgreen;
+    text-decoration:underline;
 }
 iframe {
   height: 590px;
@@ -44,12 +50,6 @@ iframe {
 comments {
     display: block;
     text-align:center;
+    background:#181818;
 }
 
-commentsi {
-    display: block;
-    text-align:center;
-    font-size:40px;
-    font-family:Arial;
-    color:white;
-}
