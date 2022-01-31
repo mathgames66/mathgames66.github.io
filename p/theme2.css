@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+body {
+    background:#181818;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 2px; line-height:0.9;
+}
+
+re {
+    color:red;
+}
+
+or {
+    color:orange;
+}
+
+ye {
+    color:yellow;
+}
+
+lg {
+    color:lightgreen;
+}
+
+gr {
+    color:green;
+}
+
+bl {
+    color:blue;
+}
+
+tq {
+    color:turquoise;
+}
+
+sky {
+    color:lightskyblue;
+}
+
+pu {
+    color:purple;
+}
+
+pi {
+    color:pink;
+}
+
+h3 {
+    display:inline;
+}
+
+gy {
+    color:grey;
+}
+
+lr {
+    color:lightsalmon;
+}
