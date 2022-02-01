@@ -4,4 +4,4 @@ Documenting and preserving information about 'unblocked games' sites, browser ga
 
 # Download UnblockedGamesArchive Releases
 
-Thanks to (Flashfreeze)[https://fpfss.unstable.life/web/flashfreeze/submit] for hosting all of them!
+Thanks to BlueMaxima Flashpoint's Flashfreeze for hosting all of them!
