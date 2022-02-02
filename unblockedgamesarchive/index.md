@@ -5,5 +5,5 @@ Documenting and preserving information about 'unblocked games' sites, browser ga
 
 Thanks to BlueMaxima Flashpoint's Flashfreeze for hosting all of them!
 
-[Downloads Page](mathgames66.github.io/unblockedgamesarchive/downloads.md)
+[Downloads Page](/downloads.md)
 
