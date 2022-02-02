@@ -1,5 +1,7 @@
 # Downloads
 
+[Go back home](/unblockedgamesarchive/index.md)
+
 ## [Games68 Prerelease](https://fpfss.unstable.life/web/flashfreeze/files?file-id=21335&submitter-id=&submitter-username-partial=&name-prefix=&description-prefix=&name-fulltext=&description-fulltext=&md5sum-partial=&sha256sum-partial=&size-min=&size-max=&results-per-page=1&page=)
 Archive of ~54,000/324947 Games68.com webgames
 
