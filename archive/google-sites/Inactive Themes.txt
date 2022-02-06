@@ -1,0 +1,908 @@
+
+Theme name: Copy of mg66 theme
+Theme data:
+button_component {
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "filled"
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "filled"
+    }
+    color {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "filled"
+    }
+    color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "outlined"
+    }
+    color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "text"
+    }
+    color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "text"
+    }
+    color {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "text"
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "outlined"
+    }
+    color {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "outlined"
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+divider_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    weight: 1.0
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+image_carousel_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    active_dot_color {
+      red: 0.4509804
+      green: 0.2627451
+      blue: 0.19607843
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    active_dot_color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    active_dot_color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+navigation_component {
+  property_set {
+    side_selection_style: SIDE_BOLD
+    top_nav_separator: NONE
+    top_selection_style: TOP_BOLD
+    transparent_at_top: true
+  }
+}
+scheme_color_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    accent1 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    link {
+      red: 0.8156863
+      green: 0.8784314
+      blue: 0.8901961
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    accent1 {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+    link {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    accent1 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    link {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+section_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    background_color {
+      red: 0.10980392
+      green: 0.10980392
+      blue: 0.10980392
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    background_color {
+      red: 0.015686275
+      green: 0.14117648
+      blue: 0.25882354
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    background_color {
+      red: 0.54509807
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+site_component {
+  property_set {
+    primary_color {
+      red: 0.8
+      green: 0.2627451
+      blue: 0.19215687
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+text_component {
+  heading_style {
+    heading: 0
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 1.0
+      spacing_after: 0.0
+    }
+    text_style {
+      bold: false
+      font_size: 12.0
+      foreground {
+        scheme: 0
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 1
+    paragraph_style {
+      ltr: true
+      spacing_before: 34.0
+    }
+    text_style {
+      bold: true
+      foreground {
+        scheme: 4
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 2
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 18.0
+    }
+    text_style {
+      bold: true
+      font_size: 18.0
+      foreground {
+        scheme: 5
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 3
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 14.0
+    }
+    text_style {
+      bold: true
+      font_size: 14.0
+      foreground {
+        scheme: 6
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 102
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 8.0
+    }
+    text_style {
+      font_size: 8.0
+      foreground {
+        scheme: 2
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+}
+name: "Copy of mg66 theme"
+id: "6401a192796dd1dd_0"
+
+----------------------------------------------------
+
+Theme name: Copy of mg66 theme
+Theme data:
+button_component {
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "filled"
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "filled"
+    }
+    color {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "filled"
+    }
+    color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "outlined"
+    }
+    color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "text"
+    }
+    color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "text"
+    }
+    color {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "text"
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "outlined"
+    }
+    color {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "outlined"
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+divider_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    weight: 1.0
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+image_carousel_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    active_dot_color {
+      red: 0.4509804
+      green: 0.2627451
+      blue: 0.19607843
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    active_dot_color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    active_dot_color {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+navigation_component {
+  property_set {
+    side_selection_style: SIDE_BOLD
+    top_nav_separator: NONE
+    top_selection_style: TOP_BOLD
+    transparent_at_top: true
+  }
+}
+scheme_color_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    accent1 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    link {
+      red: 0.8156863
+      green: 0.8784314
+      blue: 0.8901961
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    accent1 {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+    link {
+      red: 0.9764706
+      green: 0.9764706
+      blue: 0.9764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    accent1 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    link {
+      red: 0.94509804
+      green: 0.88235295
+      blue: 0.8666667
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+section_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    background_color {
+      red: 0.10980392
+      green: 0.10980392
+      blue: 0.10980392
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    background_color {
+      red: 0.015686275
+      green: 0.14117648
+      blue: 0.25882354
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    background_color {
+      red: 0.54509807
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+site_component {
+  property_set {
+    primary_color {
+      red: 0.8
+      green: 0.2627451
+      blue: 0.19215687
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+text_component {
+  heading_style {
+    heading: 0
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 1.0
+      spacing_after: 0.0
+    }
+    text_style {
+      bold: false
+      font_size: 12.0
+      foreground {
+        scheme: 0
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 1
+    paragraph_style {
+      ltr: true
+      spacing_before: 34.0
+    }
+    text_style {
+      bold: true
+      foreground {
+        scheme: 4
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 2
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 18.0
+    }
+    text_style {
+      bold: true
+      font_size: 18.0
+      foreground {
+        scheme: 5
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 3
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 14.0
+    }
+    text_style {
+      bold: true
+      font_size: 14.0
+      foreground {
+        scheme: 6
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+  heading_style {
+    heading: 102
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 8.0
+    }
+    text_style {
+      font_size: 8.0
+      foreground {
+        scheme: 2
+      }
+      weighted_font_family: "Arial"
+    }
+  }
+}
+name: "Copy of mg66 theme"
+id: "6401a192796dd1dd_1"
+
+----------------------------------------------------
