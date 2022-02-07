@@ -1,7 +1,7 @@
 ___
 ## BOOKMARK/FAVORITE/SAVE THIS PAGE (https://github.com/mathgames66/mathgames66.github.io/blob/main/sites.md) TO BE NOTIFIED OF NEW MATHGAMES66 PROXY SITES
 
-### How To Bookmark/Favorite:
+### How To Bookmark/Favorite/Save this page:
 
 On Windows/Chromebook: Ctrl+D
 
