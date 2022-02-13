@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
 body {
-    background:#181818;
-    color:white;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 2px; line-height:0.9;
+ grid-area: 1 / 1 / 6 / 2; 
+        background-image: linear-gradient(to right, #6f2f93, #3b2b73);
+          border-radius:30px;
+          
+         font-family: 'Outfit', sans-serif;
+        
 }
 
 re {
