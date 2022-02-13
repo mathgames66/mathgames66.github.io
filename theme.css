@@ -18,7 +18,7 @@ body {
 background-image:url('https://i.ibb.co/qNhdbNG/chalkboard.jpg');
 
   background-size: cover, ;
-  background-repeat-y: no-repeat;
+  background-repeat: no-repeat;
   color: #FFF;
   text-align: center;
 }
@@ -95,9 +95,9 @@ font   : bold 30px Century Gothic, Arial;
 
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 3s infinite linear;
+	background-clip: text;
+	color: transparent;
+	animation: hue 3s infinite linear;
 }
 
 
@@ -115,13 +115,13 @@ font   : bold 20px Century Gothic, Arial;
 
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 3s infinite linear;
+	background-clip: text;
+	color: transparent;
+	animation: hue 3s infinite linear;
 
 }
 
-@-webkit-keyframes hue {
+@keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
