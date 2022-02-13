@@ -95,9 +95,9 @@ font   : bold 30px Century Gothic, Arial;
 
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
+	background-clip: text;
 	color: transparent;
-	-webkit-animation: hue 3s infinite linear;
+	animation: hue 3s infinite linear;
 }
 
 
@@ -115,13 +115,13 @@ font   : bold 20px Century Gothic, Arial;
 
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 3s infinite linear;
+	animation: hue 3s infinite linear;
 
 }
 
-@-webkit-keyframes hue {
+@keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
