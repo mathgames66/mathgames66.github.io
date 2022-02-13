@@ -1,0 +1,19 @@
+Name:		Papa's Pizzeria
+Developer:	Flipline Studios
+Size:		600 x 450
+Screenshots:	http://www.flipline.com/games/papaspizzeria/screenshots.html
+Category:	Strategy
+
+Version: 	2.0
+Updated: 	03/10/14
+Includes: 	Major Bug fixes and removal of all Mochi Ads
+
+Description:
+Help Roy run the pizzeria while Papa Louie is gone!  Top, bake, and serve pizzas to earn tips and unlock new customers.
+
+Instructions:
+Use your mouse and follow the in-game instructions.
+
+
+
+
