@@ -9,7 +9,9 @@ a {
  
 }
 
-
+iframe.newsiframe {
+  border-radius:20px;
+}
 
 html { height: 100%; display: flex; }
 body { margin: auto; }

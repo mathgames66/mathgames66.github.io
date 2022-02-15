@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 body {
  grid-area: 1 / 1 / 6 / 2; 
         background-image: linear-gradient(to right, #6f2f93, #3b2b73);
           border-radius:30px;
-          
+          color:white;
          font-family: 'Outfit', sans-serif;
         
 }
