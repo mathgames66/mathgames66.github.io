@@ -14,6 +14,7 @@ a {
 html { height: 100%; display: flex; }
 body { margin: auto; }
 body {
+  background:black;
   font-family:Arial;
 background-image:url('https://i.ibb.co/qNhdbNG/chalkboard.jpg');
 
