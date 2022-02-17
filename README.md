@@ -19,4 +19,4 @@ HTTrack - To download the sites
 
 Find Empty Files-n-Folders - To delete empty files and folders to upload the sites
 
-Github - To upload the sites
+Github - To store the sites
