@@ -8,7 +8,7 @@ On Windows/Chromebook: Ctrl+D
 
 On Mac: Cmd+D
 
-On iPad: Tap on the  ![image](https://user-images.githubusercontent.com/90115544/152709396-69bb45c0-a31c-431c-a123-afefa8b30933.jpeg) button, scroll down the menu, and tap **Add to Favorites**
+On iPad (Safari): Tap on the  ![image](https://user-images.githubusercontent.com/90115544/152709396-69bb45c0-a31c-431c-a123-afefa8b30933.jpeg) icon in the top right of your screen, scroll down the menu, and tap **Add to Favorites**
 
 
 ___
