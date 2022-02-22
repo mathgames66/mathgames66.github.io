@@ -16,6 +16,8 @@ ___
 
 https://mathgames66.github.io/
 
+(herokuapp and glitch sites in the works)
+
 ___
 ## Game can't run and the device youre using mathgames66 is on an ipad?
 
