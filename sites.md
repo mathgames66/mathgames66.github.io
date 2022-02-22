@@ -12,7 +12,7 @@ On iPad (Safari): Tap on the  ![image](https://user-images.githubusercontent.com
 
 
 ___
-# Current proxy sites:
+# Current sites where you can play mathgames66:
 
 https://mathgames66.github.io/
 
