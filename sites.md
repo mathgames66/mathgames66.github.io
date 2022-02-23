@@ -1,6 +1,6 @@
 even though this page may not be updated frequently, the site certainly is being worked on every day
 ___
-## BOOKMARK/FAVORITE/SAVE THIS PAGE (https://is.gd/mathgames66) TO BE NOTIFIED OF NEW MATHGAMES66 PROXY SITES
+## BOOKMARK/FAVORITE/SAVE THIS PAGE (https://6.ly/mathgames66) TO BE NOTIFIED OF NEW MATHGAMES66 PROXY SITES
 
 ### How To Bookmark/Favorite/Save this page:
 
