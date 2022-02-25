@@ -1,4 +1,4 @@
-[mathgames66's unblockedgamesarchive](https://github.com/mathgames66.github.io/releases)
+[mathgames66's unblockedgamesarchive](https://github.com/mathgames66/mathgames66.github.io/tree/main/unblockedgamesarchive)
 
 [mathgames66](https://mathgames66.github.io)
 
