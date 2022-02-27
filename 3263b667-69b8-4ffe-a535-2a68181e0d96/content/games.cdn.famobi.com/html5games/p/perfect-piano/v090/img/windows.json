@@ -1,0 +1,27 @@
+{"frames": {
+
+"resultsWindowPlate0000":
+{
+	"frame": {"x":494,"y":2,"w":489,"h":730},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":489,"h":730},
+	"sourceSize": {"w":489,"h":730}
+},
+"windowPlate0000":
+{
+	"frame": {"x":2,"y":2,"w":490,"h":779},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":490,"h":779},
+	"sourceSize": {"w":490,"h":779}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.1.179",
+	"image": "windows.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

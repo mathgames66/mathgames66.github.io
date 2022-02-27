@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="index,follow">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,width=device-width,minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="HandheldFriendly" content="true">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+
+        		<meta property="og:url" 		content="http://play.famobi.com/perfect-piano/A-5U0J1">
+		<meta property="og:type"		content="website">
+		<meta property="og:title"		content="Perfect Piano">
+		<meta property="og:description"	content="Play Perfect Piano">
+		<meta property="og:image" 		content="https://img.cdn.famobi.com/portal/html5games/images/tmp/PerfectPiano_Teaser.jpg">
+		
+		<title>Perfect Piano</title>
+		<style>
+		html, body {
+			background: #000;
+			color: #ff7;
+			font: 14px/1.2 Arial, "Helvetica Neue", sans-serif;
+			height: 100%;
+		}
+
+		.fg-preroll-trigger {
+			cursor: pointer;
+		}
+		</style>
+		<link rel="stylesheet" type="text/css" href="/assets/0.2-c315d86d/css/play.css">
+				<link rel="canonical" href="https://play.famobi.com/perfect-piano">
+				<script src="/assets/0.2-c315d86d/js/helper.js"></script>
+		<script>
+			famobi_dataLayer = window.famobi_dataLayer || window.dataLayer || [];
+		</script>
+	</head>
+	<body>
+		<article itemscope itemtype="http://schema.org/CreativeWork">
+	<meta itemprop="name" content="Perfect Piano">
+	<meta itemprop="headline" content="Play &ldquo;Perfect Piano&rdquo; HTML5 Game directly in your browser">
+	<meta itemprop="image" content="https://img.cdn.famobi.com/portal/html5games/images/tmp/PerfectPiano_Teaser.jpg">
+	<meta itemprop="thumbnailUrl" content="https://img.cdn.famobi.com/portal/html5games/images/tmp/96/PerfectPiano_Teaser.jpg">
+</article>
+<script>
+(function(){
+	var body = document.getElementsByTagName('body')[0],
+		gameId = "24f835e0-d21a-47e1-a721-9f68beed83f3",
+		affiliateId = "A-5U0J1",
+		portalId = "ea6ab7c8-bd94-4deb-b0dc-4eaaea0e84d4",
+		packageId = "perfect-piano",
+		redirectUrl = "http://games.cdn.famobi.com/html5games/p/perfect-piano/v090/?fg_domain=play.famobi.com&fg_aid=A-5U0J1&fg_uid=24f835e0-d21a-47e1-a721-9f68beed83f3&fg_pid=ea6ab7c8-bd94-4deb-b0dc-4eaaea0e84d4&fg_beat=009&key=y8&value=default",
+		isAffiliateUrl = "0",
+		gameTeaser = "https://img.cdn.famobi.com/portal/html5games/images/tmp/PerfectPiano_Teaser.jpg",
+		gameHeader = "https://img.cdn.famobi.com/portal/html5games/images/tmp/PerfectPiano_Header.jpg",
+		gameTitle = "Perfect Piano",
+		portalParams = {"cms": {"active": true, "colors": {"accent": "#ff6347", "primary": "#e1fffd", "headline": "#0a6661", "secondary": "#20b2aa"}, "portal_id": "d494e976f423adb9374b887925eb64b9", "categories": [{"id": "skill", "name": "Skill"}, {"id": "quiz", "name": "Quiz"}, {"id": "match-3", "name": "Match 3"}, {"id": "girls", "name": "Girls"}, {"id": "racing", "name": "Racing"}, {"id": "cars", "name": "Cars"}, {"id": "jump-and-run", "name": "Jump & Run"}, {"id": "puzzle", "name": "Puzzle"}, {"id": "sports", "name": "Sports"}, {"id": "action", "name": "Action"}, {"id": "arcade", "name": "Arcade"}, {"id": "cooking", "name": "Cooking"}, {"id": "bubble-shooter", "name": "Bubble Shooter"}, {"id": "cards", "name": "Card"}], "identifier": "y8"}, "domains": {"portal": "y8.portals.famobi.com", "primary": "y8.com", "secondary": null}, "ad_ingame": true, "rev_share": "", "header_logo": "/portal/ea6ab7c8-bd94-4deb-b0dc-4eaaea0e84d4/header-logo/600x160/5c13e969eff12.png", "cache-buster": "5c13e96f80af4", "dfp_available": true, "more_games_url": "https://www.y8.com/", "mcm_network_code": "83578953", "more_games_image": "/portal/ea6ab7c8-bd94-4deb-b0dc-4eaaea0e84d4/more-games-button/600x253/5c13e9699ad7e.png"},
+		adProvider = "dfp",
+		preventIFrame = "0",
+		redirectTimer = null,
+		isInsideFrame = (function() {
+			try {
+				return window.top !== window.self;
+			} catch(e) {
+				return true;
+			}
+		})(),
+		showWebmasterNotification = false,
+		isRestricted = "",
+		redirectToBlank = isInsideFrame && adProvider === "dfp" && portalParams.ad_ingame && !portalParams.dfp_available,
+		getUrlParams = function(a, b, c) {
+			a = /[?&]?([^=]+)=([^&]*)/g, b = document.location && document.location.search ? document.location.search.split("+").join(" ") : "";
+			for (var d = {}; c = a.exec(b);) d[decodeURIComponent(c[1])] = decodeURIComponent(c[2]);
+			return d;
+		},
+		getGameLink = function() {
+			return 'http://play.famobi.com/' + packageId + '/' + affiliateId;
+		},
+		getLinkToGame = function() {
+			var originalRef = '';
+			var params = getUrlParams();
+			if (params.original_ref) {
+				originalRef = params.original_ref;
+			} else {
+				originalRef = document.referrer;
+			}
+			
+			var originalRefParam = '';
+			if (originalRef.indexOf('&original_ref') > -1) {
+				// preserve original_ref param while preventing endless appending when gameapi redirects to a fresh beat
+				originalRefParam = originalRef.substr(originalRef.indexOf('&original_ref') + 1);
+				if (originalRefParam.indexOf('&') > -1)
+					originalRefParam = originalRefParam.substr(0, originalRefParam.indexOf('&'))
+			} else {
+				originalRefParam = 'original_ref=' + encodeURIComponent(originalRef);
+			}
+			redirectUrl = redirectUrl + (redirectUrl.indexOf('?') > -1 ? '&' : '?') + originalRefParam;
+			return redirectUrl + (document.location.hash ? document.location.hash : '');
+		},
+		getHTML = function () {
+			var game = {},
+				type = '',
+				linksLiNode = null,
+				linksANode = null,
+				linkClassName = '',
+				linkText = '';
+
+			var bodyNode = document.getElementsByTagName('body')[0];
+			bodyNode.style.margin = 0;
+
+			var fgAppsNode = document.createElement('div');
+			fgAppsNode.id = 'fg-apps';
+
+			var gameHeaderNode = document.createElement('div');
+			gameHeaderNode.className = 'background';
+			gameHeaderNode.style.backgroundImage = 'url(' + gameHeader + ')';
+			fgAppsNode.appendChild(gameHeaderNode);
+
+			var articleNode = document.createElement('article');
+			var h1Node = document.createElement('h1');
+			var titleNode = document.createElement('span');
+			titleNode.innerHTML = gameTitle;
+
+			var gameTeaserNode = document.createElement('img');
+			gameTeaserNode.src = gameTeaser;
+			gameTeaserNode.alt = '';
+
+			h1Node.appendChild(gameTeaserNode);
+			h1Node.appendChild(titleNode);
+
+			target = redirectToBlank ? '_blank' : '_self';
+
+			buttonContainerNode = document.createElement('div');
+			buttonContainerNode.className = 'buttonContainer';
+
+			buttonNode = document.createElement('a');
+			buttonNode.className = 'cta';
+			var cancelRedirectTimeout = function () {
+				clearTimeout(redirectTimer);
+			}
+			// do both, doesn't harm
+			buttonNode.addEventListener('touchend', cancelRedirectTimeout);
+			buttonNode.addEventListener('click', cancelRedirectTimeout);
+
+			buttonNode.setAttribute('href', getGameLink());
+			buttonNode.setAttribute('target', target);
+			buttonNode.innerHTML = 'Play';
+			buttonContainerNode.appendChild(buttonNode);
+
+			articleNode.appendChild(h1Node);
+			articleNode.appendChild(buttonContainerNode);
+
+			if (showWebmasterNotification) {
+				infoNode = document.createElement('p');
+				infoNode.className = 'info';
+				infoNode.innerHTML = '<strong>@Webmasters:</strong> Please see the <a href="https://help.famobi.com/#use-games-in-an-iframe" target="_blank">Help section (&quot;I would like to use games in an iFrame - &hellip;&quot;).</a>';
+				articleNode.appendChild(infoNode);
+
+				if (affiliateId !== "A1000-1") {
+					infoNode = document.createElement('p');
+					infoNode.className = 'info';
+					infoNode.innerHTML = 'Please make sure that our information is present in your <span style="font-weight: bold">/ads.txt</span> file, <a href="https://help.famobi.com/#\'ads.txt\'-What-is-it-and-why-do-i-need-it?" target="_blank">see more details in this help section (&quot;\'ads.txt\' What is it and why do i need it?&quot;).</a> You will be forwarded in a few seconds&hellip;';
+					articleNode.appendChild(infoNode);
+				}
+			}
+
+			fgAppsNode.appendChild(articleNode);
+			bodyNode.appendChild(fgAppsNode);
+		}
+	;
+
+	// Use dataLayer variables
+	famobi_dataLayer.push({
+		'packageId': packageId,
+		'affiliateId': affiliateId,
+		'section': 'pregame'
+	});
+
+
+
+	function initRedirect(url) {
+
+		// @TODO  make a business case with google for adx for games inside webview
+		if (["A-TDOHN", "A-DOT38"].indexOf(affiliateId) > -1) {
+			// CTR policy violation
+			redirectToBlank = true;
+			showWebmasterNotification = true;
+			affiliateId = "A1000-11";
+		}
+
+		if (document.referrer.indexOf("game01.ru") !== -1) {
+			// Violating content
+			redirectToBlank = true;
+			showWebmasterNotification = true;
+			affiliateId = "A1000-11";
+		}
+
+		if (isInsideFrame && JSON.parse(preventIFrame)) {
+			redirectToBlank = true;
+		}
+
+		// redirect poki/gamesys traffic to default affiliate (until case solved)
+		if (["A-GAMESYS"].indexOf(affiliateId) > -1) {
+			affiliateId = "A1000-11";
+			window.location.replace(getGameLink());
+			return;
+		}
+
+		// redirect part of traffic to afg beta versions
+		if ((["solitaire-classic", "table-tennis-world-tour", "perfect-piano"].indexOf(packageId) > -1)
+				&& (["A-AFGBETA",
+					"A-DENDAAPP",
+					"A-TOS21",
+					"A-GAME8-AFG",
+					"A-HUAWEIAPP",
+					"A-HUAWEI-QUICKAPPS",
+					"A-HUAWEI-BROWSER",
+					"A-HUAWEI-QUICKAPP-OMNOM",
+					"A-HUAWEI-BROWSER-OMNOM",
+					"A-GOLLERCEPTE",
+					"A-SPORX",
+					"A-KBCBANK",
+					"A-MINESKIGAMES",
+					"A-MINESKIGAMES-DEV",
+					"A-CK67R",
+					"A-TIKTOK"].indexOf(affiliateId) < 0)
+				&& !JSON.parse(isAffiliateUrl)
+		        && portalParams.ad_ingame
+		        && Math.random() < 0.2) {		
+			var urlParams = '?original_aid=' + encodeURIComponent(affiliateId);
+			affiliateId = "A-AFGBETA";
+			window.location.replace(getGameLink() + urlParams);
+			return;
+		}
+
+		if (redirectToBlank) {
+			if (affiliateId === "A1000-1" && !JSON.parse(preventIFrame)) {
+				affiliateId = "A1000-11";
+			}
+			getHTML();
+			redirectTimer = setTimeout(function() {
+				window.top.location = getGameLink();
+			}, 15E3);
+		} else {
+			incrHit(function(){
+				window.location.replace(url);
+			});
+		}
+	}
+
+	function incrHit(callback) {
+		var newImg = document.createElement('img');
+		newImg.src = '/play/hit/' + gameId + '/' + affiliateId;
+		newImg.setAttribute('width', "1");
+		newImg.setAttribute('height', "1");
+
+		function trackWithGoogleAndContinue() {
+			setTimeout(callback, 250);
+		}
+
+		if (typeof callback == "function"){
+			newImg.onload = trackWithGoogleAndContinue;
+			newImg.onerror = trackWithGoogleAndContinue;
+		}
+		body.appendChild(newImg);
+	}
+
+	initRedirect(getLinkToGame());
+})();
+</script>
+<noscript>
+	<h2>Redirecting to &ldquo;Perfect Piano&rdquo;&hellip;</h2>
+	<p>
+		<a href="http://games.cdn.famobi.com/html5games/p/perfect-piano/v090/?fg_domain=play.famobi.com&fg_aid=A-5U0J1&fg_uid=24f835e0-d21a-47e1-a721-9f68beed83f3&fg_pid=ea6ab7c8-bd94-4deb-b0dc-4eaaea0e84d4&fg_beat=009&key=y8&value=default" style="color:#fff">Play this HTML5 Game</a>
+		<a href="https://famobi.com/privacy" style="color:#fff">About Privacy at Famobi</a>
+	</p>
+</noscript>
+
+	</body>
+</html>
