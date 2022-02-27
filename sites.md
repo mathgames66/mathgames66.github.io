@@ -14,9 +14,11 @@ On iPad (Safari): Tap on the  ![image](https://user-images.githubusercontent.com
 ___
 # Current sites where you can play mathgames66:
 
+(herokuapp proxies wouldnt have been possible without the help of @cohenerickson, so thank you!)
+
+https://mathgames66.herokuapp.com/
 https://mathgames66.github.io/
 
-(herokuapp and glitch sites in the works)
 
 ___
 ## Game can't run and the device youre using mathgames66 is on an ipad?
