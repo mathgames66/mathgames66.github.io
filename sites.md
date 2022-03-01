@@ -12,13 +12,15 @@ On iPad (Safari): Tap on the  ![image](https://user-images.githubusercontent.com
 
 
 ___
-# ALL PROXY SITES:
+# ALL OFFICIAL PROXY SITES:
 
 (herokuapp proxies wouldnt have been possible without the help of @cohenerickson, so thank you!)
 
+https://unblockedmathgames66.herokuapp.com/
+
 https://mathgames66.herokuapp.com/
 
-https://mathgames66.github.io/
+https://mathgames66.github.io/ (original)
 
 
 ___
