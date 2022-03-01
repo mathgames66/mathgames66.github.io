@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, minimal-ui, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+<title>MineBlock</title>
+<script type="text/javascript" src="typedarray.js"></script>
+<script type="text/javascript" src="gl-matrix-min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+<script id="wireframe-vs" type="vertex"> attribute vec3 aPos; uniform mat4 uMVMatrix; uniform mat4 uPMatrix; void main(void){gl_Position=uPMatrix * uMVMatrix * vec4(aPos, 1.0);}</script><script id="wireframe-fs" type="fragment"> precision mediump float; void main(void){gl_FragColor=vec4(0.0, 0.0, 0.0, 1.0);}</script><script id="particle-vs" type="vertex"> attribute vec3 aInitialPos; attribute vec3 aVelocity; attribute float aBirthday; attribute vec2 aTexCoord; uniform float uClock; uniform float uGravity; uniform mat4 uMVMatrix; uniform mat4 uPMatrix; varying vec2 vTexCoord; void main(void){vTexCoord=aTexCoord; if (aBirthday > uClock){gl_Position=vec4(-9999.0, -9999.0, -9999.0, 1.0);}else{float age=uClock - aBirthday; vec3 pos=aInitialPos + age * aVelocity; pos.y -=0.5 * uGravity * age * age; if (uClock==aBirthday) pos.y +=3.0; gl_Position=uPMatrix * uMVMatrix * vec4(pos, 1.0); gl_PointSize=70.0 / gl_Position.z;}}</script><script id="particle-fs" type="fragment"> precision mediump float; uniform sampler2D uSampler; varying vec2 vTexCoord; void main(void){vec2 coord=(vTexCoord + 4.0 * gl_PointCoord) / 256.0; coord.t=1.0 - coord.t; gl_FragColor=texture2D(uSampler, coord); if (gl_FragColor.a <=0.5) discard;}</script><script id="main-vs" type="vertex"> precision mediump float; attribute vec3 aPos; attribute vec2 aTexCoord; attribute vec4 aLighting; attribute vec3 aColor; uniform mat4 uMVMatrix; uniform mat4 uPMatrix; uniform float uFogDistance; const float lightScale=7.8; const vec3 minLight=vec3(0.2, 0.2, 0.2); varying vec2 vTexCoord; varying vec3 vLighting; varying float vFog; void main(void){gl_Position=uPMatrix * uMVMatrix * vec4(aPos, 1.0); vTexCoord=aTexCoord / 16.0; vTexCoord.t=1.0 - vTexCoord.t; vLighting=minLight + aColor * max(aLighting.xyz, vec3(aLighting.w, aLighting.w, aLighting.w)) / lightScale; float z=abs(gl_Position.z); vFog=clamp(1.0 - exp(-z*z / (uFogDistance * uFogDistance)), 0.0, 1.0);}</script><script id="main-fs" type="fragment"> precision mediump float; varying vec2 vTexCoord; varying vec3 vLighting; varying float vFog; uniform sampler2D uSampler; const vec4 kFogColor=vec4(0.5, 0.8, 0.98, 1.0); void main(void){vec4 textureColor=texture2D(uSampler, vTexCoord); if (textureColor.a <=0.5){discard;}else{textureColor=vec4(textureColor.rgb * vLighting, textureColor.a); textureColor=vFog * 1.0 * kFogColor + (1.0 - vFog) * textureColor; gl_FragColor=textureColor;}}</script><style>body{height:100%;width:100%;margin:0px;padding:0px;background-color: black;-webkit-tap-highlight-color:rgba(0,0,0,0);overflow:hidden;}#canvas_container{position: relative; transform-origin:0px 0px;}#canvas_container, div.page{width: 854px; height: 480px;}div.page{display: none; font-size: 18px; position: absolute; top: 0; left: 0; color: white; text-align: center;}*{font-family: Verdana;}.msg{text-align: center; font-size: 32px; height: 40px; left: 0; margin-top: 15%; margin-bottom: 5%;}
+
+#dpadcont img {pointer-events: none;}
+
+.mcbutton
+{
+height: 36px;
+width: 250px;
+outline: 2px solid black;
+position: relative;
+margin-bottom: 11px;
+display: inline-block;
+background-color: #6f6f6f;
+background-repeat: repeat;
+padding:4px;
+font-size:19px;
+font-weight:normal;
+text-align: center;
+color: white;
+text-shadow: 3px 3px #4C4C4C;
+border-bottom: 4px solid #565656;
+border-right: 2px solid #565656;
+border-left: 2px solid #AAA;
+border-top: 2px solid #AAA;
+box-sizing: border-box;
+cursor:pointer;
+text-decoration:none;
+}
+
+.mcbutton span
+{
+position: relative;
+line-height: 40px;
+bottom: 3px;
+}
+
+.mcbutton:hover
+{
+border-bottom: 4px solid #59639A;
+border-right: 2px solid #59639A;
+border-left: 2px solid #BDC6FF;
+border-top: 2px solid #BDC6FF;
+background-color: #7c86be;
+color: #FFFFA0;
+}
+
+@keyframes animatedbg
+{
+0% { background-position: 0 0; }
+50% { background-position: -240px 0; }
+100% { background-position: 0 0; }
+}
+
+#instructions{font-size:15px;margin-top:0px;line-height:112%;display:none;}#failinit{position: absolute; left: 50%; top: 194px; width: 70%; margin-left: -35%; margin-top: -24px; height: 48px; font-size: 20px; color: red; text-align: center; display: none; z-index:2;}#newgame{margin-top:154px;}.logo{position: absolute; left: 50%; top:82px; width: 548px; height: 93px; margin-left:-274px;}.toolbox{position: absolute; width: 48px; height: 48px; border: solid 2px rgb(128, 128, 128); background: rgba(128, 128, 128, 0.5);}#toolbox{left: 16px; bottom: 3.33%;}.tool{background: transparent;}#held{position: absolute; z-index: 2; pointer-events: none;}#terrain{display: none;}#chat{position: absolute; height: 83%; top: 0; left: 16px; color: white; overflow-y: hidden;}#clog{height: 400px;}a, a:visited{text-decoration:none;} #footer{position:absolute;bottom:0px;left:50%;margin-left:-364px;width:728px;height:90px;overflow:hidden;display:none;}#header{position:absolute;top:0px;left:50%;margin-left:-364px;width:728px;height:90px;overflow:hidden;}#pause{top:154px;height:0px;}#title{background-image:url(panorama3.jpg);background-size:1093px;animation:animatedbg 20s infinite;}#throbber{position: absolute; left:530px; text-align: center; top: 110px; width: 160px; font-size: 18px; -webkit-transform: rotate(-18deg); -moz-transform: rotate(-18deg); color: yellow; text-shadow: 3px 3px 2px #222; animation: pulse 0.27s ease-in-out 0s infinite alternate; -moz-animation: pulse 0.27s ease-in-out 0s infinite alternate; -webkit-animation: pulse 0.27s ease-in-out 0s infinite alternate;}@keyframes pulse{0%{transform: scale(1,1) rotate(-19deg);}100%{transform: scale(1.07,1.07) rotate(-19deg);}}@-webkit-keyframes pulse{0%{-webkit-transform: scale(1,1) rotate(-19deg);}100%{-webkit-transform: scale(1.07,1.07) rotate(-19deg);}}@-moz-keyframes pulse{0%{-moz-transform: scale(1,1) rotate(-19deg);}100%{-moz-transform: scale(1.07,1.07) rotate(-19deg);}}.dpad{position:absolute;border:1px solid #000;border-radius:4px;padding:8px;width:50px;height:50px;font-size:40px;font-weight:bold;background:rgba(204,204,204,0.4);}#crosshair{position:absolute;top:48%;left:49%;font-size:20px;}</style>
+</head>
+<body>
+  <div id="canvas_container">
+    <canvas id="canvas" width="854" height="480"></canvas>
+    <div id="hud" class="page">
+      <div id="chat"><div id="clog">&nbsp;</div></div>
+      <div id="dpadcont"></div>
+      <div id="crosshair">+</div>
+    </div>
+    <div id="title" class="page">
+      <div class="logo"><img src="logo.png" style="height:71px;"></div>
+      <div id="throbber"></div>
+      <div id="failinit"></div>
+      <div id="menubuttons" style="display:none;">
+      <span id="newgame" class="mcbutton">NEW GAME</span><br>
+      <span id="loadgame" class="mcbutton">LOAD GAME</span><br>
+      <span id="moregame" class="mcbutton"><a href="http://funhtml5games.com/" target="_BLANK" style="padding:5px 48px;border:none;color:#fff;">MORE GAMES</a></span><br>
+      <span id="helpgame" class="mcbutton">HOW TO PLAY</span><br>
+      <span id="embedgame" class="mcbutton">EMBED ON YOUR SITE</span><br>
+      </div>
+      <div id="embed_code" style="display:none;"><br>Copy and paste the code below:<br><input type="text" style="width:365px;" value='<iframe src="//funhtml5games.com?embed=mineblock" style="width:854px;height:480px;border:none;" frameborder="0" scrolling="no"></iframe>' onclick="this.select();"></div>
+      <div id="instructions">
+      Move using WASD/Cursor keys and mouse - SPACE to jump (double jump to hover)<br>
+      Left/right click to mine/place items<br>
+      1-9 = Select item slots - T = Throw item - C = Add tree<br>
+      CTRL-S = Save - CTRL-L = Load - F1 = HUD<br>
+      ESC - Pause game/see these instructions again
+      </div>
+      <div id="header"><SCRIPT language="Javascript">var cpmstar_rnd=Math.round(Math.random()*999999);var cpmstar_pid=71336;document.writeln("<SCR"+"IPT language='Javascript' src='//server.cpmstar.com/view.aspx?poolid="+cpmstar_pid+"&script=1&rnd="+cpmstar_rnd+"'></SCR"+"IPT>");</SCRIPT></div>
+      <div id="footer"><SCRIPT language="Javascript">var cpmstar_rnd=Math.round(Math.random()*999999);var cpmstar_pid=71336;document.writeln("<SCR"+"IPT language='Javascript' src='//server.cpmstar.com/view.aspx?poolid="+cpmstar_pid+"&script=1&rnd="+cpmstar_rnd+"'></SCR"+"IPT>");</SCRIPT></div>
+      <!--<div id="preload_div" style="position:absolute;top:139px;left:0px;width:300px;height:250px;transition: all 0.5s ease-out;"><SCRIPT language="Javascript">var cpmstar_rnd=Math.round(Math.random()*999999);var cpmstar_pid=71337;document.writeln("<SCR"+"IPT language='Javascript\' src=\'//server.cpmstar.com/view.aspx?poolid="+cpmstar_pid+"&script=1&rnd="+cpmstar_rnd+"\'></SCR"+"IPT>");</SCRIPT></div>-->
+      <script src="../preload2.js"></script><script>div1=['menubuttons','footer'];preloadx2=0;preloady2=139;</script>
+    </div>
+    <div id="pause" class="page">
+      <span id="resumegame" class="mcbutton">RETURN TO GAME</span><br>
+      <span id="savegame" class="mcbutton">SAVE AND QUIT</span><br>
+    </div>
+    <div id="loading" class="page">
+      <div class="msg">Generating Terrain...</div>
+    </div>
+    <div id="inventory" class="page">
+      <canvas id="held" class="tool" width="48" height="48"></canvas>
+    </div>
+  </div>
+  <img src="terrain.png" id="terrain">
+<script src="../ga.js"></script>
+</body>
+</html>
