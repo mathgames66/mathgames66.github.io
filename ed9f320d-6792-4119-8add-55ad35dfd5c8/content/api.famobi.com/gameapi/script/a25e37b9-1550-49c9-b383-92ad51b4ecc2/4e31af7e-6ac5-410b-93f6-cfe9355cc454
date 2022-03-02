@@ -1,4 +1,0 @@
-/*<script>*/
-(function (document, url) {
-	document.location.replace(url + document.location.hash);
-})(document, 'http://play.famobi.com/html5game/a25e37b9-1550-49c9-b383-92ad51b4ecc2/A1200-40');
