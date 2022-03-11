@@ -1,0 +1,150 @@
+body {
+    color:#fff;
+    background:#000;
+    font-family: "Press Start 2P";
+    font-size: 11px;
+    padding:0px;
+    margin:0px;
+    width:496px;
+    height:554px;
+}
+
+#screen {
+	border:0px solid black;
+	width:512px;
+	height:384px;
+    display:block;
+	margin-left:-16px;
+    //border-bottom:160px solid black;
+    background:#000;
+}
+
+#instructions
+{
+position:absolute;
+top:0px;
+left:0px;
+width:496px;
+height:554px;
+text-align:center;
+font-size:17px;
+//background:#000;
+z-index:4;
+}
+
+#embed_code
+{
+display:none;
+margin-top:4px;
+}
+
+#menu_popup
+{
+position:absolute;
+top:100px;
+left:28px;
+width:410px;
+height:235px;
+background:rgba(255,255,255,0.5);
+color:#000;
+border-radius:8px;
+border:1px solid #000;
+text-align:center;
+display:none;
+padding:12px;
+font-size:17px;
+}
+
+#menu_popup a
+{
+text-decoration:none;
+}
+
+#menu_icon
+{
+position:absolute;
+top:2px;
+left:456px;
+}
+
+#audio_icon
+{
+position:absolute;
+top:2px;
+left:416px;
+}
+
+.icon
+{
+border-radius:50%;
+background:rgba(255,255,255,0.5);
+cursor:pointer;
+}
+
+.button{border:1px solid #000;border-radius:4px;font-size:18px;background:#ccc;padding:7px;color:#000;cursor:pointer;}
+#instructions a{color:#000;text-decoration:none;padding:0px;border:none;}
+
+#top_banner
+{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:60px;
+overflow:hidden;
+text-align:center;
+}
+
+#dpad_area
+{
+position:absolute;
+top:384px;
+width:496px;
+height:170px;
+z-index:2;
+background:#000;
+}
+
+#dpad_left
+{
+position:absolute;
+top:0px;
+left:0px;
+}
+
+#dpad_right
+{
+position:absolute;
+}
+
+#button_z
+{
+position:absolute;
+top:31px;
+left:246px;
+border:3px solid #aade00;
+border-radius:50%;
+box-shadow:0px 0px 4px 4px #2a2a2a;
+width:100px;
+height:100px;
+line-height:100px;
+text-align:center;
+font-size:30px;
+background:#1f1f1f;
+}
+
+#button_x
+{
+position:absolute;
+top:31px;
+left:376px;
+border:3px solid #aade00;
+border-radius:50%;
+box-shadow:0px 0px 4px 4px #2a2a2a;
+width:100px;
+height:100px;
+line-height:100px;
+text-align:center;
+font-size:30px;
+background:#1f1f1f;
+}

@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name=apple-mobile-web-app-capable content=yes />
+	<meta name=apple-mobile-web-app-status-bar-style content=black>
+	<meta name="viewport" content="width=496, user-scalable=no" />
+	<title>Sonic the Hedgehog</title>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" href="assets/miracle.css" type="text/css">
+	<script type="text/javascript" src="assets/sms-min.js"></script>
+	<script type="text/javascript" src="assets/main.php?play=sonic"></script>
+</head>
+<body>
+
+	<div id="holder">
+		<div id="top_banner">
+		</div>
+
+		<div id="instructions" ontouchstart="is_mobile=true;" onclick="loadGame();"><img src="logos/sonic.gif" style="width:496px;height:384px;">
+			<div style="position:absolute;top:300px;width:100%;">
+				USE ARROW KEYS/WASD/Z/X<br>
+				OR DPAD BELOW ON MOBILE<br>
+				CLICK/TOUCH TO START<br>
+			</div>
+		</div>
+		<canvas id="screen" width="256" height="192" style="border-color: rgb(0, 0, 0);"></canvas>
+		<img src="assets/menu_icon.png" id="menu_icon" class="icon" onclick="toggleMenu();">
+		<img src="assets/audio_icon.png" id="audio_icon" class="icon" onclick="toggleAudio();">
+		<div id="menu_popup">
+			<br>
+			- PAUSED -
+			<br><br>
+			<div class="button" onclick="toggleMenu();">RESUME GAME</div>
+			<br>
+			<a href="https://funhtml5games.com/" target="_BLANK"><div class="button">MORE GAMES</div></a>
+			<br> 
+			<div class="button" onclick="embedCode();" id="embed_button">EMBED ON YOUR SITE</div>
+			<div id="embed_code">
+				Copy & paste this code:<br>
+				<input type="text" style="width:365px;" value="<iframe src=&quot;https://funhtml5games.com?embed=sonic&quot; style=&quot;width:496px;height:554px;border:none;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;></iframe>" onclick="this.select();">
+			</div>
+			<br>
+			<span id="keys_help">USE ARROW KEYS/WASD/Z/X</span>
+		</div>
+	</div>
+<div id="dpad_area">
+	<div id="dpad_left">
+		<img id="dpad" src="assets/dpad2.png" style="width:168px;">
+	</div>
+
+	<div id="dpad_info"></div>
+
+	<div id="dpad_right">
+	
+<div id="button_x" ontouchstart="dpadDown(90);" ontouchend="dpadUp(90);"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/touch.js"></script>
+
+<script src="../ga.js"></script>
+
+</body></html>
