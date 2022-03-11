@@ -1,0 +1,194 @@
+{ "compressionlevel":0,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
+ "height":17,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 155, 0, 0, 0, 19, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 0, 0, 0, 65, 49, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 51, 0, 0, 0, 65, 49, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 51, 0, 0, 0, 65, 49, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 51, 0, 87, 0, 65, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 0, 87, 0, 0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 112, 0, 0],
+         "height":17,
+         "id":9,
+         "name":"Terrain",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":22,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":10,
+         "name":"Entities",
+         "objects":[
+                {
+                 "gid":2147483649,
+                 "height":8,
+                 "id":41,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":120,
+                 "y":88
+                }, 
+                {
+                 "gid":47,
+                 "height":8,
+                 "id":42,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"area x",
+                         "type":"int",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":20,
+                 "y":88
+                }, 
+                {
+                 "gid":93,
+                 "height":40,
+                 "id":50,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dist tiles x",
+                         "type":"float",
+                         "value":-4
+                        }, 
+                        {
+                         "name":"vel move",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"wait steps destiny",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"wait steps origin",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"wait steps start",
+                         "type":"int",
+                         "value":30
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":136,
+                 "y":88
+                }, 
+                {
+                 "gid":93,
+                 "height":16,
+                 "id":61,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dist tiles x",
+                         "type":"float",
+                         "value":-4
+                        }, 
+                        {
+                         "name":"vel move",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"wait steps destiny",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"wait steps origin",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"wait steps start",
+                         "type":"int",
+                         "value":30
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":88,
+                 "y":88
+                }, 
+                {
+                 "gid":93,
+                 "height":40,
+                 "id":62,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dist tiles x",
+                         "type":"float",
+                         "value":-4
+                        }, 
+                        {
+                         "name":"vel move",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"wait steps destiny",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"wait steps origin",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"wait steps start",
+                         "type":"int",
+                         "value":30
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":64,
+                 "y":88
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":12,
+ "nextobjectid":63,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.3.1",
+ "tileheight":8,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"Tileset.json"
+        }],
+ "tilewidth":8,
+ "type":"map",
+ "version":1.2,
+ "width":22
+}
