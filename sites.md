@@ -16,11 +16,13 @@ ___
 
 (herokuapp proxies wouldnt have been possible without the help of @cohenerickson, so thank you!)
 
-https://unblockedmathgames66.herokuapp.com/
-
-https://mathgames66.herokuapp.com/
-
 https://mathgames66.github.io/ (original)
+
+https://unblockedmathgames66.herokuapp.com/ (slow)
+
+https://mathgames66.herokuapp.com/ (slow)
+
+
 
 
 ___
