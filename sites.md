@@ -1,3 +1,13 @@
+mathgames66: ad-free unblocked html5 games
+
+# ORIGINAL WEBSITE:
+
+https://mathgames66.github.io/ 
+
+# PROXY SITES:
+[herokuapp proxies have been removed from this list due to being incredibly slow]
+
+
 even though this page may not be updated frequently, the site certainly is being worked on every day
 ___
 ## BOOKMARK/FAVORITE/SAVE THIS PAGE TO BE NOTIFIED OF NEW MATHGAMES66 PROXY SITES
@@ -9,20 +19,6 @@ On Windows/Chromebook: Ctrl+D
 On Mac: Cmd+D
 
 On iPad (Safari): Tap on the  ![image](https://user-images.githubusercontent.com/90115544/152709396-69bb45c0-a31c-431c-a123-afefa8b30933.jpeg) icon in the top right of your screen, scroll down the menu, tap **Add to Favorites**, then tap **Save**
-
-
-___
-# ALL OFFICIAL PROXY SITES:
-
-(herokuapp proxies wouldnt have been possible without the help of @cohenerickson, so thank you!)
-
-https://mathgames66.github.io/ (original)
-
-https://unblockedmathgames66.herokuapp.com/ (slow)
-
-https://mathgames66.herokuapp.com/ (slow)
-
-
 
 
 ___
