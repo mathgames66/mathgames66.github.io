@@ -1,6 +1,6 @@
-mathgames66: ad-free unblocked html5 games
+## mathgames66: ad-free unblocked html5 games
 
-# ORIGINAL WEBSITE:
+# PLAY NOW/ORIGINAL WEBSITE:
 
 https://mathgames66.github.io/ 
 
