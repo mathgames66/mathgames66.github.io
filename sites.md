@@ -1,4 +1,4 @@
-## mathgames66: ad-free unblocked html5 games
+## mathgames66: ad-free unblocked html5 games (bit.ly/mathproxies)
 
 # PLAY NOW/ORIGINAL WEBSITE:
 
