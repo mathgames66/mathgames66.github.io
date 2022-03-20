@@ -1,0 +1,51 @@
+info face=xl_num_black size=65 bold=0 italic=0 charset= unicode= stretchH=100 smooth=1 aa=1 padding=2,2,2,2 spacing=0,0 outline=0
+common lineHeight=65 base=46 scaleW=85 scaleH=338 pages=1 packed=0
+page id=0 file="xl_num_black.png"
+chars count=10
+char id=48 x=2 y=2 width=39 height=46 xoffset=3 yoffset=0 xadvance=44 page=0 chnl=15
+char id=49 x=2 y=50 width=28 height=46 xoffset=3 yoffset=0 xadvance=34 page=0 chnl=15
+char id=50 x=2 y=98 width=38 height=46 xoffset=3 yoffset=0 xadvance=43 page=0 chnl=15
+char id=51 x=32 y=50 width=38 height=46 xoffset=3 yoffset=0 xadvance=44 page=0 chnl=15
+char id=52 x=43 y=2 width=40 height=46 xoffset=3 yoffset=0 xadvance=45 page=0 chnl=15
+char id=53 x=2 y=146 width=38 height=46 xoffset=3 yoffset=0 xadvance=44 page=0 chnl=15
+char id=54 x=2 y=194 width=38 height=46 xoffset=3 yoffset=0 xadvance=44 page=0 chnl=15
+char id=55 x=2 y=242 width=37 height=46 xoffset=2 yoffset=0 xadvance=40 page=0 chnl=15
+char id=56 x=2 y=290 width=38 height=46 xoffset=3 yoffset=0 xadvance=44 page=0 chnl=15
+char id=57 x=41 y=242 width=38 height=46 xoffset=3 yoffset=0 xadvance=44 page=0 chnl=15
+char id=32 x=0 y=0 width=0 height=0 xoffset=3 yoffset=0 xadvance=25 page=0 chnl=15
+kernings count=35
+kerning first=48 second=49 amount=-1
+kerning first=48 second=55 amount=1
+kerning first=49 second=48 amount=0
+kerning first=49 second=49 amount=-1
+kerning first=49 second=50 amount=0
+kerning first=49 second=51 amount=0
+kerning first=49 second=52 amount=-3
+kerning first=49 second=53 amount=0
+kerning first=49 second=54 amount=0
+kerning first=49 second=55 amount=-3
+kerning first=49 second=56 amount=0
+kerning first=49 second=57 amount=-1
+kerning first=50 second=49 amount=0
+kerning first=50 second=55 amount=1
+kerning first=51 second=49 amount=0
+kerning first=51 second=55 amount=0
+kerning first=52 second=49 amount=-1
+kerning first=52 second=55 amount=-2
+kerning first=53 second=49 amount=0
+kerning first=53 second=55 amount=0
+kerning first=54 second=49 amount=-1
+kerning first=54 second=55 amount=0
+kerning first=55 second=49 amount=0
+kerning first=55 second=50 amount=0
+kerning first=55 second=51 amount=0
+kerning first=55 second=52 amount=-2
+kerning first=55 second=53 amount=0
+kerning first=55 second=54 amount=0
+kerning first=55 second=55 amount=1
+kerning first=55 second=56 amount=0
+kerning first=56 second=49 amount=-1
+kerning first=56 second=55 amount=0
+kerning first=57 second=49 amount=-1
+kerning first=57 second=52 amount=0
+kerning first=57 second=55 amount=1
