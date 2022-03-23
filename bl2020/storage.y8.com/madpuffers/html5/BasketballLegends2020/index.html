@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />    
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />    
+    <title>
+        Basketball Legends
+    </title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head>
+
+<body>
+    <div id="content"></div>
+    <div id="orientation"></div>
+    <div id="loader">Loading ...</div>
+    
+    <script type="text/javascript" src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+
+    <script type="text/javascript" src="assets/lib/nape.min.js">
+        var nape = "nape.min.js";
+    </script>
+    <script type="text/javascript" src="assets/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/lib/easeljs-0.8.2.combined.js"></script>
+    <script type="text/javascript" src="assets/lib/bluebird.min.js"></script>
+    <script type="text/javascript" src="assets/lib/phaser.min.js"></script>
+    <script type="text/javascript" src="assets/lib/phaser-cachebuster.min.js"></script>
+    <script type="text/javascript" src="assets/lib/phaser-super-storage.min.js"></script>
+    <script type="text/javascript" src="assets/lib/dragonBones.min.js"></script>
+
+    <script type="text/javascript">
+        var useEvents = (typeof(Event) === 'function');
+    
+            var myDispatchEvent = function (name){
+                var event;
+                if (useEvents){
+                    event =  new Event(name);
+                }else{
+                    event = document.createEvent('Event');
+                    event.initEvent(name, true, true);
+                }
+                document.getElementById("content").dispatchEvent(event);
+            }
+            // Optional callback to handle response data
+            var loginCallback = function(response) {
+                if (response) {
+                    console.log("login_callback");
+                    console.log(response);
+                    console.log(response.authResponse.details);
+    
+                }
+            }
+    
+            window.idAsyncInit = function() { // SDK downloaded
+                console.log("idAsyncInit");
+                console.log(ID);
+                console.log(ID.initialized);
+                ID.Event.subscribe('id.init', function() { // SDK initialized
+                    console.log("id.init ditpatch");
+                    myDispatchEvent('sdk_inited');
+                });
+    
+                ID.init({
+                    appId : '5f3e6b1be694aa2b40f3f5e2'//bb legebds 2020
+                });
+            };
+    
+            // Load the JS SDK
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src =  document.location.protocol == 'https:' ? "https://cdn.y8.com/api/sdk.js" : "http://cdn.y8.com/api/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'id-jssdk'));
+    
+        </script>
+
+<script type="text/javascript" src="basketball_legends_2020.min.js?aa3beb82ae64ca22cd96"></script></body>
+
+</html>
