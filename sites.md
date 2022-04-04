@@ -1,3 +1,6 @@
+___
+even though this page may not be updated frequently, the site certainly is being worked on every day
+___
 ## mathgames66: ad-free unblocked html5 games (bit.ly/mathproxies)
 
 # PLAY NOW/ORIGINAL WEBSITE:
@@ -7,9 +10,7 @@ https://mathgames66.github.io/
 # PROXY SITES:
 [herokuapp proxies have been removed from this list due to being incredibly slow]
 
-___
-even though this page may not be updated frequently, the site certainly is being worked on every day
-___
+
 ## BOOKMARK/FAVORITE/SAVE THIS PAGE TO BE NOTIFIED OF NEW MATHGAMES66 PROXY SITES
 
 ### How To Bookmark/Favorite/Save this page:
