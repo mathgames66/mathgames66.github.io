@@ -6,7 +6,67 @@
 
   </style>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><div class="bg"></div>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>(function(){class RuffleMimeType{constructor(a,b,c){this.type=a,this.description=b,this.suffixes=c}}class RuffleMimeTypeArray{constructor(a){this.__mimetypes=[],this.__named_mimetypes={};for(let b of a)this.install(b)}install(a){let b=this.__mimetypes.length;this.__mimetypes.push(a),this.__named_mimetypes[a.type]=a,this[a.type]=a,this[b]=a}item(a){return this.__mimetypes[a]}namedItem(a){return this.__named_mimetypes[a]}get length(){return this.__mimetypes.length}}class RufflePlugin extends RuffleMimeTypeArray{constructor(a,b,c,d){super(d),this.name=a,this.description=b,this.filename=c}install(a){a.enabledPlugin||(a.enabledPlugin=this),super.install(a)}}class RufflePluginArray{constructor(a){this.__plugins=[],this.__named_plugins={};for(let b of a)this.install(b)}install(a){let b=this.__plugins.length;this.__plugins.push(a),this.__named_plugins[a.name]=a,this[a.name]=a,this[b]=a}item(a){return this.__plugins[a]}namedItem(a){return this.__named_plugins[a]}refresh(){}get length(){return this.__plugins.length}}const FLASH_PLUGIN=new RufflePlugin("Shockwave Flash","Shockwave Flash 32.0 r0","ruffle.js",[new RuffleMimeType("application/futuresplash","Shockwave Flash","spl"),new RuffleMimeType("application/x-shockwave-flash","Shockwave Flash","swf"),new RuffleMimeType("application/x-shockwave-flash2-preview","Shockwave Flash","swf"),new RuffleMimeType("application/vnd.adobe.flash-movie","Shockwave Flash","swf")]);function install_plugin(a){navigator.plugins.install||Object.defineProperty(navigator,"plugins",{value:new RufflePluginArray(navigator.plugins),writable:!1}),navigator.plugins.install(a),0<a.length&&!navigator.mimeTypes.install&&Object.defineProperty(navigator,"mimeTypes",{value:new RuffleMimeTypeArray(navigator.mimeTypes),writable:!1});for(var b=0;b<a.length;b+=1)navigator.mimeTypes.install(a[b])}install_plugin(FLASH_PLUGIN);})();</script><script src="chrome-extension://donbcfbmhbcapadipfkeojnmajbakjdc/dist/ruffle.js?id=33290795788"></script><style>
+  .vt-augment {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vt-augment.drawer {
+    display: none;
+    width: 700px;
+    background: white;
+    border: 1px solid #e6e6e6;
+    text-align: left;
+    z-index: 102;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    box-shadow: -4px 5px 8px -3px rgba(17, 17, 17, .16);
+    animation: slideToRight 0.5s 1 forwards;
+    transform: translateX(100vw);
+  }
+  .vt-augment.drawer[opened] {
+    display: flex;
+    animation: slideFromRight 0.2s 1 forwards;
+  }
+  .vt-augment > .spinner {
+    position: absolute;
+    z-index: 199;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    border: 8px solid rgba(0, 0, 0, 0.2);
+    border-left-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1.2s linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideToRight {
+    100% {
+      transform: translateX(100vw);
+      display: none;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .vt-augment.drawer {
+      width: 100%;
+    }
+  }
+</style><style type="text/css"></style></head><body><div class="bg"></div>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
@@ -485,6 +545,18 @@ height:6rem;
 width:6rem;
 background-image:url('/mgthumbnails/toughgrowth.png');
 background-size:cover;
+}
+li.itemfortysix {
+height:6rem;
+width:6rem;
+background-image:url('/mgthumbnails/download.png');
+background-size:cover;
+}
+li.itemfortyseven {
+height:6rem;
+width:6rem;
+background-image:url('/mgthumbnails/download.png');
+background-size:cover;
 }</style>
 <div class="layer"></div></div><center><img src="/MATHGAMES66-4-13-2022 (1).png" height="200" width="1000"> <br>
 
@@ -525,7 +597,7 @@ link to save all mathgames66 proxy links
 <a href="/p/deathsoul.html"><li class="itemnine">Death Soul [mobile/pc]</li></a>
 <a href="/p/dodge.html"><li class="itemten">Dodge [mobile/pc]</li></a>
 <a href="/p/dontfallio.html"><li class="itemeleven">Dont Fall.io [mobile/pc]</li></a><a href="/p/drift-boss-v3.html"><li class="itemtwelve">Drift Boss v3 [mobile/pc]</li></a>
-<a href="/p/fnaf-web.html"><li class="itemthirteen">FNAF Web [mobile/pc]</li></a><a href="/p/geodash2.html"><li class="itemfourteen">Geo Dash 2 [mobile/pc]</li></a><a href="/p/gds-cadenza.html"><li class="itemfifteen">Geometry Dash Cadenza on Scratch [mobile/pc]</li></a><a href="/p/gdscratch.html"><li class="itemsixteen">Geometry Dash on Scratch [mobile/pc]</li></a><a href="/p/gdscratch60.html"><li class="itemseventeen">Geometry Dash on Turbowarp [mobile/pc]</li></a><a href="/p/gds-thefirst.html"><li class="itemeighteen">Geometry Dash The First on Scratch [mobile/pc]</li></a><a href="/p/geometry-meltdown.html"><li class="itemnineteen">Geometry Meltdown [mobile/pc]</li></a><a href="/p/geometryrash.html"><li class="itemtwenty">Geometry Rash [mobile/pc]</li></a><a href="/p/gith.html"><li class="itemtwentyone">Grow in the Hole [mobile/pc]</li></a><a href="/p/helios.html"><li class="itemtwentytwo">Helios [mobile/pc]</li></a><a href="/p/hook-job.html"><li class="itemtwentythree">Hook Job [pc]</li></a><a href="/p/iph2.html"><li class="itemtwentyfour">Icy Purple Head 2 [mobile/pc]</li></a><a href="/p/mari0.html"><li class="itemtwentyfive">Mari0 [pc]</li></a><a href="/p/motox3m.html"><li class="itemtwentysix">Moto X3M [mobile/pc]</li></a><a href="/p/onescreenrun2.html"><li class="itemtwentyseven">One Screen Run 2 [mobile/pc]</li></a><a href="/p/pacman3d.html"><li class="itemtwentyeight">PacMan3D [mobile/pc]</li></a><a href="/p/pacmanfps.html"><li class="itemtwentynine">Pacman FPS [mobile/pc]</li></a><a href="/p/pixelcave.html"><li class="itemthirty">PIXEL CAVE v0.7.1.54 [mobile/pc]</li></a><a href="/p/protektor.html"><li class="itemthirtyone">Protektor [mobile/pc]</li></a><a href="/p/rabbitsamurai.html"><li class="itemthirtytwo">Rabbit Samurai [mobile/pc]</li></a><a href="/p/rabbitsamurai2.html"><li class="itemthirtythree">Rabbit Samurai 2 [mobile/pc]</li></a><a href="/p/redddragon.html"><li class="itemthirtyfour">Red Dragon [mobile/pc]</li></a><a href="/p/roots.html"><li class="itemthirtyfive">ROOTS [mobile/pc]</li></a><a href="/p/scratch-rollingskyryutoku"><li class="itemthirtysix">Rolling Sky ryutoku [mobile/pc]</li></a><a href="/p/scrambledeggs.html"><li class="itemthirtyseven">Scrambled Eggs [mobile/pc]</li></a><a href="/p/sliceofsasha.html"><li class="itemthirtyeight">Slice of Sasha [mobile/pc]</li></a><a href="/p/slopeballfallingball.html"><li class="itemthirtynine">Slope Ball (Falling Ball) [mobile/pc]</li></a><a href="/p/snakeio.html"><li class="itemforty">Snake.io [mobile/pc]</li></a><a href="/p/stickmanepicbattle"><li class="itemfortyone">Stickman Epic Battle [mobile/pc]</li></a><a href="/p/super-puffer-fish.html"><li class="itemfortytwo">Super Puffer Fish [mobile/pc]</li></a><a href="/p/superheroio.html"><li class="itemfortythree">Superhero.io [mobile/pc]</li></a><a href="/p/thefinalearth2.html"><li class="itemfortyfour">The Final Earth 2 [mobile/pc]</li></a><a href="/p/toughgrowth.html"><li class="itemfortyfive">Tough Growth v17 [mobile/pc]</li></a></ul>
+<a href="/p/fnaf-web.html"><li class="itemthirteen">FNAF Web [mobile/pc]</li></a><a href="/p/geodash2.html"><li class="itemfourteen">Geo Dash 2 [mobile/pc]</li></a><a href="/p/gds-cadenza.html"><li class="itemfifteen">Geometry Dash Cadenza on Scratch [mobile/pc]</li></a><a href="/p/gdscratch.html"><li class="itemsixteen">Geometry Dash on Scratch [mobile/pc]</li></a><a href="/p/gdscratch60.html"><li class="itemseventeen">Geometry Dash on Turbowarp [mobile/pc]</li></a><a href="/p/geometry-meltdown.html"><li class="itemnineteen">Geometry Meltdown [mobile/pc]</li></a><a href="/p/geometryrash.html"><li class="itemtwenty">Geometry Rash [mobile/pc]</li></a><a href="/p/gdunbroken.html"><li class="itemfortysix">Geometry Dash UnBroken on Scratch [mobile/pc]</li></a><li class="itemfortyseven">Geometry Dash UnBroken 2 on Scratch [mobile/pc]</li><a href="/p/gith.html"><li class="itemtwentyone">Grow in the Hole [mobile/pc]</li></a><a href="/p/helios.html"><li class="itemtwentytwo">Helios [mobile/pc]</li></a><a href="/p/hook-job.html"><li class="itemtwentythree">Hook Job [pc]</li></a><a href="/p/iph2.html"><li class="itemtwentyfour">Icy Purple Head 2 [mobile/pc]</li></a><a href="/p/mari0.html"><li class="itemtwentyfive">Mari0 [pc]</li></a><a href="/p/motox3m.html"><li class="itemtwentysix">Moto X3M [mobile/pc]</li></a><a href="/p/onescreenrun2.html"><li class="itemtwentyseven">One Screen Run 2 [mobile/pc]</li></a><a href="/p/pacman3d.html"><li class="itemtwentyeight">PacMan3D [mobile/pc]</li></a><a href="/p/pacmanfps.html"><li class="itemtwentynine">Pacman FPS [mobile/pc]</li></a><a href="/p/pixelcave.html"><li class="itemthirty">PIXEL CAVE v0.7.1.54 [mobile/pc]</li></a><a href="/p/protektor.html"><li class="itemthirtyone">Protektor [mobile/pc]</li></a><a href="/p/rabbitsamurai.html"><li class="itemthirtytwo">Rabbit Samurai [mobile/pc]</li></a><a href="/p/rabbitsamurai2.html"><li class="itemthirtythree">Rabbit Samurai 2 [mobile/pc]</li></a><a href="/p/redddragon.html"><li class="itemthirtyfour">Red Dragon [mobile/pc]</li></a><a href="/p/roots.html"><li class="itemthirtyfive">ROOTS [mobile/pc]</li></a><a href="/p/scratch-rollingskyryutoku"><li class="itemthirtysix">Rolling Sky ryutoku [mobile/pc]</li></a><a href="/p/scrambledeggs.html"><li class="itemthirtyseven">Scrambled Eggs [mobile/pc]</li></a><a href="/p/sliceofsasha.html"><li class="itemthirtyeight">Slice of Sasha [mobile/pc]</li></a><a href="/p/slopeballfallingball.html"><li class="itemthirtynine">Slope Ball (Falling Ball) [mobile/pc]</li></a><a href="/p/snakeio.html"><li class="itemforty">Snake.io [mobile/pc]</li></a><a href="/p/stickmanepicbattle"><li class="itemfortyone">Stickman Epic Battle [mobile/pc]</li></a><a href="/p/super-puffer-fish.html"><li class="itemfortytwo">Super Puffer Fish [mobile/pc]</li></a><a href="/p/superheroio.html"><li class="itemfortythree">Superhero.io [mobile/pc]</li></a><a href="/p/thefinalearth2.html"><li class="itemfortyfour">The Final Earth 2 [mobile/pc]</li></a><a href="/p/toughgrowth.html"><li class="itemfortyfive">Tough Growth v17 [mobile/pc]</li></a></ul>
 
 <footer>
 <center>
@@ -549,4 +621,31 @@ rm<br>
 </center>
 </footer>
 
-</body></html>
+
+<div>
+    <div class="vtResetstyles">
+    <div id="vtoverlay" class="vtoverlay vthidden w3-animate-right
+    w3-container">
+    <div class="vtmain vthidden" id="vtmain">
+      <div class="vtcontactus">
+          <a id="linktest" href="https://www.virustotal.com">
+            <img class="vtlogo-popup" style=" width: 32px; 
+            height: 32px;" src="chrome-extension://efbjojhplkelaegfbieplglfidafgoka/icons/vt-logo.svg">
+          </a>
+          <a href="https://www.virustotal.com">VT4Browsers
+          </a>
+      </div>
+      <span id="vtclose"><strong>X</strong></span>
+      <div class="vttextpopup vthidden" id="statustext">
+        <div class="vtscanstatus" id="vtscanstatus"></div>
+        <div class="vtprogress vthidden" id="vtprogress"></div>
+        <br id="brfile">
+        <div class="vtscanstatus" id="vtscanfilelink"></div>
+      </div>
+      <div class="vttextpopup vthidden" id="widgettext">
+        <div id="vtwidgetError"></div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div id="vt-augment-container" class="vtzindex vt-augment drawer" style="background: rgb(49, 61, 90);"></div></div><span class="vttooltiptext vthidden">&nbsp;Click to open VirusTotal report&nbsp;<br>with VT Augment</span><style></style></body></html>
