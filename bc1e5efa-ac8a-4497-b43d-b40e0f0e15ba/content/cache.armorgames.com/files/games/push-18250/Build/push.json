@@ -1,0 +1,13 @@
+{
+"companyName": "Rainbow Train",
+"productName": "PUSH",
+"dataUrl": "push.data.unityweb",
+"asmCodeUrl": "push.asm.code.unityweb",
+"asmMemoryUrl": "push.asm.memory.unityweb",
+"asmFrameworkUrl": "push.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF"
+}
