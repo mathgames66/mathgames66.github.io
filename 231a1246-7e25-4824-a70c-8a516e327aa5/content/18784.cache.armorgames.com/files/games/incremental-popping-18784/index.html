@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incremental Popping</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 0;
+            margin-top: 0px;
+            background-color: rgb(0, 0, 0);
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        canvas {
+            outline: none;
+            background-color: black;/*rgb(240, 240, 240);*/
+            border: 0px solid gray;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            touch-action: none;
+        }
+
+        @font-face {
+            font-family: gamefont;
+            src: url("src/font.ttf");
+        }
+    </style>
+</head>
+<body>
+
+<div id="top-div" align="center">
+    <canvas id="display" width="810" height="540" tabindex="1"></canvas>
+</div>
+
+<!--
+
+Music used in this game:
+
+    "Jazz Brunch" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 3.0 License
+    http://creativecommons.org/licenses/by/3.0/
+
+-->
+
+<script src="src/armorgames/armorgames.js"></script>
+<script src="src/kongapi.js"></script>
+<script src="src/engine.js"></script>
+<script src="src/tween.js"></script>
+<script src="src/disk.js"></script>
+<script src="src/room_play.js"></script>
+<script src="src/room_menu.js"></script>
+<script src="src/room_ach.js"></script>
+<script src="src/game.js"></script>
+
+</body>
+</html>
