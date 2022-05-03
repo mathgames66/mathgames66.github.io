@@ -1,0 +1,7 @@
+var BEAR_SEGWAY_GAME={};var SITELOCK=true;BEAR_SEGWAY_GAME.Boot=function(game){BEAR_SEGWAY_GAME.RUN_FIRSTPORTRAIT;BEAR_SEGWAY_GAME.GAME_STARTED=false};BEAR_SEGWAY_GAME.Boot.prototype={preload:function(){this.load.image('preloaderBar','assets/loadingbar.png');},create:function(){if(this.game.device.desktop){this.game.onPause.add(window.lostFocus,this);this.game.onResume.add(window.regainFocus,this);}
+SITELOCK=false;
+BEAR_SEGWAY_GAME.RUN_FIRSTPORTRAIT=this.scale.isGamePortrait;this.input.maxPointers=1;this.scale.scaleMode=Phaser.ScaleManager.SHOW_ALL;this.scale.forceOrientation(true,false);this.scale.pageAlignHorizontally=true;this.scale.pageAlignVertically=true;this.scale.refresh();if(!this.game.device.desktop){this.scale.enterIncorrectOrientation.add(this.handleIncorrect);this.scale.leaveIncorrectOrientation.add(this.handleCorrect);}
+if(!SITELOCK)
+this.state.start('Preloader');else console.log("Please Contact CoolMath Games");},handleIncorrect:function(){document.getElementById("turn").style.width=window.innerWidth;document.getElementById("turn").style.height=window.innerHeight;document.getElementById("turn").style.display="block";},handleCorrect:function(){if(BEAR_SEGWAY_GAME.RUN_FIRSTPORTRAIT){}
+else
+{document.getElementById("turn").style.width=window.innerWidth;document.getElementById("turn").style.height=window.innerHeight;document.getElementById("turn").style.display="none";}}};

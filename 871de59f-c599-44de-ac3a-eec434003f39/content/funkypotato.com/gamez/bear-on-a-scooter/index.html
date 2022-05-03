@@ -1,0 +1,81 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+    <meta name="Author" content="ArcticArcade">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<title>Bear on a Scooter – Play it now at Coolmath-games.com</title>
+	<link rel="canonical" href="https://funkypotato.com/bear-on-a-scooter/" />
+    <style> 
+		body { margin: 0; background: #000000;} 
+		#turn{
+				width:100%;
+				height:100%;
+				position:fixed;
+				top:0px;
+				left:0px;
+				background-color:white;
+				background-image:url('assets/playlandscape.png');
+				background-repeat:no-repeat;
+				background-position: center center;
+				display:none;
+			}
+		#lostFocus{
+			width:100%;
+			height:100%;
+			top:0px;
+			left:0px;
+			position:fixed;
+			display:none;	
+		}
+    </style>
+    
+    <script src="js/phaser.min.js"></script>
+    <script src="js/boot.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/endscreen.js"></script>
+    <script src="js/mainmenu.js"></script> 
+    <script src="js/game.js"></script>
+</head>
+<body>
+
+<div id="turn"></div>
+<div id="lostFocus" onClick="regainFocus()"></div>
+<script type="text/javascript">
+//1 June 2018
+regainFocus = function() {
+    document.getElementById("lostFocus").style.display = "none";
+}
+lostFocus = function() {
+    document.getElementById("lostFocus").style.display = "block";
+}
+
+window.addEventListener('scroll', function () {
+    // Do not scroll when keyboard is visible 
+    if (document.activeElement === document.body && window.scrollY > 0) {
+        document.body.scrollTop = 0;
+    }
+}, true);
+	
+window.addEventListener('keydown', function(event) {
+	event.preventDefault();
+}, true);
+
+function gameEventStartTrigger() {parent.cmgGameEvent("start");}
+function gameEventReplayTrigger() {parent.cmgGameEvent("replay","1");}
+
+window.onload = function() {
+	var game = new Phaser.Game(1136, 640, Phaser.CANVAS, 'game');
+										
+ 	game.state.add('Boot', BEAR_SEGWAY_GAME.Boot);
+ 	game.state.add('Preloader', BEAR_SEGWAY_GAME.Preloader);
+ 	game.state.add('MainMenu', BEAR_SEGWAY_GAME.MainMenu);
+ 	game.state.add('Game', BEAR_SEGWAY_GAME.Game);
+	game.state.add('End', BEAR_SEGWAY_GAME.EndScreen);
+	game.state.start('Boot'); 	
+};
+
+</script>
+
+</body>
+</html>

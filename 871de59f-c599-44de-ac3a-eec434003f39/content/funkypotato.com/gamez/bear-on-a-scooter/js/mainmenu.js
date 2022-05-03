@@ -1,0 +1,14 @@
+BEAR_SEGWAY_GAME.MainMenu=function(game){BEAR_SEGWAY_GAME.FlagPosition=0;BEAR_SEGWAY_GAME.HighScore=0;};BEAR_SEGWAY_GAME.MainMenu.prototype={create:function(){this.bg=this.add.image(0,0,'backgroundSky');this.bg2=this.add.image(0,170,'backgroundMountains');this.bg3=this.add.image(0,170,'backgroundTrees');this.bg4=this.add.image(0,440,'backgroundGround');BEAR_SEGWAY_GAME._fx=this.add.audio('sfx');BEAR_SEGWAY_GAME._fx.allowMultiple=true;BEAR_SEGWAY_GAME._fx.addMarker('click',0.5,0.5);BEAR_SEGWAY_GAME._fx.addMarker('crash',3.85,1.7);this.sound.mute=false;if(this.game.device.localStorage){if(localStorage.soundOn==1)this.sound.mute=false;else this.sound.mute=true;if(localStorage.getItem('bearHighScore')==null)
+{localStorage.setItem('bearHighScore',BEAR_SEGWAY_GAME.HighScore);}
+if(localStorage.getItem('bearHighScore')!=0)
+{tempScore=localStorage.getItem('bearHighScore');BEAR_SEGWAY_GAME.HighScore=Number(tempScore);BEAR_SEGWAY_GAME.FlagPosition=Number(tempScore)*100;}}
+if(!this.sound.mute)
+{this._buttonsound=this.add.button(BEAR_SEGWAY_GAME.GAME_WIDTH-170,20,'soundicon',this.muteSound,this,0,0,0);BEAR_SEGWAY_GAME._music=this.add.audio('music');BEAR_SEGWAY_GAME._music.allowMultiple=false;BEAR_SEGWAY_GAME._music.loop=true;BEAR_SEGWAY_GAME._music.play();}
+else
+{this._buttonsound=this.add.button(BEAR_SEGWAY_GAME.GAME_WIDTH-170,20,'soundicon',this.muteSound,this,1,1,1);BEAR_SEGWAY_GAME._music=this.add.audio('music');BEAR_SEGWAY_GAME._music.allowMultiple=false;BEAR_SEGWAY_GAME._music.loop=true;}
+this._buttonsound.freezeFrames=true;this._buttonsound.input.useHandCursor=true;this.title=this.add.image(BEAR_SEGWAY_GAME.GAME_WIDTH/2,150,'title');this.title.anchor.setTo(0.5);this._startButton=null;this._startButton=this.add.button(BEAR_SEGWAY_GAME.GAME_WIDTH/2,380,'play_btn',this.startGame,this,0,1,0);this._startButton.anchor.setTo(0.5);this._startButton.input.useHandCursor=true;},muteSound:function(){if(!this.sound.mute){if(this.game.device.localStorage){localStorage.soundOn=0;}
+this.sound.mute=true;this._buttonsound.frame=1;}
+else{if(this.game.device.localStorage){localStorage.soundOn=1;}
+this.sound.mute=false;this._buttonsound.frame=0;BEAR_SEGWAY_GAME._fx.play('click');BEAR_SEGWAY_GAME._music.play();}},update:function(){},startGame:function(){if(!this.sound.mute){BEAR_SEGWAY_GAME._fx.play('click');}
+this.bg.destroy();this.bg2.destroy();this.bg3.destroy();this.title.destroy();this.bg4.destroy();this._startButton.destroy();if(BEAR_SEGWAY_GAME._music)BEAR_SEGWAY_GAME._music.destroy();if(BEAR_SEGWAY_GAME._fx)BEAR_SEGWAY_GAME._fx.destroy();if(this._buttonsound)this._buttonsound.destroy();try{gameEventStartTrigger();console.log("cmgGameEvent Start Called");}catch(err){console.log("cmgGameEvent Start Function Not Found!");}
+this.state.start('Game');}};
