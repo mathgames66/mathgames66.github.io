@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "5000001.png",
+	"frame": {"x":1,"y":285,"w":160,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
+	"sourceSize": {"w":160,"h":160}
+},
+{
+	"filename": "5000004.png",
+	"frame": {"x":165,"y":285,"w":160,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
+	"sourceSize": {"w":160,"h":160}
+},
+{
+	"filename": "5000007.png",
+	"frame": {"x":329,"y":285,"w":160,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
+	"sourceSize": {"w":160,"h":160}
+},
+{
+	"filename": "thumbnail/1000000.png",
+	"frame": {"x":1,"y":1,"w":200,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":280},
+	"sourceSize": {"w":200,"h":280}
+},
+{
+	"filename": "thumbnail/5000001.png",
+	"frame": {"x":205,"y":1,"w":199,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":199,"h":280},
+	"sourceSize": {"w":200,"h":280}
+},
+{
+	"filename": "thumbnail/5000004.png",
+	"frame": {"x":408,"y":1,"w":199,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":199,"h":280},
+	"sourceSize": {"w":200,"h":280}
+},
+{
+	"filename": "thumbnail/5000007.png",
+	"frame": {"x":611,"y":1,"w":199,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":199,"h":280},
+	"sourceSize": {"w":200,"h":280}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ball_anime_base_0.png",
+	"format": "RGBA8888",
+	"size": {"w":811,"h":446},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:512f2b33018909b20927d5eb801e0c5e:4306711c12d46211f4df370c31c2de66:0711b58d423436451ffb3d4003a975d5$"
+}
+}
