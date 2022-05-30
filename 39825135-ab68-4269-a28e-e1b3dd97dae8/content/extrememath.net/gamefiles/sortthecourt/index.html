@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Unity WebGL Player | Sort the Court!</title>
+<link rel="stylesheet" href="TemplateData/style.css">
+<link rel="shortcut icon" href="TemplateData/favicon.ico" />
+<script src="TemplateData/UnityProgress.js"></script>
+</head>
+<body class="template">
+<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="640px" width="1024px"></canvas>
+<script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/WebGL.data",
+    codeUrl: "Release/WebGL.js",
+    memUrl: "Release/WebGL.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7139f5a669567b02","version":"2021.12.0","r":1,"token":"1777694292c64252ac424695a54e72a6","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
