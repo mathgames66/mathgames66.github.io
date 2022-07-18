@@ -29,6 +29,3 @@ Close all uneccessary tabs and apps and hard reset the ipad (hold the power butt
 
 **Still doesnt work?** Update your iPad to the latest software update. Don't know how? Go to Settings > General, then tap Software Update.
 If you see two software update options available, such as update to iOS XX.X and upgrade to iOS XX, choose the latest version.
-
-
-If not, youre definetely running games on a potato
