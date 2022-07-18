@@ -23,7 +23,7 @@ On iPad (Safari): Tap on the  ![image](https://user-images.githubusercontent.com
 
 
 ___
-## Game can't run and the device youre using mathgames66 is on an ipad?
+## Game can't run on an ipad?
 
 Close all uneccessary tabs and apps and hard reset the ipad (hold the power button and drag the slider when your ipad says **slide to power off**)
 
