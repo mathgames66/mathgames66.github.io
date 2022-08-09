@@ -5,18 +5,11 @@
 
 # What Is Used to Build Mathgames66
 
-Visual Studio Code - Coding the Website (HTML/CSS/JS)
+Visual Studio Code
 
-Flashpoint Core: MAD4FP - Downloading the webgames
+Flashpoint Core: MAD4FP
 
-Github Pages - To store the games
+Github Pages
 
-Giscus - Comments
+Giscus
 
-# What Is Used to Build UnblockedGamesArchive
-
-HTTrack - To download the sites
-
-Find Empty Files-n-Folders - To delete empty files and folders to upload the sites
-
-Github - To store the sites
