@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <title>
+        MotoX3M
+    </title>
+    
+</head>
+
+<body>
+    <div id="content"></div>
+    <div id="orientation"></div>
+    <div id="loader">Loading ...</div>
+ 
+    <script type="text/javascript" src="assets/box2dweb/nape.min.js">
+        var nape = "nape.min.js";
+    </script>
+    <script type="text/javascript" src="assets/box2dweb/nape-debug-draw.min.js"></script>
+    <script type="text/javascript" src="assets/box2dweb/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/box2dweb/easeljs-0.8.2.combined.js"></script>
+    <script type="text/javascript" src="assets/box2dweb/bluebird.min.js"></script>
+    <script type="text/javascript">
+        window["GD_OPTIONS"] = {
+            "debug": false, // Enable debugging console. This will set a value in local storage as well, remove this value if you don't want debugging at all. You can also call it by running gdsdk.openConsole() within your browser console.
+            "midroll": 120000,
+            "gameId": "5b0abd4c0faa4f5eb190a9a16d5a1b4c", // Your gameId which is unique for each one of your games; can be found at your Gamedistribution.com account.
+            "advertisementSettings": {
+                "debug": false, // Enable IMA SDK debugging.
+                "autoplay": true, // Enable auto start of pre-roll advertisement. Will be disabled when auto play is not supported.
+                "responsive": true, // Enable advertisement responsiveness, otherwise given width and height will be used.
+            },
+            "onEvent": function (event) {
+                switch (event.name) {
+                    case "SDK_GAME_START":
+                        document.getElementById("content").dispatchEvent(new Event("SDK_GAME_START"));
+                        break;
+                    case "SDK_GAME_PAUSE":
+                        document.getElementById("content").dispatchEvent(new Event("SDK_GAME_PAUSE"));
+                        break;
+                }
+            },
+        };
+		var finish = false;
+        function onAdsClick(evt) {
+            console.log('click');
+            if (finish) {
+                console.log('click start ads');
+   
+                finish = false;
+            }
+            evt.preventDefault();
+        }
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = './main.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'gamedistribution-jssdk'));
+        document.getElementById('content').addEventListener('finish',
+            function () { console.log('finish'); finish = true });
+        document.getElementById('content').addEventListener('click',
+            onAdsClick);
+        document.getElementById('content').addEventListener('touchstart',
+            onAdsClick);
+    </script>
+<script type="text/javascript" src="motox3m.min.js?de9b6bba384c5d4545a0"></script>
+ 
+</body>
+
+</html>
