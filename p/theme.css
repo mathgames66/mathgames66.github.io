@@ -27,6 +27,23 @@ h5 {
 iframe {
   line-height:100%;
 }
+
+embed {
+  text-align: center;
+display:block;
+  color: #fff;
+  height: 700px;
+width: 100%;
+resize: both;
+overflow: auto;
+border-style: solid;
+border-color:black;
+border: 10px solid transparent
+}
+embed {
+  line-height:100%;
+}
+
 ::-moz-selection { /* Code for Firefox */
   color: white;
  background-color: #5a3fcd;
