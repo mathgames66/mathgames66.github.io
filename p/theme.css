@@ -29,6 +29,7 @@ iframe {
 }
 
 embed {
+  position: absolute;
   text-align: center;
 display:block;
   color: #fff;
