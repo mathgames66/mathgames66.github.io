@@ -40,9 +40,6 @@ border-style: solid;
 border-color:black;
 border: 10px solid transparent
 }
-embed {
-  line-height:100%;
-}
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
