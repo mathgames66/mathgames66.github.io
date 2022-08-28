@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Nick Basketball Stars 2</title>
+		<link rel="canonical" href="http://www.snokido.com/game/nick-basketball-stars-2" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	 
+		<!-- Nick.com jsembed 1.0.3 -->
+		<script src="jsembed/jsembed.js"></script>
+
+		<!-- jsembed 1.0.5 https://github.com/josimard/JSEmbed
+		<script src="js/jsembed.js"></script> -->
+
+		<script type="text/javascript" >		
+			// Automatically set the jsembed base path
+			var base = window.location.pathname;
+			base = base.substring(0, base.lastIndexOf("/"));
+
+			// Parameters to configure jsembed
+			var params = {
+				base: base, // Set a base url of all app content. Defaults "".
+				api: "flambe", // supported custom apis are defined in jsembed. Defaults "none".
+				scaletype: "fit", // update window.canvasScale on window resize? Defaults "fit". 
+				
+				// Also supports "fill", "fillto" and "none."
+				//indexroot: "true", // use the current index url as the path root? 
+				//If false uses domain root instead. Defaults false (use domain root).	
+				
+				allowtouchmove: "false", // allow the page to scroll when user drags or swipes? Defaults to false.
+				//maxwidth: 1024, //The maximum width to scale the canvas to. Only works with fillto.
+				//maxheight: 640, //The maximum height to scale the canvas to. Only works with fillto.		  
+				//libs: ["flambe.js"] // array of libs to embed before trying to launch app. 
+				//Defaults []. Libs will load from base url unless you set libsIgnoreBase: "true" param.
+				
+				// 1.0.5+ Params
+				//scalecanvas: "style", // Use "style" for jsembed to resize the canvas element (hardware scaling), default: "none"
+				//align:"center middle" // When scaletype is 'fit', it will align the canvas accordingly.
+			}
+
+			// Attributes will be set on the embed target for use by the app. "base" will be set as well.
+			var attr = {				
+
+			};
+
+			jsembed.embed("flambe.js", "embedtarget", "960", "560", params, attr);
+
+		</script>
+	</head>
+	<body style="padding: 0; margin: 0; background-color: black;">
+		<div id="embedtarget"></div>	
+	</body>
+</html>
