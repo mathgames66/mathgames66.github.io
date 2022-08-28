@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localization>
+	<fonts defaultFont="movavi_36_white" defaultStyle="movavi_36_white" letterSpacing="10">
+
+		<!-- 
+		Font styles
+			Optional attributes: 
+				fontName="Arial" 
+				fontScale="1" 
+				align="center" 
+				offsetX="0" 
+				offsetY="0" 
+				transform="uppercase"
+		-->
+
+		<style name="default" fontName="movavi_36_white" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="buttons" fontName="movavi_25_black" align="center" transform="uppercase" letterSpacing="1"></style>
+		<style name="hud_callout" fontName="movavi_72_white_outline" align="left" transform="uppercase" letterSpacing="1"></style>
+		
+		<style name="17_white" fontName="movavi_17_white" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="21_white" fontName="movavi_21_white" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="36_white" fontName="movavi_36_white" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="60_white" fontName="movavi_60_white" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="25_white_outline" fontName="movavi_25_white_outline" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="50_white_shadow" fontName="movavi_50_white_shadow" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="72_white_outline" fontName="movavi_72_white_outline" align="left" transform="uppercase" letterSpacing="1"></style>
+		
+		<style name="15_black" fontName="movavi_15_black" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="25_black" fontName="movavi_25_black" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="32_black" fontName="movavi_32_black" align="left" transform="uppercase" letterSpacing="1"></style>
+		
+		<style name="17_blue" fontName="movavi_17_blue" align="left" transform="uppercase" letterSpacing="1"></style>
+		<style name="17_orange" fontName="movavi_17_orange" align="left" transform="uppercase" letterSpacing="1"></style>
+	</fonts>
+
+	<strings>
+
+		<!--
+		Optional attributes to customize each string:
+			fontStyle="title"
+
+			or to use font-style attributes directly:
+			fontName="Arial" fontScale="1" offsetX="0" offsetY="0"
+		-->
+
+		<!-- menus -->
+		<!-- Loading -->
+		<string id="LOADING">Loading</string>
+		<string id="LOADING_PC">{{p}}%</string>
+		<string id="TIP_1">TIP: IT'S EASIER TO DUNK WHEN CLOSE TO THE NET</string>
+		<string id="TIP_2">TIP: ATTACK OPPONENTS DURING THEIR DUNK TO BREAK IT</string>
+		<string id="TIP_3">TIP: NEVER DOUBLE FLIP YOUR UNDERWEAR</string>
+		<string id="TIP_4">TIP: TRY PLAYING DEFENSE ONCE IN A WHILE</string>
+		<string id="TIP_5">TIP: TRY A MEGA DUNK TO WIN THE GAME</string>
+		<string id="TIP_6">TIP: YOU CAN DOUBLE JUMP!</string>
+		<string id="TIP_7">TIP: YOU CAN PRINT UNLOCKED POSTERS</string>
+		<string id="TIP_8">TIP: DID YOU FIND ALL THE EASTER EGGS?</string>
+
+		<!-- Title -->
+		<string id="PLAY">CLICK ANYWHERE TO PLAY</string>
+		<string id="PLAY_TOUCH">TAP ANYWHERE TO PLAY</string>
+		
+		<string id="QUIT_CONFIRMATION">DO YOU WANT TO QUIT?</string>
+		<string id="BTN_YES">YES</string>
+		<string id="BTN_NO">NO</string>
+		
+		<!-- Mode Selection -->
+		<string id="MODE_TITLE">SELECT MODE</string>
+		<string id="MODE_SUBTITLE"> </string>
+		<string id="MODE_QUICK_PLAY">QUICK MATCH</string>
+		<string id="MODE_CHAMPIONSHIP">CHAMPIONSHIP</string>
+		<string id="MODE_PASS_N_PLAY">ALL STARS</string>
+		<string id="MODE_HALL_OF_FAME">HALL OF FAME</string>
+		<string id="SELECT_MODE">Choose your All Stars mode</string>
+		<string id="SELECT_PLAYERS">Choose the number of players</string>
+		<string id="EASY">EASY</string>
+		<string id="MEDIUM">MEDIUM</string>
+		<string id="HARD">HARD</string>
+		<string id="SELECT_QUICKMATCH_TYPE">SELECT GAME TYPE</string>
+		<string id="SELECT_DIFFICULTY">CHOOSE DIFFICULTY</string>
+		
+		<!-- All Stars -->
+		<string id="PLAYER_TURN">{{name}}'s turn!</string>
+		<string id="ALL_STARS_SHOOTOUT">3 point Shootout</string>
+		<string id="ALL_STARS_DUNK_CHALLENGE">Dunk Challenge</string>
+		<string id="ALL_STARS_HORSE">H.O.R.S.E.</string>
+		<string id="PLAYER_ID">P{{id}}</string>
+		<string id="YOU">YOU</string>
+		
+		<!-- H.O.R.S.E. -->
+		<string id="HUD_HORSE_0">H.</string>
+		<string id="HUD_HORSE_1">O.</string>
+		<string id="HUD_HORSE_2">R.</string>
+		<string id="HUD_HORSE_3">S.</string>
+		<string id="HUD_HORSE_4">E.</string>
+		<string id="TOKEN_DUNK">DUNK!</string>
+		<string id="TOKEN_SHOOT">SHOOT!</string>
+
+		<!-- Character Selection -->
+		<string id="CHARACTER_TITLE">SELECT PLAYER</string>
+		<string id="CHARACTER_TITLE_NEXT">SELECT NEXT</string>
+		<string id="CHARACTER_UNLOCK">WIN GAMES WITH {{name}}</string>
+		<string id="CHARACTER_UNLOCK_NUM">{{num}}/{{total}}</string>
+		<string id="COMING_SOON">COMING SOON!</string>
+		<string id="COMING_SOON_DESC"></string>
+		<string id="SELECT_PROGRESS">Player {{x}} of {{y}}</string>
+
+		<!-- End Game -->
+		<string id="END_TITLE">AWESOME!</string>
+
+		<!-- Level Selection -->
+		<string id="LEVEL_TITLE">SELECT MATCH</string>
+		<string id="LEVEL">MATCH</string>
+		<string id="LEVEL_NUMBER">{{p}}</string>
+		<string id="BEST_TIME">BEST TIME</string>
+		<string id="BEST_TIME_NUMBER">{{m}}:{{s}}</string>
+
+		<!-- CALLOUTS -->
+		<string id="SCORE">{{p}}</string>
+		<string id="CALLOUT_1">READY</string>
+		<string id="CALLOUT_2">SET</string>
+		<string id="CALLOUT_3">BOUNCE!</string>
+		<string id="CALLOUT_3_SLIME">SLIME BALL!</string>
+		<string id="CALLOUT_SCORE">SCORE!</string>
+		<string id="CALLOUT_MISSED_1">BRICK!</string>
+		<string id="CALLOUT_MISSED_2">NO!</string>
+		<string id="CALLOUT_DUNKALITY">DUNKALITY!</string>
+		<string id="CALLOUT_POSTERIZED">POSTERIZED!</string>
+		<string id="CALLOUT_POSTERIZED_NUM">{{n}}/2</string>
+		<string id="CALLOUT_MEGA_1">MEGA</string>
+		<string id="CALLOUT_MEGA_2">DUNK</string>
+		<string id="CALLOUT_MEGA_3">!</string>
+		<string id="CALLOUT_BREAKER_1_1">D-</string>
+		<string id="CALLOUT_BREAKER_1_2">D-D-</string>
+		<string id="CALLOUT_BREAKER_1_3">D-D-D-</string>
+		<string id="CALLOUT_BREAKER_1_4">D-D-D-D-</string>
+		<string id="CALLOUT_BREAKER_1_5">D-D-D-D-D-</string>
+		<string id="CALLOUT_BREAKER_1_6">D-D-D-D-DUNK</string>
+		<string id="CALLOUT_BREAKER_2">BREAKER!</string>
+		<string id="CALLOUT_NEXT">NEXT</string>
+		<string id="CALLOUT_TURN">TURN</string>
+		<string id="CALLOUT_TIMEOUT">TIME OUT!</string>
+		<string id="CALLOUT_ELIMINATED">ELIMINATED!</string>
+		<string id="CALLOUT_LONG_SHOT">3 points!</string>
+
+		<!-- SCOREBOARD -->
+		<string id="TIME">{{m}}:{{s}}</string>
+
+		<!-- Pause -->
+		<string id="PAUSE_TITLE">PAUSE</string>
+
+		<!-- Win/Fail -->
+		<string id="WIN_TITLE">YOU WIN!</string>
+		<string id="FAIL_TITLE">OOPS!</string>
+		<string id="PLAYER_WIN">{{name}} wins!</string>
+		<string id="TIE">It's a tie!</string>
+		<string id="BEST_TIME">Best Time!</string>
+
+		<string id="PLAY_BUTTON">PLAY</string>
+		<string id="POSITION_1">st</string>
+		<string id="POSITION_2">nd</string>
+		<string id="POSITION_3">rd</string>
+		<string id="POSITION_4">th</string>
+
+		<!-- Hall of fame -->
+		<string id="HALL_TITLE">HALL OF FAME</string>
+		<string id="HALL_BTN_STATS">STATS</string>
+		<string id="HALL_BTN_POSTERS">POSTERS</string>
+		<string id="HALL_NEW">NEW</string>
+		
+		<!-- Stats -->
+		<string id="STATS_TITLE">PLAYER STATS</string>
+		<string id="STATS_HORSE_WON">H.O.R.S.E. WINS</string>
+		<string id="STATS_SHOOTOUT_WON">SHOOT OUT WINS</string>
+		<string id="STATS_DUNK_CHALLENGE_WON">DUNK CHALLENGE WINS</string>
+		<string id="STATS_GAMES_PLAYED">GAMES PLAYED</string>
+		<string id="STATS_DUNKS">DUNKS</string>
+		<string id="STATS_MEGA_DUNKS">SUPER MOVES</string>
+		<string id="STATS_SHORT_SHOTS">SHORT SHOTS</string>
+		<string id="STATS_LONG_SHOTS">LONG SHOTS</string>
+		<string id="STATS_STEALS">STEALS</string>
+		<string id="STATS_JUMPS">JUMPS</string>
+		<string id="STATS_DOUBLE_JUMPS">DOUBLE JUMPS</string>
+		<string id="STATS_ATTACKS">ATTACKS</string>
+		<string id="STATS_STUNS">STUNS</string>
+		<string id="STATS_PICKUPS">PICKUPS</string>
+		<string id="STATS_SHOOT_SUCCESSES">SHOOT SUCCESSES</string>
+		<string id="STATS_SHOOT_FAILS">SHOOT FAILS</string>
+		<string id="STATS_DUNK_SUCCESSES">DUNK SUCCESSES</string>
+		<string id="STATS_DUNK_FAILS">DUNK FAILS</string>
+		<string id="STATS_GAMES_WON">GAMES WINS</string>
+		<string id="STATS_GAMES_FAILED">GAMES LOST</string>
+		
+		<!-- Posters -->
+		<string id="POSTERS_TITLE">POSTERS</string>
+		<string id="POSTERS_SUBTITLE">WIN WITH A MEGA DUNK USING BOTH CHARACTERS TO UNLOCK!</string>
+
+		<!-- Unlock -->
+		<string id="UNLOCK_POSTER">NEW POSTER</string>
+		<string id="UNLOCK_CHARACTER">NEW CHARACTER</string>
+		<string id="UNLOCK_UNLOCK">UNLOCKED!</string>
+		<string id="UNLOCK_GO">GO!</string>
+
+		<!-- TUTORIAL -->
+		<string id="HTP_TITLE">HOW TO PLAY</string>
+		<string id="HTP_1">MOVE</string>
+		<string id="HTP_1_1">PRESS LEFT AND RIGHT ARROWS TO MOVE</string>
+		<string id="HTP_1_1_MOBILE">SLIDE YOUR FINGER ON THE LEFT SIDE OF THE SCREEN TO MOVE</string>
+		<string id="HTP_2">JUMP</string>
+		<string id="HTP_2_1">PRESS ARROW TO JUMP AND AGAIN IN THE AIR TO DOUBLE JUMP</string>
+		<string id="HTP_2_1_MOBILE">TAP THE BUTTON TO JUMP AND AGAIN IN THE AIR TO DOUBLE JUMP</string>
+		<string id="HTP_3">ATTACK</string>
+		<string id="HTP_3_1">PRESS SPACE TO ATTACK WHEN YOU DON'T HAVE THE BALL</string>
+		<string id="HTP_3_1_MOBILE">TAP THE BUTTON TO ATTACK</string>
+		<string id="HTP_4">SHOOT</string>
+		<string id="HTP_4_1">PRESS SPACE TO SHOOT WHEN YOU HOLD THE BALL</string>
+		<string id="HTP_4_1_MOBILE">TAP THE BUTTON TO SHOOT WHEN YOU HOLD THE BALL</string>
+		<string id="HTP_5">JUMP TO DUNK</string>
+		<string id="HTP_5_1">GET AS CLOSE AS POSSIBLE TO THE BASKET AND DUNK</string>
+		<string id="HTP_5_2">JUMP</string>
+		<string id="HTP_5_3">DUNK</string>
+		<string id="HTP_6">WIN</string>
+		<string id="HTP_6_1">FIRST TO 21 POINTS WINS!</string>
+		<string id="HTP_7">MEGA DUNK</string>
+		<string id="HTP_7_1">WAIT FOR THE GAUGE TO FILL UP AND USE YOUR MEGA DUNK</string>
+		<string id="HTP_7_2">POINTS!</string>
+		<string id="HTP_8">PICKUPS</string>
+		<string id="HTP_8_1">GRAB PICKUPS FOR AMAZING EFFECTS!</string>
+		<string id="HTP_8_2">INCREASE SPEED</string>
+		<string id="HTP_8_3">JUMP HIGHER</string>
+		<string id="HTP_8_5">PERFECT DUNK</string>
+		<string id="HTP_8_6">PERFECT SHOT</string>
+		
+		<string id="HTP_PLAYER_TURN">{{name}}'s turn</string>
+		<string id="HTP_DUNK_CHALLENGE">Find the net and dunk! Get the highest score!</string>
+		<string id="HTP_HORSE_TURN_1">You're the leader!</string>
+		<string id="HTP_HORSE_TURN_2">Copy the moves!</string>
+		<string id="HTP_HORSE_1">Set a path, then shoot or dunk!</string>
+		<string id="HTP_HORSE_2">Follow the path before scoring!</string>
+		<string id="HTP_SHOOTOUT">Hold Spacebar, release in the green area to score!</string>
+		<string id="HTP_SHOOTOUT_M">Tap and hold, release in the green area to score!</string>
+		
+		<!-- character names -->
+		<string id="raph">RAPH</string>
+		<string id="leo">LEO</string>
+		<string id="mike">MIKEY</string>
+		<string id="donnie">DONNIE</string>
+		<string id="spongebob">SPONGEBOB</string>
+		<string id="patrick">PATRICK</string>
+		<string id="fee">FEE</string>
+		<string id="foo">FOO</string>
+		<string id="lincoln">LINCOLN</string>
+		<string id="lynn">LYNN</string>
+		<string id="henry">KID DANGER</string>
+		<string id="captain_danger">CAPTAIN MAN</string>
+		<string id="red_ranger">RED RANGER</string>
+		<string id="pink_ranger">PINK RANGER</string>
+		
+		<!-- specials -->
+		<string id="raph_SM">RAGING DUNK</string>
+		<string id="leo_SM">NINJA DUNK</string>
+		<string id="mike_SM">SMOKING DUNK</string>
+		<string id="donnie_SM">ROCKET DUNK</string>
+		<string id="spongebob_SM">KARATE CHOP DUNK</string>
+		<string id="patrick_SM">HOOK UP DUNK</string>
+		<string id="fee_SM">WINDMILL DUNK</string>
+		<string id="foo_SM">SWALLOWED DUNK</string>
+		<string id="lincoln_SM">AVID READER DUNK</string>
+		<string id="lynn_SM">LUCHADORE DUNK</string>
+		<string id="henry_SM">SPEED DUNK</string>
+		<string id="captain_danger_SM">SMASH DUNK</string>
+		<string id="red_ranger_SM">WAVE RIDE DUNK</string>
+		<string id="pink_ranger_SM">SHURIKEN DUNK</string>
+
+		<!-- special description -->
+		<string id="raph_SM_DESC">NOTHING STANDS IN MY WAY!</string>
+		<string id="leo_SM_DESC">LIGHTS OUT! YOU LOSE!</string>
+		<string id="mike_SM_DESC">NOW YOU SEE ME, NOW YOU DON'T.</string>
+		<string id="donnie_SM_DESC">RIDE THE WIND AND DUNK TO THE WIN.</string>
+		<string id="spongebob_SM_DESC">HIIIIYA! EVEN SANDY COULDN'T BLOCK THIS!</string>
+		<string id="patrick_SM_DESC">I SENSE NO DANGER HERE.</string>
+		<string id="fee_SM_DESC">IT'S NO FUN IF IT DOESN'T BREAK.</string>
+		<string id="foo_SM_DESC">THIS BALL TASTES KIND OF FUNNY.</string>
+		<string id="lincoln_SM_DESC">CAN I JUST READ MY COMIC BOOKS?</string>
+		<string id="lynn_SM_DESC">I'M GONNA TAKE YOU DOWN!</string>
+		<string id="henry_SM_DESC">STOP ME IF YOU CAN!</string>
+		<string id="captain_danger_SM_DESC">SMASH THAT BALL!</string>
+		<string id="red_ranger_SM_DESC">I GOT THIS!</string>
+		<string id="pink_ranger_SM_DESC">TO THE HIGHER GROUND!</string>
+		
+		<!-- TEAMS -->
+		<string id="team_tmnt_1">NYC BLADES</string>
+		<string id="team_tmnt_2">NUNCHUCK ALLSTARS</string>
+		<string id="team_hb">TREEBARK TROUBLE</string>
+		<string id="team_sb">BIKINI BOTTOM BARNACLES</string>
+		<string id="team_loud">CRAZY KIDS</string>
+		<string id="team_hd">Danger Zone</string>
+		<string id="team_pr">Steel Bolts</string>
+
+		<!-- LEVELS -->
+		<string id="level1">Easy Peasy</string>
+		<string id="level2">West Side Court</string>
+		<string id="level3">Dunk Heaven</string>
+		<string id="level4">Ball Time</string>
+		<string id="level5">Not Quite Finals</string>
+		<string id="level6">Final Finals</string>
+		
+		<!-- ACHIEVEMENTS -->
+		<string id="ACHIEVEMENTS">ACHIEVEMENTS</string>
+		<string id="ACHIEVEMENT_TOURNAMENT">CHAMPIONSHIP</string>
+		<string id="ACHIEVEMENT_TOURNAMENT_DESC">Win a championship</string>
+		<string id="ACHIEVEMENT_ATTACK_QTY">GOON</string>
+		<string id="ACHIEVEMENT_ATTACK_QTY_DESC">Hit opponents {{x}} times in a match</string>
+		<string id="ACHIEVEMENT_DAMAGED_QTY">STRETCHER</string>
+		<string id="ACHIEVEMENT_DAMAGED_QTY_DESC">Get hit {{x}} times in a match</string>
+		<string id="ACHIEVEMENT_POSTERS">PHOTOMATON</string>
+		<string id="ACHIEVEMENT_POSTERS_DESC">Unlock all posters</string>
+		<string id="ACHIEVEMENT_SPECIAL_WIN">SLAM DUNK</string>
+		<string id="ACHIEVEMENT_SPECIAL_WIN_DESC">Win a match with a slam dunk</string>
+		<string id="ACHIEVEMENT_INTERUPT_QTY">BLOCKER</string>
+		<string id="ACHIEVEMENT_INTERUPT_QTY_DESC">Break opponent dunks {{x}} times</string>
+		<string id="ACHIEVEMENT_LONG_SHOT">SHOOTER</string>
+		<string id="ACHIEVEMENT_LONG_SHOT_DESC">Shoot from over half the court</string>
+		<string id="ACHIEVEMENT_PICKUPS_QTY">SHOE AFICIONADO</string>
+		<string id="ACHIEVEMENT_PICKUPS_QTY_DESC">Grab {{x}} pickups in a single game</string>
+		<string id="ACHIEVEMENT_ALL_TOURNAMENT">OVERACHIEVER</string>
+		<string id="ACHIEVEMENT_ALL_TOURNAMENT_DESC">Win the Championship with all characters</string>
+		<string id="ACHIEVEMENT_SHOOTOUT_WIN">SHARP SHOOTER</string>
+		<string id="ACHIEVEMENT_SHOOTOUT_WIN_DESC">Player 1 wins the shootout challenge</string>
+		<string id="ACHIEVEMENT_SHOOTOUT_TIME">SWISH!</string>
+		<string id="ACHIEVEMENT_SHOOTOUT_TIME_DESC">Succeed all shots in shoot out challenge within {{x}} seconds</string>
+		<string id="ACHIEVEMENT_DUNK_CHALLENGE_WIN">DUNKER</string>
+		<string id="ACHIEVEMENT_DUNK_CHALLENGE_WIN_DESC">Player 1 wins the dunk challenge</string>
+		<string id="ACHIEVEMENT_DUNK_CHALLENGE_QTY">DUNK MASTER</string>
+		<string id="ACHIEVEMENT_DUNK_CHALLENGE_QTY_DESC">Make {{x}} dunks in the dunk challenge</string>
+		<string id="ACHIEVEMENT_HORSE_WIN">HORSING AROUND</string>
+		<string id="ACHIEVEMENT_HORSE_WIN_DESC">Player 1 wins the HORSE challenge</string>
+		<string id="ACHIEVEMENT_ALL_TOKENS">GOTTA PICK 'EM ALL</string>
+		<string id="ACHIEVEMENT_ALL_TOKENS_DESC">Place a token on all platforms in a HORSE challenge</string>
+		<string id="ACHIEVEMENT_4_PLAYERS">PARTY ANIMAL</string>
+		<string id="ACHIEVEMENT_4_PLAYERS_DESC">Play a 4 players All Star Game</string>
+		
+		<!-- EASTER EGGS -->
+		<string id="EGG_DAY_TIME">Day Time!</string>
+		<string id="EGG_NIGHT_TIME">Night Time!</string>
+		<string id="EGG_BALL_NORMAL">BASKETBALL!</string>
+		<string id="EGG_BALL_BASEBALL">SOFTBALL!</string>
+		<string id="EGG_BALL_SOCCER">SOCCERBALL!</string>
+		<string id="EGG_BALL_SLIME">SLIMEBALL!</string>
+		<string id="EGG_JUMP_HIGH">Super Jumps!</string>
+		<string id="EGG_JUMP_LOW">Realistic Jumps!</string>
+		<string id="EGG_JUMP_NORMAL">Normal Jumps!</string>
+
+	</strings>
+</localization>
