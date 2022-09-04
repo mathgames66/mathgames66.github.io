@@ -1,0 +1,188 @@
+{
+  "stringresources": {
+    "languages": {
+      "language": [
+        "en",
+        "fr",
+        "de",
+        "es",
+        "br",
+        "it"
+      ]
+    },
+    "strings": {
+      "string": [
+        {
+          "-id": "PlayKey",
+          "en": "Play",
+          "de": "Spielen",
+          "es": "Jugar",
+          "fr": "Jouer",
+          "it": "Gioca",
+          "br": "EXECUTAR"
+        },
+        {
+          "-id": "StageKey",
+          "-index": "11",
+          "en": "STAGE",
+          "es": "NIVEL",
+          "de": "STUFE",
+          "it": "LIVELLO",
+          "fr": "ÉTAPE",
+          "br": "ETAPA"
+        },
+        {
+          "-id": "ScoreKey",
+          "-index": "11",
+          "en": "SCORE",
+          "es": "PUNTUACIÓN",
+          "de": "PUNKTE",
+          "it": "PUNTEGGIO",
+          "fr": "SCORE",
+          "br": "PONTUAÇÃO"
+        },
+        {
+          "-id": "RewardKey",
+          "-index": "11",
+          "en": "REWARD",
+          "es": "RECOMPENSA",
+          "de": "BELOHNUNG",
+          "it": "RICOMPENSA",
+          "fr": "RÉCOMPENSE",
+          "br": "RECOMPENSA"
+        },
+        {
+          "-id": "ContinueQKey",
+          "-index": "11",
+          "en": "CONTINUE?",
+          "es": "¿CONTINUAR?",
+          "de": "FORTFAHREN?",
+          "it": "CONTINUARE?",
+          "fr": "CONTINUER ?",
+          "br": "CONTINUAR?"
+        },
+        {
+          "-id": "ContinueKey",
+          "-index": "11",
+          "en": "CONTINUE",
+          "es": "CONTINUAR",
+          "de": "FORTFAHREN",
+          "it": "CONTINUARE",
+          "fr": "CONTINUER",
+          "br": "CONTINUAR"
+        },
+        {
+          "-id": "NoThanksKey",
+          "-index": "11",
+          "en": "NO THANKS",
+          "es": "NO, GRACIAS",
+          "de": "NEIN, DANKE",
+          "it": "NO, GRAZIE",
+          "fr": "NON MERCI",
+          "br": "NÃO, OBRIGADO"
+        },
+        {
+          "-id": "BuyKey",
+          "-index": "11",
+          "en": "BUY",
+          "es": "COMPRAR",
+          "de": "KAUFEN",
+          "it": "COMPRA",
+          "fr": "ACHETER",
+          "br": "COMPRAR"
+        },
+
+        {
+          "-id": "QuitGameKey",
+          "en": "Quit game?",
+          "fr": "Quitter le jeu ?",
+          "de": "Spiel beenden?",
+          "es": "¿Salir del juego?",
+          "it": "Uscire dal gioco?",
+          "br": "Sair do jogo?"
+        },
+        {
+          "-id": "YesQuitKey",
+          "en": "Yes, Quit",
+          "fr": "Oui, quitter",
+          "de": "Ja, aufgeben",
+          "es": "Sí, salir",
+          "it": "Sì, voglio uscire",
+          "br": "Sim, sair"
+        },
+        {
+          "-id": "KeepPlayingKey",
+          "en": "Keep Playing",
+          "fr": "Continuer à jouer",
+          "de": "Weiterspielen",
+          "es": "Seguir jugando",
+          "it": "Continua a giocare",
+          "br": "Continuar jogando"
+        },
+        {
+          "-id": "BossFightKey",
+          "en": "Boss Fight",
+          "fr": "Combat\nde boss",
+          "de": "Bosskampf",
+          "es": "Batalla\ncontra jefe",
+          "it": "Battaglia\ncon il Boss",
+          "br": "Luta de chefe"
+        },
+        {
+          "-id": "LockedKey",
+          "en": "Locked",
+          "fr": "Verrouillé",
+          "de": "Gesperrt",
+          "es": "Bloqueado",
+          "it": "Bloccato",
+          "br": "Bloqueado"
+        },
+        {
+          "-id": "BuyForApplesKey",
+          "en": "BUY FOR APPLES",
+          "fr": "Payer avec pommes",
+          "de": "Für Äpfel kaufen",
+          "es": "Comprar con manzanas",
+          "it": "Compra con le mele",
+          "br": "Comprar maçãs"
+        },
+        {
+          "-id": "BossKnivesKey",
+          "en": "BOSS KNIVES",
+          "fr": "Couteaux de boss",
+          "de": "Bossmesser",
+          "es": "Cuchillos de jefe",
+          "it": "Coltelli del Boss",
+          "br": "Facas do chefe"
+        },
+        {
+          "-id": "BossDefeatedKey",
+          "en": "BOSS DEFEATED",
+          "fr": "Boss vaincu",
+          "de": "Boss besiegt",
+          "es": "Jefe derrotado",
+          "it": "Boss sconfitto",
+          "br": "Chefe derrotado"
+        },
+        {
+          "-id": "BossKnifeUnlockedKey",
+          "en": "BOSS KNIFE\nUNLOCKED",
+          "fr": "Couteau de boss\ndéverrouillé",
+          "de": "Bossmesser\nreigeschaltet",
+          "es": "Cuchillo de jefe\ndesbloqueado",
+          "it": "Coltello del Boss\nsbloccato",
+          "br": "Faca do chefe\ndesbloquada"
+        },
+        {
+          "-id": "RestartKey",
+          "en": "Restart",
+          "fr": "Recommencer",
+          "de": "Neustart",
+          "es": "Reiniciar",
+          "it": "Riavvia",
+          "br": "Reiniciar"
+        }
+      ]
+    }
+  }
+}

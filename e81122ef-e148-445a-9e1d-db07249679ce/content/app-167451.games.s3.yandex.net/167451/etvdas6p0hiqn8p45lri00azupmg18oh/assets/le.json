@@ -1,0 +1,93 @@
+[
+    {
+      "difficulty": "easy_1",
+      "initialKnivesAngles": [0, 180],
+      "knivesCount": 8,
+      "rotation": [
+        [1, 160], 
+        [1.5], 
+        [2, 230], 
+        [1]
+      ]
+    },
+
+    {
+      "difficulty": "easy_2",
+      "initialKnivesAngles": [0, 90, 180, 270],
+      "knivesCount": 8,
+      "rotation": [
+        [1, 170], 
+        [1], 
+        [1.5, 270], 
+        [1]
+      ]
+    },
+
+    {
+      "difficulty": "easy_3",
+      "initialKnivesAngles": [0, 10, 120, 130, 240, 250],
+      "knivesCount": 9,
+      "rotation": [
+        [0.5, -125], 
+        [2], 
+        [1, -210], 
+        [2]
+      ]
+    },
+
+    {
+      "difficulty": "easy_4",
+      "initialKnivesAngles": [0, 120, 240],
+      "knivesCount": 9,
+      "rotation": [
+        [0.5, -230], 
+        [2], 
+        [1, 0], 
+        [0.3], 
+        [2, -180], 
+        [1, 0]
+      ]
+    },
+
+    {
+      "difficulty": "easy_5",
+      "initialKnivesAngles": [0, 110, 130, 220, 240, 260],
+      "knivesCount": 7,
+      "rotation": [
+        [2.3, 370], 
+        [1.2, 180], 
+        [1]
+      ]
+    },
+
+    {
+      "difficulty": "easy_6",
+      "initialKnivesAngles": [0, 60, 120, 180, 240, 300],
+      "knivesCount": 6,
+      "rotation": [
+        [2.3, 360], 
+        [1.2, 180], 
+        [1]
+      ]
+    },
+
+    {
+      "difficulty": "easy_7",
+      "initialKnivesAngles": [0],
+      "knivesCount": 10,
+      "rotation": [
+        [1.9, 260], 
+        [0.3]
+      ]
+    },
+
+    {
+      "difficulty": "easy_8",
+      "initialKnivesAngles": [0, 80, 100, 180, 260, 280],
+      "knivesCount": 8,
+      "rotation": [
+        [1, -240], 
+        [0.3]
+      ]
+    }
+]
