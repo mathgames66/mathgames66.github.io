@@ -11542,12 +11542,10 @@
             ]],
             ["_loader", [
                 [2, "_other", false],
-                [1, "SPONSOR_URL", 1, "//pogogamesplay.com", false, true, 681439955687860, false],
-                [1, "SPONSOR_URL_LIST", 1, "pogogamesplay.com,big8games.com,playgamesfreeaz.info", false, true, 798369947273432, false],
-                [1, "SPONSOR_SPLASH_TIME", 0, 2, false, true, 928316686702147, false],
-                [1, "SPONSOR_SPLASH_DISABLE", 0, 1, false, false, 322156898848075, false],
+       
+      
                 [1, "AVIALABLE_LANGUAGES", 1, "en", false, true, 154256117114297, false],
-                [1, "loader_locked", 0, 1, false, false, 196364578918759, false],
+  
                 [1, "time_splash", 0, 0, false, false, 986823700263536, false],
                 [1, "loader_width", 0, 0, false, false, 159384089942094, false],
                 [1, "lang", 0, 0, false, false, 628230683530739, false],
