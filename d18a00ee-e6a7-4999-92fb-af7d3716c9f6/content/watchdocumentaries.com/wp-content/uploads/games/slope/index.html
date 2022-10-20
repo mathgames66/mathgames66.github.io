@@ -1,0 +1,16 @@
+<html lang="en-us">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Unity WebGL Player | Slope</title>
+<link rel="stylesheet" href="style/style.css">
+<script src="UnityProgress.js"></script>
+<script src="UnityLoader.js"></script>
+<script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "slope_new.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+<div class="webgl-content">
+<div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"75ce1899c9afdb8e","token":"c843b8c381814d58b40d4597a1bf7962","version":"2022.10.3","si":100}' crossorigin="anonymous"></script>
+</html>
