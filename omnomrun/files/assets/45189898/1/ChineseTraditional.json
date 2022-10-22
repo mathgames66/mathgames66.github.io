@@ -1,0 +1,140 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "zh-Hant"
+            },
+            "messages": {
+                "RunAndGet": "開跑即可獲得",
+                "Selected": "已選擇",
+                
+                "LogInRewards": "登入獎勵",
+                "DayCount": "第 {0} 天",
+                
+                "StuntChampionShip": "特技冠軍賽",
+                "PerformStuntsUntilTimeIsUp": "在時間結束前盡情施展特技",
+                "StuntTimeLeft": "剩餘時間：",
+                "TotalScore": "總得分",
+                "Prize": "獎品",
+                
+                "FreeRunTitle": "高分紀錄",
+                "FreeRunDescription": "在自由暢跑模式中打破你的最高分",
+                "Run": "開跑",
+                
+                "WinCoins": "贏得金幣",
+                "Spin": "轉動",
+                "FreeSpin": "免費轉盤",
+                "NextFreeSpin": "免費轉盤倒數 {0} 小時 {1} 分鐘",
+                
+                "Chapter": "第 {0} 章",
+                "MissionsHint": "重玩任務以取得更多星星",
+                "MissionTitle": "任務 {0}",
+                "MissionReward": "解鎖一個新地點！",
+                "PerformStunts": "施展特技",
+                "ReachDistance": "到達距離",
+                "CollectTokens": "收集代幣",
+                "CollectLetters": "收集字母",
+                
+                "MissionRewardPopupHint": "達成任務即可獲得獎勵",
+                
+                "GiveUp": "要放棄嗎？",
+                "Yes": "是",
+                "No": "否",
+                
+                "TryAgain": "再試一次",
+                "GreatJob": "做得好",
+                "CurrentRank": "你的排名：",
+                "Restart": "重新開始",
+                "FreeRunDistance": "自由暢跑距離",
+                
+                "SaveMe": "救救我",
+                "Free": "免費",
+                
+                "FreeRun": "自由暢跑",
+                "BeatHighScore": "打破高分紀錄登上排行榜！",
+                "Championship": "冠軍賽",
+                "YourReward": "你的獎勵",
+                "Reward": "獎勵",
+                "TapToProceed": "輕觸以繼續",
+                "MissionComplete": "任務 {0} 完成",
+                
+                "Settings": "設定",
+                "Music": "音樂",
+                "SoundEffects": "音效",
+                "Language": "語言",
+                
+                "CollectReward": "領取獎勵",
+                "Claim": "領取",
+                
+                "NotEnoughCoins": "金幣不足",
+                "GetFreeCoins": "取得免費金幣",
+                
+                "GetForRun": "開跑 1 次取得",
+                
+                "Stunts": "特技",
+                "Upgrade": "升級",
+                "Maxed": "已達上限",
+                "Unlock": "解鎖",
+                
+                "YouWin": "你贏了！",
+                
+                "SuperNom": "SUPER NOM",
+                "OmNelle": "OM NELLE",
+                "RoboKid": "機器小子",
+                "TechKid": "科技小子",
+                "SpaceCowgirl": "太空女牛仔",
+                "SwordKid": "刀劍小子",
+                "Lick": "LICK",
+                "Boo": "BOO",
+                "OmNom": "OM NOM",
+                "NomOfSteel": "鋼鐵 Nom",
+                "FireNom": "火型 Nom",
+                "EarthNom": "土型 Nom",
+                "IceNom": "冰型 Nom",
+                "WindNom": "風型 Nom",
+                "OmNomX": "OM NOM X",
+                "You": "You!",
+                  
+                
+                "Log Roll": "快速旋轉",
+                "Triple Threat": "三項全能",
+                "Soaring Eagle": "翱翔之鷹",
+                
+                "Hail To The Masses": "向觀眾致敬",
+                "Get To The Choppa": "快上直昇機",
+                "Queen Of The World": "世界女王",
+                
+                "Chillax Kid": "冷靜小子",
+                "Nunchaku Kid": "雙節棍小子",
+                "Vitruvian Kid": "維特魯威小子",
+                
+                "Low Trajectory": "低空飛行",
+                "Scooterang": "滑板車",
+                "Orbital Dash": "軌道衝刺",
+                
+                "Hi Yo Scooter": "嗨呦機車！",
+                "Stellar Boost": "恆星加速",
+                "Sharp Scooter": "百步穿楊",
+                
+                "Bladespin": "旋風刀",
+                "Bravura Blade": "快刀斬亂麻",
+                "Domination": "征服世界",
+                
+                "Brace Yourself": "做好準備",
+                "High Dive": "高空躍下",
+                "Putting On Airs": "高高在上",
+                
+                "Tongue Twister": "繞口令",
+                "Lickety Split": "飛毛腿",
+                "Look Ma No Hands": "放開雙手",
+                
+                "Underachiever": "成績欠佳",
+                "Ricochet Slam": "彈跳猛擊",
+                "Train Wheel": "鐵路車輪"
+            }
+        }
+    ]
+}

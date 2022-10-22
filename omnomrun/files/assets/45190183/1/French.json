@@ -1,0 +1,140 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "fr"
+            },
+            "messages": {
+                "RunAndGet": "COURS ET OBTIENS",
+                "Selected": "SÉLECTIONNÉ",
+                
+                "LogInRewards": "RÉCOMPENSES DE CONNEXION",
+                "DayCount": "JOUR {0}",
+                
+                "StuntChampionShip": "CHAMPIONNAT DE FIGURES",
+                "PerformStuntsUntilTimeIsUp": "Réalise des figures jusqu'à la fin du temps imparti",
+                "StuntTimeLeft": "Temps restant :",
+                "TotalScore": "SCORE TOTAL",
+                "Prize": "PRIX",
+                
+                "FreeRunTitle": "TOP SCORES",
+                "FreeRunDescription": "Bats ton meilleur score en Course Libre",
+                "Run": "RUN",
+                
+                "WinCoins": "PIÈCES VICTOIRE",
+                "Spin": "TOUR",
+                "FreeSpin": "Tour GRATUIT",
+                "NextFreeSpin": "Tours gratuits dans {0}h {1}m",
+                
+                "Chapter": "CHAPITRE {0}",
+                "MissionsHint": "Rejoue aux missions pour obtenir plus d'étoiles",
+                "MissionTitle": "MISSION {0}",
+                "MissionReward": "Débloque un nouveau lieu!",
+                "PerformStunts": "Réaliser des figures",
+                "ReachDistance": "Atteindre la distance",
+                "CollectTokens": "Collecter des jetons",
+                "CollectLetters": "Collecter des lettres",
+                
+                "MissionRewardPopupHint": "Atteins la mission pour recevoir la récompense",
+                
+                "GiveUp": "ABANDONNER?",
+                "Yes": "OUI",
+                "No": "NON",
+                
+                "TryAgain": "RÉESSAYER",
+                "GreatJob": "SUPER BOULOT",
+                "CurrentRank": "TON RANG:",
+                "Restart": "Redémarrer",
+                "FreeRunDistance": "DISTANCE COURSE LIBRE",
+                
+                "SaveMe": "SAUVE-MOI",
+                "Free": "GRATUIT",
+                
+                "FreeRun": "COURSE LIBRE",
+                "BeatHighScore": "BATS TON MEILLEUR SCORE ET HISSE-TOI AU TOP DU CLASSEMENT!",
+                "Championship": "CHAMPIONNAT DE FIGURES",
+                "YourReward": "Ta récompense",
+                "Reward": "RÉCOMPENSE",
+                "TapToProceed": "Toucher pour continuer",
+                "MissionComplete": "MISSION {0} TERMINÉE",
+                
+                "Settings": "PARAMÈTRES",
+                "Music": "Musique",
+                "SoundEffects": "Effets sonores",
+                "Language": "Langue",
+                
+                "CollectReward": "COLLECTER RÉCOMPENSE",
+                "Claim": "RÉCUPÉRER",
+                
+                "NotEnoughCoins": "PAS ASSEZ DE PIÈCES",
+                "GetFreeCoins": "OBTENIR DES PIÈCES GRATUITES",
+                
+                "GetForRun": "Obtenir pour 1 Run",
+                
+                "Stunts": "FIGURES",
+                "Upgrade": "Améliorer",
+                "Maxed": "Max",
+                "Unlock": "Débloquer",
+                
+                "YouWin": "TU AS GAGNÉ!",
+                
+                "SuperNom": "SUPER NOM",
+                "OmNelle": "OM NELLE",
+                "RoboKid": "ROBO KID",
+                "TechKid": "TECH KID",
+                "SpaceCowgirl": "COW-GIRL DE L'ESPACE",
+                "SwordKid": "ÉPÉE KID",
+                "Lick": "LICK",
+                "Boo": "BOO",
+                "OmNom": "OM NOMIDAS",
+                "NomOfSteel": "NOM D'ACIER",
+                "FireNom": "NOM DE FEU",
+                "EarthNom": "NOM DE TERRE",
+                "IceNom": "NOM DE GLACE",
+                "WindNom": "NOM DE VENT",
+                "OmNomX": "OM NOM X",
+                "You": "You!",
+                
+                
+                "Log Roll": "Roulade-bûche",
+                "Triple Threat": "Triple menace",
+                "Soaring Eagle": "Aigle céleste",
+                
+                "Hail To The Masses": "Salutations aux masses laborieuses",
+                "Get To The Choppa": "Cap sur l'hélico",
+                "Queen Of The World": "Reine du monde",
+                
+                "Chillax Kid": "Relax Kid",
+                "Nunchaku Kid": "Nunchaku Kid",
+                "Vitruvian Kid": "Vitruvian Kid",
+                
+                "Low Trajectory": "Trajectoire basse",
+                "Scooterang": "Scooterang",
+                "Orbital Dash": "Ruée orbitale",
+                
+                "Hi Yo Scooter": "Scooter Hi-Yo!",
+                "Stellar Boost": "Boost stellaire",
+                "Sharp Scooter": "Tir-o-flanc",
+                
+                "Bladespin": "Lame tournoyante",
+                "Bravura Blade": "Lame de la bravoure",
+                "Domination": "Domination",
+                
+                "Brace Yourself": "Accroche-toi",
+                "High Dive": "Plongeon vertigineux",
+                "Putting On Airs": "Les grands airs",
+                
+                "Tongue Twister": "Dur-à-dire",
+                "Lickety Split": "Vitesse grand V",
+                "Look Ma No Hands": "Sans les mains",
+                
+                "Underachiever": "Sous-performant",
+                "Ricochet Slam": "Frappe ricochet",
+                "Train Wheel": "Roue de train"
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{ 
+    "OmNom":{},
+        
+    "SuperNom":{},
+        
+    "OmNelle":{
+        "minorCollide": "omNelleMinorCollide"
+    },
+        
+    "Boo":{ },
+        
+     "Lick":{ },
+        
+    "RoboKid":{ },
+        
+    "TechKid":{ },
+        
+    "SpaceCowgirl":{},
+        
+    "SwordKid":{ },
+        
+    "NomOfSteel":{},
+        
+    "FireNom":{},
+        
+    "EarthNom":{},
+        
+    "IceNom":{},
+        
+    "WindNom":{},
+        
+    "OmNomX":{ }
+}
