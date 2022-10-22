@@ -1,0 +1,37 @@
+{
+   "lastUnlockedMission": 8,
+   "earnedStars":[
+      {
+         "missionIndex":1,
+         "stars":3
+      },
+      {
+         "missionIndex":2,
+         "stars":2
+      },
+      {
+         "missionIndex":3,
+         "stars":2
+      },
+      {
+         "missionIndex":4,
+         "stars":2
+      },
+      {
+         "missionIndex":5,
+         "stars":0
+      },
+      {
+         "missionIndex":6,
+         "stars":3
+      },
+      {
+         "missionIndex":7,
+         "stars":1
+      },
+      {
+         "missionIndex":8,
+         "stars":2
+      }
+   ]
+}
