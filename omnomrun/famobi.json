@@ -1,0 +1,114 @@
+{
+	"features": {
+		"highscores": 1,
+		"rewarded": 1,
+		"leaderboard": 0,
+		"multiplayer": 0,
+		"standalone": 1,
+		"credits": 0,
+		"multiplayer_local": 1,
+		"audio": 1
+	},
+	"game_i18n": {},
+	"game_info": {
+		"client_version": "3.0.0",
+		"forced_mode": {
+			"state": {
+				"level": {
+					"description": "The current level. Keep the level number between 1 and 120 (incusive). Use -1 to start a endless mode",
+					"type": "number",
+					"min": -1,
+					"max": 120
+				},
+				"coins": {
+					"description": "The amount of coins available to player",
+					"type": "number",
+					"min": 0,
+					"max": 1000000
+				}
+			},
+			"override": {}
+		},
+		"track_stats": {
+			"total_meters_ran": {
+				"description": "Total distance run during all sessions",
+				"type": "number"
+			},
+			"characters_unlocked": {
+				"description": "How many characters unlocked",
+				"type": "number"
+			},
+			"skill_upgrades": {
+				"description": "Total skills upgrades",
+				"type": "number"
+			},
+			"coins_picked_up": {
+				"description": "Number of coins picked up coins while running",
+				"type": "number"
+			},
+			"coins_spent": {
+				"description": "Number of coins spent on upgrades",
+				"type": "number"
+			},
+			"num_lane_changes": {
+				"description": "How many times changed a lane/swiped",
+				"type": "number"
+			},
+			"num_jumps": {
+				"description": "How many times jumped",
+				"type": "number"
+			},
+			"num_slides": {
+				"description": "How many times slided",
+				"type": "number"
+			},
+			"num_deaths": {
+				"description": "How many times died/collided",
+				"type": "number"
+			},
+			"collected_letters": {
+				"description": "How many letters collected",
+				"type": "number"
+			},
+			"collected_tokens": {
+				"description": "How many tokens collected",
+				"type": "number"
+			},
+			"stunts_performed": {
+				"description": "How many stunts have been performed",
+				"type": "number"
+			},
+			"lucky_wheel_spins": {
+				"description": "How many tokens lucky wheel spinned",
+				"type": "number"
+			}
+		},
+		"orientation": {
+			"phone": {
+				"portrait": "green",
+				"landscape": "green"
+			},
+			"tablet": {
+				"portrait": "green",
+				"landscape": "green"
+			}
+		}
+	},
+	"aid": "A1234-5",
+	"logging": false,
+	"api": "famobi",
+	"name": "Google GameSnacks",
+	"more_games_url": "",
+	"more_games_button_image": "logo",
+	"show_splash": "",
+	"splash_duration": 3000,
+	"branch": "master",
+	"gameParams": {
+		"ad_type": "off"
+	},
+	"menuless": true,
+	"disable_console": false,
+	"includeJS": ["gamesnacks.js"],
+	"version": "4d3d09c6",
+	"supportedLanguages": []
+}

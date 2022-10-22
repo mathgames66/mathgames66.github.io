@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+    background-color: #1d292c;
+}
+body {
+    margin: 0;
+    max-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #1d292c;
+    font-family: Helvetica, arial, sans-serif;
+    position: relative;
+    width: 100%;
+
+    -webkit-tap-highlight-color: transparent;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    touch-action: none;
+    -webkit-touch-action: none;
+    -moz-touch-action: none;
+    -ms-touch-action: none;
+}
+
+#logo {
+    position: absolute;
+    top: 7%;
+    left: calc(50% - 256px);
+}
+
+#application-splash-wrapper {
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+#application-splash {
+    display: block;
+    position: absolute;
+    height: 64px;
+    width: 256px;
+    left: calc(50% - 128px);
+    bottom: 7%;
+}
+
+#application-splash img {
+    width: 100%;
+}
+
+#loaderBar {
+    bottom: 0;
+    height: 64px;
+    width: 0%;
+    position: absolute;
+    background-image: url('img/bar.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 256px 100%;
+    z-index: 10;
+}
+
+#loadingText {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 64px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 1px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    z-index: 100;
+}
+
+.hide {
+    opacity: 0 !important;
+    transition: opacity 0.3s ease-in;
+}
+
+@media (max-width: 480px) {
+    #application-splash {
+        height: 32px;
+        width: 128px;
+        left: calc(50% - 64px);
+    }
+
+    #loaderBar {
+        background-size: 128px 100%;
+        height: 32px;
+    }
+
+    #loadingText {
+        font-size: 24px;
+        line-height: 32px;
+        top: -25px;
+    }
+
+    #logo {
+        position: absolute;
+        left: calc(50% - 128px);
+        width: 256px;
+        height: 128px;
+    }
+}
+
+@media (max-height: 480px) {
+    #logo {
+        left: calc(50% - 150px);
+        width: 300px;
+        height: 150px;
+    }
+}
+
+#application-canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#application-canvas.fill-mode-NONE {
+    margin: auto;
+}
+#application-canvas.fill-mode-KEEP_ASPECT {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+#application-canvas.fill-mode-FILL_WINDOW {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+canvas:focus {
+    outline: none;
+}

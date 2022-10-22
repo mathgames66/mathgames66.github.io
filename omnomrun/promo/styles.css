@@ -1,0 +1,40 @@
+#huawei-promo-banner {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: center / cover no-repeat url("banner_portrait.jpg");
+}
+
+#huawei-promo-badge-holder {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+}
+
+#huawei-promo-badge {
+    width: auto;
+    height: 50vh;
+    max-height: 30vw;
+    min-height: 25vh;
+    background: center / contain no-repeat url("omnom_promo_badge_EN.png");
+}
+
+@media (orientation: landscape) {
+    #huawei-promo-banner {
+        background: center / cover no-repeat url("banner_landscape.jpg");
+    }
+    #huawei-promo-badge-holder {
+    }
+    #huawei-promo-badge {
+    }
+}
