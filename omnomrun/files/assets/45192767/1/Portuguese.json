@@ -1,0 +1,140 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "pt-PT"
+            },
+            "messages": {
+                "RunAndGet": "CORRA E GANHE",
+                "Selected": "SELECIONADO(A)",
+                
+                "LogInRewards": "RECOMPENSAS DE ACESSO",
+                "DayCount": "DIA {0}",
+                
+                "StuntChampionShip": "CAMPEONATO DE MANOBRAS",
+                "PerformStuntsUntilTimeIsUp": "Faça manobras até o tempo acabar",
+                "StuntTimeLeft": "Tempo restante:",
+                "TotalScore": "PONTUAÇÃO TOTAL",
+                "Prize": "PRÊMIO",
+                
+                "FreeRunTitle": "RECORDES",
+                "FreeRunDescription": "Supere o seu recorde na corrida grátis",
+                "Run": "CORRER",
+                
+                "WinCoins": "GANHAR MOEDAS",
+                "Spin": "GIRO",
+                "FreeSpin": "Giro GRÁTIS",
+                "NextFreeSpin": "Giros grátis em {0}h {1}m",
+                
+                "Chapter": "CAPÍTULO {0}",
+                "MissionsHint": "Jogue as missões novamente para ganhar mais estrelas",
+                "MissionTitle": "MISSÃO {0}",
+                "MissionReward": "Desbloqueie um novo local!",
+                "PerformStunts": "Faça manobras",
+                "ReachDistance": "Alcance a distância",
+                "CollectTokens": "Colete símbolos",
+                "CollectLetters": "Colete letras",
+                
+                "MissionRewardPopupHint": "Alcance a missão para obter a recompensa",
+                
+                "GiveUp": "DESISTIR?",
+                "Yes": "SIM",
+                "No": "NÃO",
+                
+                "TryAgain": "TENTAR NOVAMENTE",
+                "GreatJob": "MUITO BOM",
+                "CurrentRank": "SUA CLASSIFICAÇÃO:",
+                "Restart": "Reiniciar",
+                "FreeRunDistance": "DISTÂNCIA NA CORRIDA GRÁTIS",
+                
+                "SaveMe": "SALVE-ME",
+                "Free": "GRÁTIS",
+                
+                "FreeRun": "CORRIDA GRÁTIS",
+                "BeatHighScore": "SUPERE O SEU RECORDE PARA SUBIR NO PLACAR!",
+                "Championship": "CAMPEONATO DE MANOBRAS",
+                "YourReward": "Sua recompensa",
+                "Reward": "RECOMPENSA",
+                "TapToProceed": "Toque para prosseguir",
+                "MissionComplete": "MISSÃO {0} CONCLUÍDA",
+                
+                "Settings": "CONFIGURAÇÕES",
+                "Music": "Música",
+                "SoundEffects": "Efeitos Sonoros",
+                "Language": "Idioma",
+                
+                "CollectReward": "COLETAR RECOMPENSA",
+                "Claim": "REIVINDICAR",
+                
+                "NotEnoughCoins": "MOEDAS INSUFICIENTES",
+                "GetFreeCoins": "GANHE MOEDAS GRÁTIS",
+                
+                "GetForRun": "Obtenha por 1 corrida",
+                
+                "Stunts": "PROEZAS",
+                "Upgrade": "Melhorar",
+                "Maxed": "Máximo",
+                "Unlock": "Desbloquear",
+                
+                "YouWin": "VOCÊ VENCEU!",
+                
+                "SuperNom": "SUPER NOM",
+                "OmNelle": "OM NELLE",
+                "RoboKid": "GAROTO ROBÔ",
+                "TechKid": "GAROTO TECNOLÓGICO",
+                "SpaceCowgirl": "COWGIRL DO ESPAÇO",
+                "SwordKid": "GAROTO DA ESPADA",
+                "Lick": "LICK",
+                "Boo": "BOO",
+                "OmNom": "OM NOM",
+                "NomOfSteel": "NOM DE AÇO",
+                "FireNom": "NOM DE FOGO",
+                "EarthNom": "NOM DA TERRA",
+                "IceNom": "NOM DO GELO",
+                "WindNom": "NOM DO VENTO",
+                "OmNomX": "OM NOM X",
+                "You": "You!",
+                
+                
+                "Log Roll": "Rolar",
+                "Triple Threat": "Ameaça Tripla",
+                "Soaring Eagle": "Águia Ascendente",
+                
+                "Hail To The Masses": "Saudações às massas",
+                "Get To The Choppa": "Para o Choppa",
+                "Queen Of The World": "Rainha do Mundo",
+                
+                "Chillax Kid": "Garoto de boas",
+                "Nunchaku Kid": "Garoto do tchaco",
+                "Vitruvian Kid": "Garoto vitruviano",
+                
+                "Low Trajectory": "Trajetória baixa",
+                "Scooterang": "Motorangue",
+                "Orbital Dash": "Impulso Orbital",
+                
+                "Hi Yo Scooter": "Aiô, Scooter!",
+                "Stellar Boost": "Impulso Estelar",
+                "Sharp Scooter": "Lambreta",
+                
+                "Bladespin": "Giro de lâminas",
+                "Bravura Blade": "Espada Bravura",
+                "Domination": "Dominação",
+                
+                "Brace Yourself": "Segura Firme",
+                "High Dive": "Mergulho das Alturas",
+                "Putting On Airs": "Ar de Superioridade",
+                
+                "Tongue Twister": "Trava-língua",
+                "Lickety Split": "Dois Tempos",
+                "Look Ma No Hands": "Sem Usar as Mãos",
+                
+                "Underachiever": "Baixo desempenho",
+                "Ricochet Slam": "Batida ricocheteante",
+                "Train Wheel": "Roda de trem"
+            }
+        }
+    ]
+}

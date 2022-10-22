@@ -1,0 +1,1191 @@
+{
+    
+    "site": {
+		"0": "None",
+		"1": "Nomville_Streets",
+		"2": "Nomville_Rooftops",
+		"3": "Nomville_StormDrain",
+		"4": "Nomville_Fruitmarket",
+		"5": "Nomville_SpiderLair",
+		"6": "Highway_RobotFactory",
+		"7": "Highway_MagicForest",
+		"8": "Highway_SpaceStation",
+		"9": "Highway_Reserved_3",
+		"10": "Highway_Reserved_4",
+		"11": "Mountains_Mountaintop",
+		"12": "Mountains_Canyon",
+		"13": "Mountains_LavaCaves"
+    },
+        
+    "themes": {
+        "0": "None",
+		"1": "Nomville",
+		"2": "Nomville",
+		"3": "Nomville",
+		"4": "Nomville",
+		"5": "Nomville",
+		"6": "Highway",
+		"7": "Highway",
+		"8": "Highway",
+		"9": "Highway",
+		"10": "Highway",
+		"11": "Mountains",
+		"12": "Mountains",
+		"13": "Mountains"
+    },
+        
+    "assetType": {
+        "None": "None",
+        "Collectable_Apple": "Collectables",
+        "Collectable_Banknotes": "Collectables",
+        "Collectable_BlueprintPiece": "Collectables",
+        "Collectable_Coin": "Collectables",
+        "Collectable_Coin10x": "Collectables",
+        "Collectable_DNASample": "Collectables",
+        "Collectable_DoubleCoins": "Collectables",
+        "Collectable_EnergyIcon": "Collectables",
+        "Collectable_EvilDevices": "Collectables",
+        "Collectable_EvilFlyingCameraDrone": "Collectables",
+        "Collectable_EvilPropagandaLeaflet": "Collectables",
+        "Collectable_EvilSurveillanceBalloons": "Collectables",
+        "Collectable_FirstPerson": "Collectables",
+        "Collectable_Letter": "Collectables",
+        "Collectable_Magnet": "Collectables",
+        "Collectable_Magnet3D": "Collectables",
+        "Collectable_Matches": "Collectables",
+        "Collectable_OxygenBottle": "Collectables",
+        "Collectable_Pogostick": "Collectables",
+        "Collectable_PowerIcon": "Collectables",
+        "Collectable_PowerUp": "Collectables",
+        "Collectable_ScentTrail": "Collectables",
+        "Collectable_SecurityTape": "Collectables",
+        "Collectable_SignalBooster": "Collectables",
+        "Collectable_Sledgehammer": "Collectables",
+        "Collectable_SuperHero": "Collectables",
+        "Collectable_SuperPowers": "Collectables",
+        "Collectable_VillainToken": "Collectables",
+        "Collectable_WaterBottle": "Collectables",
+        "Obstacle_H1": "Obstacles",
+        "Obstacle_H1g": "Obstacles",
+        "Obstacle_H1W2": "Obstacles",
+        "Obstacle_H1W2g": "Obstacles",
+        "Obstacle_H1W3": "Obstacles",
+        "Obstacle_H1W3g": "Obstacles",
+        "Obstacle_H2": "Obstacles",
+        "Obstacle_H2g": "Obstacles",
+        "Obstacle_H2W2": "Obstacles",
+        "Obstacle_H2W3": "Obstacles",
+        "Obstacle_H2W2g": "Obstacles",
+        "Obstacle_H2W3g": "Obstacles",
+        "Obstacle_H3": "Obstacles",
+        "Obstacle_H3W2": "Obstacles",
+        "Obstacle_H3W3": "Obstacles",
+        "Obstacle_LH1": "Obstacles",
+        "Obstacle_LH2": "Obstacles",
+        "Obstacle_LMH2": "Obstacles",
+        "Obstacle_RA": "Obstacles",
+        "Obstacle_MRA": "Obstacles",
+        "Obstacle_Wallrun": "Obstacles",
+        "Obstacle_Trigger": "Obstacles"
+    },
+    
+    "lane": {
+        
+        "Nomville_Streets": {
+            "0": "Nomville_Streets_LanePart_01",
+            "1": "Nomville_Streets_LanePart_02",
+            "2": "Nomville_Streets_LanePart_03",
+            "3": "Nomville_Streets_LanePart_04",
+            "4": "Nomville_Streets_LanePart_05",
+            "5": "Nomville_Streets_LanePart_06",
+            "6": "Nomville_Streets_LanePart_07",
+            "7": "Nomville_Streets_LanePart_08",
+            "8": "Nomville_Streets_LanePart_09",
+            "9": "Nomville_Streets_LanePart_10",
+            "10": "Nomville_Streets_LanePart_11",
+            "11": "Nomville_Streets_LanePart_12",
+            "12": "Nomville_Streets_LanePart_13",
+            "13": "Nomville_Streets_LanePart_14",
+            "14": "Nomville_Streets_LanePart_15",
+            "15": "Nomville_Streets_LanePart_16",
+            "16": "Nomville_Streets_LanePart_17",
+            "17": "Nomville_Streets_LanePart_18",
+            "18": "Nomville_Streets_LanePart_19",
+            "19": "Nomville_Streets_LanePart_20",
+            "20": "Nomville_Streets_LanePart_21",
+            "21": "Nomville_Streets_LanePart_22",
+            "22": "Nomville_Streets_LanePart_23",
+            "23": "Nomville_Streets_LanePart_24",
+            "24": "Nomville_Streets_LanePart_25",
+            "25": "Nomville_Streets_LanePart_26",
+            "26": "Nomville_Streets_LanePart_27",
+            "27": "Nomville_Streets_LanePart_28",
+            "28": "Nomville_Streets_LanePart_29",
+            "29": "Nomville_Streets_LanePart_30",
+            "30": "Nomville_Streets_LanePart_31",
+            "31": "Nomville_Streets_LanePart_32"
+        },
+        
+        "Nomville_StormDrain": {
+            "0": "Nomville_StormDrain_LanePart_01",
+            "1": "Nomville_StormDrain_LanePart_02",
+            "2": "Nomville_StormDrain_LanePart_03",
+            "3": "Nomville_StormDrain_LanePart_04",
+            "4": "Nomville_StormDrain_LanePart_05",
+            "5": "Nomville_StormDrain_LanePart_06",
+            "6": "Nomville_StormDrain_LanePart_07",
+            "7": "Nomville_StormDrain_LanePart_08",
+            "8": "Nomville_StormDrain_LanePart_09",
+            "9": "Nomville_StormDrain_LanePart_10",
+            "10": "Nomville_StormDrain_LanePart_11",
+            "11": "Nomville_StormDrain_LanePart_12",
+            "12": "Nomville_StormDrain_LanePart_13",
+            "13": "Nomville_StormDrain_LanePart_14",
+            "14": "Nomville_StormDrain_LanePart_15",
+            "15": "Nomville_StormDrain_LanePart_16",
+            "16": "Nomville_StormDrain_LanePart_17",
+            "17": "Nomville_StormDrain_LanePart_18",
+            "18": "Nomville_StormDrain_LanePart_19",
+            "19": "Nomville_StormDrain_LanePart_20",
+            "20": "Nomville_StormDrain_LanePart_21"
+        },
+            
+        "Nomville_Fruitmarket": {
+            "0": "Nomville_Fruitmarket_LanePart_01",
+            "1": "Nomville_Fruitmarket_LanePart_02",
+            "2": "Nomville_Fruitmarket_LanePart_03",
+            "3": "Nomville_Fruitmarket_LanePart_04",
+            "4": "Nomville_Fruitmarket_LanePart_05",
+            "5": "Nomville_Fruitmarket_LanePart_06",
+            "6": "Nomville_Fruitmarket_LanePart_07",
+            "7": "Nomville_Fruitmarket_LanePart_08",
+            "8": "Nomville_Fruitmarket_LanePart_09",
+            "9": "Nomville_Fruitmarket_LanePart_10",
+            "10": "Nomville_Fruitmarket_LanePart_11",
+            "11": "Nomville_Fruitmarket_LanePart_12",
+            "12": "Nomville_Fruitmarket_LanePart_13",
+            "13": "Nomville_Fruitmarket_LanePart_14",
+            "14": "Nomville_Fruitmarket_LanePart_15",
+            "15": "Nomville_Fruitmarket_LanePart_16",
+            "16": "Nomville_Fruitmarket_LanePart_17",
+            "17": "Nomville_Fruitmarket_LanePart_18"
+        },
+            
+        "Nomville_Rooftops": {
+            "0": "Nomville_Rooftops_LanePart_01",
+            "1": "Nomville_Rooftops_LanePart_02",
+            "2": "Nomville_Rooftops_LanePart_03",
+            "3": "Nomville_Rooftops_LanePart_04",
+            "4": "Nomville_Rooftops_LanePart_05",
+            "5": "Nomville_Rooftops_LanePart_06",
+            "6": "Nomville_Rooftops_LanePart_07",
+            "7": "Nomville_Rooftops_LanePart_08",
+            "8": "Nomville_Rooftops_LanePart_09",
+            "9": "Nomville_Rooftops_LanePart_10",
+            "10": "Nomville_Rooftops_LanePart_11",
+            "11": "Nomville_Rooftops_LanePart_12",
+            "12": "Nomville_Rooftops_LanePart_13",
+            "13": "Nomville_Rooftops_LanePart_14"
+        },
+            
+        "Nomville_SpiderLair": {
+            "0": "Nomville_SpiderLair_LanePart_01",
+            "1": "Nomville_SpiderLair_LanePart_02", 
+            "2": "Nomville_SpiderLair_LanePart_03"
+        },
+
+        "Highway_MagicForest": {
+            "0": "Highway_MagicForest_LanePart_01",
+            "1": "Highway_MagicForest_LanePart_02",
+            "2": "Highway_MagicForest_LanePart_03",
+            "3": "Highway_MagicForest_LanePart_04",
+            "4": "Highway_MagicForest_LanePart_05",
+            "5": "Highway_MagicForest_LanePart_06",
+            "6": "Highway_MagicForest_LanePart_07",
+            "7": "Highway_MagicForest_LanePart_08",
+            "8": "Highway_MagicForest_LanePart_09",
+            "9": "Highway_MagicForest_LanePart_10",
+            "10": "Highway_MagicForest_LanePart_11",
+            "11": "Highway_MagicForest_LanePart_12"
+        },
+            
+        "Highway_RobotFactory": {
+            "0": "Highway_RobotFactory_LanePart_01",
+            "1": "Highway_RobotFactory_LanePart_02",
+            "2": "Highway_RobotFactory_LanePart_03",
+            "3": "Highway_RobotFactory_LanePart_04",
+            "4": "Highway_RobotFactory_LanePart_05",
+            "5": "Highway_RobotFactory_LanePart_06",
+            "6": "Highway_RobotFactory_LanePart_07",
+            "7": "Highway_RobotFactory_LanePart_08",
+            "8": "Highway_RobotFactory_LanePart_09",
+            "9": "Highway_RobotFactory_LanePart_10",
+            "10": "Highway_RobotFactory_LanePart_11",
+            "11": "Highway_RobotFactory_LanePart_12",
+            "12": "Highway_RobotFactory_LanePart_13"
+        },
+            
+        "Highway_SpaceStation": {
+            "0": "Highway_SpaceStation_LanePart_01",
+            "1": "Highway_SpaceStation_LanePart_02",
+            "2": "Highway_SpaceStation_LanePart_03",
+            "3": "Highway_SpaceStation_LanePart_04",
+            "4": "Highway_SpaceStation_LanePart_05",
+            "5": "Highway_SpaceStation_LanePart_06",
+            "6": "Highway_SpaceStation_LanePart_07",
+            "7": "Highway_SpaceStation_LanePart_08",
+            "8": "Highway_SpaceStation_LanePart_09",
+            "9": "Highway_SpaceStation_LanePart_10",
+            "10": "Highway_SpaceStation_LanePart_11",
+            "11": "Highway_SpaceStation_LanePart_12"
+        }
+     
+    },
+         
+    "terrain": {
+        
+        "Nomville": {
+            
+            "Nomville_Streets": {
+                "0": "Nomville_Streets_Terrain_01",
+                "1": "Nomville_Streets_Terrain_02",
+                "2": "Nomville_Streets_Terrain_03",
+                "3": "Nomville_Streets_Terrain_04",
+                "4": "Nomville_Streets_Terrain_05",
+                "5": "Nomville_Streets_Terrain_06",
+                "6": "Nomville_Streets_Terrain_07",
+                "7": "Nomville_Streets_Terrain_08",
+                "8": "Nomville_Streets_Terrain_09",
+                "9": "Nomville_Streets_Terrain_10",
+                "10": "Nomville_Streets_Terrain_11",
+                "11": "Nomville_Streets_Terrain_12",
+                "12": "Nomville_Streets_Terrain_13",
+                "13": "Nomville_Streets_Terrain_14",
+                "14": "Nomville_Streets_Terrain_15",
+                "15": "Nomville_Streets_Terrain_16",
+                "16": "Nomville_Streets_Terrain_17",
+                "17": "Nomville_Streets_Terrain_18"
+            },
+                
+            "Nomville_StormDrain": {
+                "0": "Nomville_StormDrain_Terrain_01",
+                "1": "Nomville_StormDrain_Terrain_02",
+                "2": "Nomville_StormDrain_Terrain_03",
+                "3": "Nomville_StormDrain_Terrain_04",
+                "4": "Nomville_StormDrain_Terrain_05",
+                "5": "Nomville_StormDrain_Terrain_06",
+                "6": "Nomville_StormDrain_Terrain_07",
+                "7": "Nomville_StormDrain_Terrain_08",
+                "8": "Nomville_StormDrain_Terrain_09",
+                "9": "Nomville_StormDrain_Terrain_10",
+                "10": "Nomville_StormDrain_Terrain_11",
+                "11": "Nomville_StormDrain_Terrain_12",
+                "12": "Nomville_StormDrain_Terrain_13",
+                "13": "Nomville_StormDrain_Terrain_14",
+                "14": "Nomville_StormDrain_Terrain_15",
+                "15": "Nomville_StormDrain_Terrain_16",
+                "16": "Nomville_StormDrain_Terrain_17"
+            },
+                
+            "Nomville_Fruitmarket": {
+                "0": "Nomville_Fruitmarket_Terrain_01",
+                "1": "Nomville_Fruitmarket_Terrain_02",                
+                "2": "Nomville_Fruitmarket_Terrain_03",               
+                "3": "Nomville_Fruitmarket_Terrain_04"                
+            },
+                
+            "Nomville_Rooftops": {
+                "0": "Nomville_Rooftops_Terrain_01",    
+                "1": "Nomville_Rooftops_Terrain_02",    
+                "2": "Nomville_Rooftops_Terrain_03",    
+                "3": "Nomville_Rooftops_Terrain_04",    
+                "4": "Nomville_Rooftops_Terrain_05",    
+                "5": "Nomville_Rooftops_Terrain_06",
+                "6": "Nomville_Rooftops_Terrain_07",    
+                "7": "Nomville_Rooftops_Terrain_08",    
+                "8": "Nomville_Rooftops_Terrain_09"    
+            },
+                
+            "Nomville_SpiderLair": {
+                "0": "Nomville_SpiderLair_Terrain_01",
+                "1": "Nomville_SpiderLair_Terrain_02",
+                "2": "Nomville_SpiderLair_Terrain_03",
+                "3": "Nomville_SpiderLair_Terrain_04",
+                "4": "Nomville_SpiderLair_Terrain_05",
+                "5": "Nomville_SpiderLair_Terrain_06",
+                "6": "Nomville_SpiderLair_Terrain_07"
+            }
+        },
+            
+        "Highway": {
+            
+            "Highway_MagicForest": {
+                "0": "Highway_MagicForest_Terrain_01",
+                "1": "Highway_MagicForest_Terrain_02",
+                "2": "Highway_MagicForest_Terrain_03",
+                "3": "Highway_MagicForest_Terrain_04",
+                "4": "Highway_MagicForest_Terrain_05",
+                "5": "Highway_MagicForest_Terrain_06",
+                "6": "Highway_MagicForest_Terrain_07",
+                "7": "Highway_MagicForest_Terrain_08",
+                "8": "Highway_MagicForest_Terrain_09",
+                "9": "Highway_MagicForest_Terrain_10",
+                "10": "Highway_MagicForest_Terrain_11",
+                "11": "Highway_MagicForest_Terrain_12"
+            },
+            
+            "Highway_RobotFactory": {
+                "0": "Highway_RobotFactory_Terrain_01",
+                "1": "Highway_RobotFactory_Terrain_02",
+                "2": "Highway_RobotFactory_Terrain_03",
+                "3": "Highway_RobotFactory_Terrain_04",
+                "4": "Highway_RobotFactory_Terrain_05",
+                "5": "Highway_RobotFactory_Terrain_06",
+                "6": "Highway_RobotFactory_Terrain_07",
+                "7": "Highway_RobotFactory_Terrain_08",
+                "8": "Highway_RobotFactory_Terrain_09"
+            },
+                
+            "Highway_SpaceStation": {
+                "0": "Highway_SpaceStation_Terrain_01",
+                "1": "Highway_SpaceStation_Terrain_02",
+                "2": "Highway_SpaceStation_Terrain_03",
+                "3": "Highway_SpaceStation_Terrain_04",
+                "4": "Highway_SpaceStation_Terrain_05",
+                "5": "Highway_SpaceStation_Terrain_06",
+                "6": "Highway_SpaceStation_Terrain_07",
+                "7": "Highway_SpaceStation_Terrain_08",
+                "8": "Highway_SpaceStation_Terrain_09",
+                "9": "Highway_SpaceStation_Terrain_10",
+                "10": "Highway_SpaceStation_Terrain_11",
+                "11": "Highway_SpaceStation_Terrain_12",
+                "12": "Highway_SpaceStation_Terrain_13"
+            }
+        }
+        
+    },
+        
+    "laneObjects": {
+        
+        "Collectables": {
+            
+            "Collectable_Apple": {
+                
+                "0": "item-apple"
+                
+            },
+                
+            "Collectable_Banknotes": {},
+                
+            "Collectable_BlueprintPiece": {},
+                
+            "Collectable_Coin": {
+
+                "0": "item-coin" 
+
+            },
+                
+            "Collectable_Coin10x": {
+                
+                "0": "item-coin-10x"
+                
+            },
+                
+            "Collectable_DNASample": {},
+                
+            "Collectable_DoubleCoins": {},
+                
+            "Collectable_EnergyIcon": {},
+                
+            "Collectable_EvilDevices": {},
+                
+            "Collectable_EvilFlyingCameraDrone": {
+                
+                "0": "item-camera_robot"
+                
+            },
+                
+            "Collectable_EvilPropagandaLeaflet": {},
+                
+            "Collectable_EvilSurveillanceBalloons": {},
+                
+            "Collectable_FirstPerson": {},
+                
+            "Collectable_Letter": {},
+            "Collectable_Magnet": {},
+            "Collectable_Magnet3D": {},
+            "Collectable_Matches": {},
+            "Collectable_OxygenBottle": {},
+            "Collectable_Pogostick": {},
+            "Collectable_PowerIcon": {},
+        
+            "Collectable_PowerUp": {
+                "0": "Shared_01 Default",
+                "1": "Shared_02 MissionCollectable",
+                "2": "Shared_03 HealthCollectable",
+                "3": "Shared_04 TrickyJumpHealthCollectable",
+                "4": "Shared_05 CannonCollectable",
+                "5": "Shared_06 GuaranteedHealthCollectable",
+                "6": "Shared_07 GuaranteedMissionCollectable",
+                "7": "Shared_08 SuperPowersCollectable",
+                "8": "Shared_09 TrickyJumpSuperPowersCollectable"
+            },
+                
+            "Collectable_ScentTrail": {},
+            "Collectable_SecurityTape": {},
+            "Collectable_SignalBooster": {},
+            "Collectable_Sledgehammer": {},
+            "Collectable_SuperHero": {},
+            "Collectable_SuperPowers": {},
+            "Collectable_VillainToken": {},
+            "Collectable_WaterBottle": {}
+            
+        },
+            
+        "Obstacles": {
+        
+            "Nomville": {
+            
+                "Nomville_Fruitmarket": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Nomville_FruitMarket_Obstacle_H1_01",
+                        "1": "Nomville_FruitMarket_Obstacle_H1_02",
+                        "2": "Nomville_FruitMarket_Obstacle_H1_03",
+                        "3": "Nomville_FruitMarket_Obstacle_H1_04",
+                        "4": "Nomville_FruitMarket_Obstacle_H1_05",
+                        "5": "Nomville_FruitMarket_Obstacle_H1_06",
+                        "6": "Nomville_FruitMarket_Obstacle_H1_07",
+                        "7": "Nomville_FruitMarket_Obstacle_H1_08",
+                        "8": "Nomville_FruitMarket_Obstacle_H1_09"
+                    },
+                        
+                    "Obstacle_H1W2": {
+                        "0": "Nomville_FruitMarket_Obstacle_H1W2_01"    
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Nomville_FruitMarket_Obstacle_H1W3_01"    
+                    },
+
+                    "Obstacle_H2": {
+                        "0": "Nomville_FruitMarket_Obstacle_H2_01",
+                        "1": "Nomville_FruitMarket_Obstacle_H2_02",
+                        "2": "Nomville_FruitMarket_Obstacle_H2_03"
+                    },
+
+                    "Obstacle_H2W3": {
+                        "0": "Nomville_FruitMarket_Obstacle_H2W3_01",
+                        "1": "Nomville_FruitMarket_Obstacle_H2W3_02",
+                        "2": "Nomville_FruitMarket_Obstacle_H2W3_03",
+                        "3": "Nomville_FruitMarket_Obstacle_H2W3_04"
+                    },
+
+                    "Obstacle_H3": {
+                        "0": "Nomville_FruitMarket_Obstacle_H3_01"
+                    },
+
+                    "Obstacle_LH1": {
+                        "0": "Nomville_FruitMarket_Obstacle_LH1_01"
+                    },
+
+                    "Obstacle_LH2": {
+                        "0": "Nomville_FruitMarket_Obstacle_LH2_01",
+                        "1": "Nomville_FruitMarket_Obstacle_LH2_02",
+                        "2": "Nomville_FruitMarket_Obstacle_LH2_03",
+                        "3": "Nomville_FruitMarket_Obstacle_LH2_04",
+                        "4": "Nomville_FruitMarket_Obstacle_LH2_05"
+                    },
+
+                    "Obstacle_RA": {
+                        "0": "Nomville_FruitMarket_Obstacle_RA_01",
+                        "1": "Nomville_FruitMarket_Obstacle_RA_02",
+                        "2": "Nomville_FruitMarket_Obstacle_RA_03",
+                        "3": "Nomville_FruitMarket_Obstacle_RA_04",
+                        "4": "Nomville_FruitMarket_Obstacle_RA_05"
+                    }
+                    
+                },
+                    
+                "Nomville_Rooftops": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Nomville_Rooftops_Obstacle_H1_01",
+                        "1": "Nomville_Rooftops_Obstacle_H1_02",
+                        "2": "Nomville_Rooftops_Obstacle_H1_03",
+                        "3": "Nomville_Rooftops_Obstacle_H1_04",
+                        "4": "Nomville_Rooftops_Obstacle_H1_05",
+                        "5": "Nomville_Rooftops_Obstacle_H1_06",
+                        "6": "Nomville_Rooftops_Obstacle_H1_07",
+                        "7": "Nomville_Rooftops_Obstacle_H1_08",
+                        "8": "Nomville_Rooftops_Obstacle_H1_09"
+                    },
+
+                    "Obstacle_H1W2": {
+                        "0": "Nomville_Rooftops_Obstacle_H1W2_01"
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Nomville_Rooftops_Obstacle_H1W3_01"    
+                    },
+
+                    "Obstacle_H2": {
+                        "0": "Nomville_Rooftops_Obstacle_H2_01",
+                        "1": "Nomville_Rooftops_Obstacle_H2_02",
+                        "2": "Nomville_Rooftops_Obstacle_H2_03",
+                        "3": "Nomville_Rooftops_Obstacle_H2_04",
+                        "4": "Nomville_Rooftops_Obstacle_H2_05",
+                        "5": "Nomville_Rooftops_Obstacle_H2_06"
+                    },
+
+                    "Obstacle_H2g": {
+                        "0": "Nomville_Rooftops_Obstacle_H2g_01"
+                    },
+
+                    "Obstacle_H2W2": {
+                        "0": "Nomville_Rooftops_Obstacle_H2W2_01",
+                        "1": "Nomville_Rooftops_Obstacle_H2W2_02"
+                    },
+
+                    "Obstacle_H3": {
+                        "0": "Nomville_Rooftops_Obstacle_H3_01"
+                    },
+
+                    "Obstacle_LH2": {
+                        "0": "Nomville_Rooftops_Obstacle_LH2_01",
+                        "1": "Nomville_Rooftops_Obstacle_LH2_02",
+                        "2": "Nomville_Rooftops_Obstacle_LH2_03",
+                        "3": "Nomville_Rooftops_Obstacle_LH2_04"
+                    },
+
+                    "Obstacle_RA": {
+                        "0": "Nomville_Rooftops_Obstacle_RA_01",
+                        "1": "Nomville_Rooftops_Obstacle_RA_02"
+                    },
+                        
+                    "Obstacle_Trigger": {
+                        "0": "Nomville_Rooftops_Obstacle_Trigger_01"
+                    }                    
+                },
+                    
+                "Nomville_SpiderLair": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Nomville_SpiderLair_Obstacle_H1_01",
+                        "1": "Nomville_SpiderLair_Obstacle_H1_02",    
+                        "2": "Nomville_SpiderLair_Obstacle_H1_03",    
+                        "3": "Nomville_SpiderLair_Obstacle_H1_04",    
+                        "4": "Nomville_SpiderLair_Obstacle_H1_05",    
+                        "5": "Nomville_SpiderLair_Obstacle_H1_06"
+                    },
+                    
+                    "Obstacle_H1W2g": {
+                        "0": "Nomville_SpiderLair_Obstacle_H1W2g_01",
+                        "1": "Nomville_SpiderLair_Obstacle_H1W2g_02"
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Nomville_SpiderLair_Obstacle_H1W3_01",
+                        "1": "Nomville_SpiderLair_Obstacle_H1W3_02"    
+                    },
+                        
+                    "Obstacle_H1W3g": {
+                        "0": "Nomville_SpiderLair_Obstacle_H1W3g_01"    
+                    },
+                    
+                    "Obstacle_H2": {
+                        "0": "Nomville_SpiderLair_Obstacle_H2_01",
+                        "1": "Nomville_SpiderLair_Obstacle_H2_02"
+                    },
+                        
+                    "Obstacle_H2W2": {
+                        "0": "Nomville_SpiderLair_Obstacle_H2W2_01"                        
+                    },
+                        
+                    "Obstacle_H2W2g": {
+                        "0": "Nomville_SpiderLair_Obstacle_H2W2g_01"                        
+                    },
+                    
+                    "Obstacle_H2W3": {
+                        "0": "Nomville_SpiderLair_Obstacle_H2W3_01"                        
+                    },
+                        
+                    "Obstacle_H2W3g": {
+                        "0": "Nomville_SpiderLair_Obstacle_H2W3g_01"                
+                    },
+                        
+                    "Obstacle_H3": {
+                        "0": "Nomville_SpiderLair_Obstacle_H3_01",
+                        "1": "Nomville_SpiderLair_Obstacle_H3_02",                            
+                        "2": "Nomville_SpiderLair_Obstacle_H3_03",                            
+                        "3": "Nomville_SpiderLair_Obstacle_H3_04",                            
+                        "4": "Nomville_SpiderLair_Obstacle_H3_05",                            
+                        "5": "Nomville_SpiderLair_Obstacle_H3_06",                            
+                        "6": "Nomville_SpiderLair_Obstacle_H3_07",
+                        "7": "Nomville_SpiderLair_Obstacle_H3_08",
+                        "8": "Nomville_SpiderLair_Obstacle_H3_09",                            
+                        "9": "Nomville_SpiderLair_Obstacle_H3_10",                            
+                        "10": "Nomville_SpiderLair_Obstacle_H3_11",                            
+                        "11": "Nomville_SpiderLair_Obstacle_H3_12"
+                    },
+                        
+                    "Obstacle_H3W3": {
+                        "0": "Nomville_SpiderLair_Obstacle_H3W3_01"                        
+                    },
+                        
+                    "Obstacle_LH1": {
+                        "0": "Nomville_SpiderLair_Obstacle_LH1_01",
+                        "1": "Nomville_SpiderLair_Obstacle_LH1_02"
+                    },
+                        
+                    "Obstacle_LH2": {
+                        "0": "Nomville_SpiderLair_Obstacle_LH2_01",
+                        "1": "Nomville_SpiderLair_Obstacle_LH2_02"
+                    },
+                        
+                    "Obstacle_RA": {
+                        "0": "Nomville_SpiderLair_Obstacle_RA_01",
+                        "1": "Nomville_SpiderLair_Obstacle_RA_02"
+                    },
+                        
+                    "Obstacle_Trigger": {
+                        "0": "Nomville_SpiderLair_Obstacle_Trigger_01",
+                        "1": "Nomville_SpiderLair_Obstacle_Trigger_02",
+                        "2": "Nomville_SpiderLair_Obstacle_Trigger_03",
+                        "3": "Nomville_SpiderLair_Obstacle_Trigger_04",
+                        "4": "Nomville_SpiderLair_Obstacle_Trigger_05",
+                        "5": "Nomville_SpiderLair_Obstacle_Trigger_06"
+                    },
+                    
+                    "Obstacle_Wallrun": {
+                        "0": "Nomville_SpiderLair_Obstacle_Wallrun_01",
+                        "1": "Nomville_SpiderLair_Obstacle_Wallrun_02",
+                        "2": "Nomville_SpiderLair_Obstacle_Wallrun_03",
+                        "3": "Nomville_SpiderLair_Obstacle_Wallrun_04",
+                        "4": "Nomville_SpiderLair_Obstacle_Wallrun_05",
+                        "5": "Nomville_SpiderLair_Obstacle_Wallrun_06",
+                        "6": "Nomville_SpiderLair_Obstacle_Wallrun_07",
+                        "7": "Nomville_SpiderLair_Obstacle_Wallrun_08",
+                        "8": "Nomville_SpiderLair_Obstacle_Wallrun_09",
+                        "9": "Nomville_SpiderLair_Obstacle_Wallrun_10",
+                        "10": "Nomville_SpiderLair_Obstacle_Wallrun_11",
+                        "11": "Nomville_SpiderLair_Obstacle_Wallrun_12"
+                    }
+                    
+                },
+                    
+                "Nomville_StormDrain": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Nomville_StormDrain_Obstacle_H1_01",
+                        "1": "Nomville_StormDrain_Obstacle_H1_02",
+                        "2": "Nomville_StormDrain_Obstacle_H1_03",
+                        "3": "Nomville_StormDrain_Obstacle_H1_04",
+                        "4": "Nomville_StormDrain_Obstacle_H1_05",
+                        "5": "Nomville_StormDrain_Obstacle_H1_06",
+                        "6": "Nomville_StormDrain_Obstacle_H1_07"
+                    },
+                        
+                    "Obstacle_H1W2": {
+                        "0": "Nomville_StormDrain_Obstacle_H1W2_01"
+                    },
+                        
+                    "Obstacle_H1W2g": {
+                        "0": "Nomville_StormDrain_Obstacle_H1W2g_01",
+                        "1": "Nomville_StormDrain_Obstacle_H1W2g_02"
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Nomville_StormDrain_Obstacle_H1W3_01",
+                        "1": "Nomville_StormDrain_Obstacle_H1W3_02",
+                        "2": "Nomville_StormDrain_Obstacle_H1W3_03"
+                    },
+                        
+                    "Obstacle_H1W3g": {
+                        "0": "Nomville_StormDrain_Obstacle_H1W3g_01"
+                    },
+                        
+                    "Obstacle_H2": {
+                        "0": "Nomville_StormDrain_Obstacle_H2_01",
+                        "1": "Nomville_StormDrain_Obstacle_H2_02"
+                    },
+                        
+                    "Obstacle_H2W2": {
+                        "0": "Nomville_StormDrain_Obstacle_H2W2_01"    
+                    },
+                        
+                    "Obstacle_H2W2g": {
+                        "0": "Nomville_StormDrain_Obstacle_H2W2g_01",
+                        "1": "Nomville_StormDrain_Obstacle_H2W2g_02"
+                    },
+                        
+                    "Obstacle_H2W3g": {
+                        "0": "Nomville_StormDrain_Obstacle_H2W3g_01"
+                    },
+                        
+                    "Obstacle_H3": {
+                        "0": "Nomville_StormDrain_Obstacle_H3_01",
+                        "1": "Nomville_StormDrain_Obstacle_H3_02",
+                        "2": "Nomville_StormDrain_Obstacle_H3_03",
+                        "3": "Nomville_StormDrain_Obstacle_H3_04",
+                        "4": "Nomville_StormDrain_Obstacle_H3_05",
+                        "5": "Nomville_StormDrain_Obstacle_H3_06",
+                        "6": "Nomville_StormDrain_Obstacle_H3_07",
+                        "7": "Nomville_StormDrain_Obstacle_H3_08",
+                        "8": "Nomville_StormDrain_Obstacle_H3_09"
+                    },
+                        
+                    "Obstacle_LH1": {
+                        "0": "Nomville_StormDrain_Obstacle_LH1_01",
+                        "1": "Nomville_StormDrain_Obstacle_LH1_02"
+                    },
+                        
+                    "Obstacle_LH2": {
+                        "0": "Nomville_StormDrain_Obstacle_LH2_01",
+                        "1": "Nomville_StormDrain_Obstacle_LH2_02",
+                        "2": "Nomville_StormDrain_Obstacle_LH2_03",
+                        "3": "Nomville_StormDrain_Obstacle_LH2_04",
+                        "4": "Nomville_StormDrain_Obstacle_LH2_05"
+                    },
+                        
+                    "Obstacle_RA": {
+                        "0": "Nomville_StormDrain_Obstacle_RA_01",
+                        "1": "Nomville_StormDrain_Obstacle_RA_02",
+                        "2": "Nomville_StormDrain_Obstacle_RA_03"
+                    },
+                        
+                    "Obstacle_Trigger": {
+                        "0": "Nomville_StormDrain_Obstacle_Trigger_01",
+                        "1": "Nomville_StormDrain_Obstacle_Trigger_02",
+                        "2": "Nomville_StormDrain_Obstacle_Trigger_03",
+                        "3": "Nomville_StormDrain_Obstacle_Trigger_04",
+                        "4": "Nomville_StormDrain_Obstacle_Trigger_05",
+                        "5": "Nomville_StormDrain_Obstacle_Trigger_06"
+                    },
+                        
+                    "Obstacle_Wallrun": {
+                        "0": "Nomville_StormDrain_Obstacle_Wallrun_01",
+                        "1": "Nomville_StormDrain_Obstacle_Wallrun_02",
+                        "2": "Nomville_StormDrain_Obstacle_Wallrun_03",
+                        "3": "Nomville_StormDrain_Obstacle_Wallrun_04",
+                        "4": "Nomville_StormDrain_Obstacle_Wallrun_05",
+                        "5": "Nomville_StormDrain_Obstacle_Wallrun_06",
+                        "6": "Nomville_StormDrain_Obstacle_Wallrun_07",
+                        "7": "Nomville_StormDrain_Obstacle_Wallrun_08",
+                        "8": "Nomville_StormDrain_Obstacle_Wallrun_09",
+                        "9": "Nomville_StormDrain_Obstacle_Wallrun_10",
+                        "10": "Nomville_StormDrain_Obstacle_Wallrun_11",
+                        "11": "Nomville_StormDrain_Obstacle_Wallrun_12"
+                    }
+                    
+                },
+                    
+                "Nomville_Streets": {
+
+                    "Obstacle_H1": {
+                        "0": "Nomville_Streets_Obstacle_H1_01",
+                        "1": "Nomville_Streets_Obstacle_H1_02",
+                        "2": "Nomville_Streets_Obstacle_H1_03",
+                        "3": "Nomville_Streets_Obstacle_H1_04",
+                        "4": "Nomville_Streets_Obstacle_H1_05",
+                        "5": "Nomville_Streets_Obstacle_H1_06",
+                        "6": "Nomville_Streets_Obstacle_H1_07"
+                    },
+
+                    "Obstacle_H1g": {
+                        "0": "Nomville_Streets_Obstacle_H1g_01"
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Nomville_Shared_Obstacle_H1W3_01"    
+                    },
+
+                    "Obstacle_H2": {
+                        "0": "Nomville_Streets_Obstacle_H2_01",
+                        "1": "Nomville_Streets_Obstacle_H2_02",
+                        "2": "Nomville_Streets_Obstacle_H2_03",
+                        "3": "Nomville_Streets_Obstacle_H2_04"
+                    },
+
+                    "Obstacle_H2W2": {
+                        "0": "Nomville_Streets_Obstacle_H2W2_01"
+                    },
+
+                    "Obstacle_H3": {
+                        "0": "Nomville_Streets_Obstacle_H3_01"
+                    },
+
+                    "Obstacle_H3W3": {
+                        "0": "Nomville_Streets_Obstacle_H3W3_01",
+                        "1": "Nomville_Streets_Obstacle_H3W3_02",
+                        "2": "Nomville_Streets_Obstacle_H3W3_03"
+                    },
+
+                    "Obstacle_LH2": {
+                        "0": "Nomville_Streets_Obstacle_LH2_01",
+                        "1": "Nomville_Streets_Obstacle_LH2_02",
+                        "2": "Nomville_Streets_Obstacle_LH2_03",
+                        "3": "Nomville_Streets_Obstacle_LH2_04",
+                        "4": "Nomville_Streets_Obstacle_LH2_05",
+                        "5": "Nomville_Streets_Obstacle_LH2_06"
+                    },
+
+                    "Obstacle_RA": {
+                        "0": "Nomville_Streets_Obstacle_RA_01",
+                        "1": "Nomville_Streets_Obstacle_RA_02"
+                    },
+
+                    "Obstacle_Trigger": {
+                        "0": "Nomville_Streets_Obstacle_Trigger_01",
+                        "1": "Nomville_Streets_Obstacle_Trigger_02",
+                        "2": "Nomville_Streets_Obstacle_Trigger_03"
+                    }
+
+                },
+                
+                "Shared": {
+
+                    "Obstacle_H1": {
+                        "0": "Nomville_Shared_Obstacle_H1_01",
+                        "1": "Nomville_Shared_Obstacle_H1_02",
+                        "2": "Nomville_Shared_Obstacle_H1_03",
+                        "3": "Nomville_Shared_Obstacle_H1_04",
+                        "4": "Nomville_Shared_Obstacle_H1_05",
+                        "5": "Nomville_Shared_Obstacle_H1_06",
+                        "6": "Nomville_Shared_Obstacle_H1_07",
+                        "7": "Nomville_Shared_Obstacle_H1_08",
+                        "8": "Nomville_Shared_Obstacle_H1_09",
+                        "9": "Nomville_Shared_Obstacle_H1_10"
+                    },
+
+                    "Obstacle_H1g": {
+                        "0": "Nomville_Shared_Obstacle_H1g_01"
+                    },
+
+                    "Obstacle_H1W3": {
+                        "0": "Nomville_Shared_Obstacle_H1W3_01"
+                    },
+
+                    "Obstacle_H2": {
+                        "0": "Nomville_Shared_Obstacle_H2_01",
+                        "1": "Nomville_Shared_Obstacle_H2_02",
+                        "2": "Nomville_Shared_Obstacle_H2_03",
+                        "3": "Nomville_Shared_Obstacle_H2_04",
+                        "4": "Nomville_Shared_Obstacle_H2_05",
+                        "5": "Nomville_Shared_Obstacle_H2_06",
+                        "6": "Nomville_Shared_Obstacle_H2_07"
+                    },
+
+                    "Obstacle_H2g": {
+                        "0": "Nomville_Shared_Obstacle_H2g_01"
+                    },
+
+                    "Obstacle_H2W3": {
+                        "0": "Nomville_Shared_Obstacle_H2W3_01"    
+                    },
+
+                    "Obstacle_H3": {
+                        "0": "Nomville_Shared_Obstacle_H3_01"
+                    },
+
+                    "Obstacle_LH2": {
+                        "0": "Nomville_Shared_Obstacle_LH2_01"
+                    },
+
+                    "Obstacle_RA": {
+                        "0": "Nomville_Shared_Obstacle_RA_01"
+                    },
+
+                    "Obstacle_Trigger": {
+                        "0": "Nomville_Shared_Obstacle_Trigger_01",
+                        "1": "Nomville_Shared_Obstacle_Trigger_02",
+                        "2": "Nomville_Shared_Obstacle_Trigger_03",
+                        "3": "Nomville_Shared_Obstacle_Trigger_04",
+                        "4": "Nomville_Shared_Obstacle_Trigger_05",
+                        "5": "Nomville_Shared_Obstacle_Trigger_06",
+                        "6": "Nomville_Shared_Obstacle_Trigger_07",
+                        "7": "Nomville_Shared_Obstacle_Trigger_08",
+                        "8": "Nomville_Shared_Obstacle_Trigger_09",
+                        "9": "Nomville_Shared_Obstacle_Trigger_10",
+                        "10": "Nomville_Shared_Obstacle_Trigger_11",
+                        "11": "Nomville_Shared_Obstacle_Trigger_12",
+                        "12": "Nomville_Shared_Obstacle_Trigger_13",
+                        "13": "Nomville_Shared_Obstacle_Trigger_14",
+                        "14": "Nomville_Shared_Obstacle_Trigger_15",
+                        "15": "Nomville_Shared_Obstacle_Trigger_16",
+                        "16": "Nomville_Shared_Obstacle_Trigger_17",
+                        "17": "Nomville_Shared_Obstacle_Trigger_18",
+                        "18": "Nomville_Shared_Obstacle_Trigger_19",
+                        "19": "Nomville_Shared_Obstacle_Trigger_20",
+                        "20": "Nomville_Shared_Obstacle_Trigger_21"
+                    }
+
+                }
+            
+            },
+                
+            "Highway": {
+                
+                "Highway_MagicForest": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Highway_MagicForest_Obstacle_H1_01",
+                        "1": "Highway_MagicForest_Obstacle_H1_02",
+                        "2": "Highway_MagicForest_Obstacle_H1_03",
+                        "3": "Highway_MagicForest_Obstacle_H1_04",
+                        "4": "Highway_MagicForest_Obstacle_H1_05",
+                        "5": "Highway_MagicForest_Obstacle_H1_06",
+                        "6": "Highway_MagicForest_Obstacle_H1_07",
+                        "7": "Highway_MagicForest_Obstacle_H1_08",
+                        "8": "Highway_MagicForest_Obstacle_H1_09"
+                    },
+                        
+                    "Obstacle_H1g": {
+                        "0": "Highway_MagicForest_Obstacle_H1g_01"
+                    },
+                    
+                    "Obstacle_H1W2": {
+                        "0": "Highway_MagicForest_Obstacle_H1W2_01"
+                    },
+                    
+                    "Obstacle_H1W3": {
+                        "0": "Highway_MagicForest_Obstacle_H1W3_01"
+                    },
+                        
+                    "Obstacle_H2": {
+                        "0": "Highway_MagicForest_Obstacle_H2_01",
+                        "1": "Highway_MagicForest_Obstacle_H2_02",
+                        "2": "Highway_MagicForest_Obstacle_H2_03",
+                        "3": "Highway_MagicForest_Obstacle_H2_04",
+                        "4": "Highway_MagicForest_Obstacle_H2_05",
+                        "5": "Highway_MagicForest_Obstacle_H2_06"
+                    },
+                        
+                    "Obstacle_H2g": {
+                        "0": "Highway_MagicForest_Obstacle_H2g_01"
+                    },
+                        
+                    "Obstacle_H2W2": {
+                        "0": "Highway_MagicForest_Obstacle_H2W2_01",
+                        "1": "Highway_MagicForest_Obstacle_H2W2_02"
+                    },
+                      
+                    "Obstacle_H3": {
+                        "0": "Highway_MagicForest_Obstacle_H3_01",
+                        "1": "Highway_MagicForest_Obstacle_H3_02"
+                    },
+                        
+                    "Obstacle_LH2": {
+                        "0": "Highway_MagicForest_Obstacle_LH2_01",
+                        "1": "Highway_MagicForest_Obstacle_LH2_02"
+                    },
+                        
+                    "Obstacle_RA": {
+                        "0": "Highway_MagicForest_Obstacle_RA_01",
+                        "1": "Highway_MagicForest_Obstacle_RA_02"
+                    }
+                    
+                },
+                    
+                "Highway_RobotFactory": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Highway_RobotFactory_Obstacle_H1_01",
+                        "1": "Highway_RobotFactory_Obstacle_H1_02",
+                        "2": "Highway_RobotFactory_Obstacle_H1_03",
+                        "3": "Highway_RobotFactory_Obstacle_H1_04",
+                        "4": "Highway_RobotFactory_Obstacle_H1_05",
+                        "5": "Highway_RobotFactory_Obstacle_H1_06",
+                        "6": "Highway_RobotFactory_Obstacle_H1_07",
+                        "7": "Highway_RobotFactory_Obstacle_H1_08"
+                    },
+                        
+                    "Obstacle_H1g": {
+                        "0": "Highway_RobotFactory_Obstacle_H1g_01"    
+                    },
+                        
+                    "Obstacle_H1W2": {
+                        "0": "Highway_RobotFactory_Obstacle_H1W2_01",
+                        "1": "Highway_RobotFactory_Obstacle_H1W2_02",
+                        "2": "Highway_RobotFactory_Obstacle_H1W2_03",
+                        "3": "Highway_RobotFactory_Obstacle_H1W2_04"
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Highway_RobotFactory_Obstacle_H1W3_01",
+                        "1": "Highway_RobotFactory_Obstacle_H1W3_02",
+                        "2": "Highway_RobotFactory_Obstacle_H1W3_03",
+                        "3": "Highway_RobotFactory_Obstacle_H1W3_04"
+                    },
+                        
+                    "Obstacle_H1W3g": {
+                        "0": "Highway_RobotFactory_Obstacle_H1W3g_01"
+                    },
+                        
+                    "Obstacle_H2": {
+                        "0": "Highway_RobotFactory_Obstacle_H2_01",
+                        "1": "Highway_RobotFactory_Obstacle_H2_02",
+                        "2": "Highway_RobotFactory_Obstacle_H2_03",
+                        "3": "Highway_RobotFactory_Obstacle_H2_04",
+                        "4": "Highway_RobotFactory_Obstacle_H2_05"
+                    },
+                        
+                    "Obstacle_H2g": {
+                        "0": "Highway_RobotFactory_Obstacle_H2g_01"    
+                    },
+                        
+                    "Obstacle_H2W2": {
+                        "0": "Highway_RobotFactory_Obstacle_H2W2_01",
+                        "1": "Highway_RobotFactory_Obstacle_H2W2_02",
+                        "2": "Highway_RobotFactory_Obstacle_H2W2_03"
+                    },
+                        
+                    "Obstacle_H2W3": {
+                        "0": "Highway_RobotFactory_Obstacle_H2W3_01",
+                        "1": "Highway_RobotFactory_Obstacle_H2W3_02",
+                        "2": "Highway_RobotFactory_Obstacle_H2W3_03"
+                    },
+                        
+                    "Obstacle_H3": {
+                        "0": "Highway_RobotFactory_Obstacle_H3_01",
+                        "1": "Highway_RobotFactory_Obstacle_H3_02"
+                    },
+                        
+                    "Obstacle_H3g": {
+                        "0": "Highway_RobotFactory_Obstacle_H3g_01",
+                        "1": "Highway_RobotFactory_Obstacle_H3g_02"
+                    },
+                        
+                    "Obstacle_H3W2": {
+                        "0": "Highway_RobotFactory_Obstacle_H3W2_01"        
+                    },
+                        
+                    "Obstacle_H3W3": {
+                        "0": "Highway_RobotFactory_Obstacle_H3W3_01",
+                        "1": "Highway_RobotFactory_Obstacle_H3W3_02"
+                    },
+                        
+                    "Obstacle_LH2": {
+                        "0": "Highway_RobotFactory_Obstacle_LH2_01",
+                        "1": "Highway_RobotFactory_Obstacle_LH2_02",
+                        "2": "Highway_RobotFactory_Obstacle_LH2_03",
+                        "3": "Highway_RobotFactory_Obstacle_LH2_04",
+                        "4": "Highway_RobotFactory_Obstacle_LH2_05"
+                    },
+                        
+                    "Obstacle_RA": {
+                        "0": "Highway_RobotFactory_Obstacle_RA_01",
+                        "1": "Highway_RobotFactory_Obstacle_RA_02",
+                        "2": "Highway_RobotFactory_Obstacle_RA_03"
+                    }
+                    
+                },
+                
+                "Highway_SpaceStation": {
+    
+                    "Obstacle_H1": {
+                        "0": "Highway_SpaceStation_Obstacle_H1_01",
+                        "1": "Highway_SpaceStation_Obstacle_H1_02",
+                        "2": "Highway_SpaceStation_Obstacle_H1_03",
+                        "3": "Highway_SpaceStation_Obstacle_H1_04",
+                        "4": "Highway_SpaceStation_Obstacle_H1_05",
+                        "5": "Highway_SpaceStation_Obstacle_H1_06",
+                        "6": "Highway_SpaceStation_Obstacle_H1_07",
+                        "7": "Highway_SpaceStation_Obstacle_H1_08",
+                        "8": "Highway_SpaceStation_Obstacle_H1_09",
+                        "9": "Highway_SpaceStation_Obstacle_H1_10"
+                    },
+                        
+                    "Obstacle_H1g": {
+                        "0": "Highway_SpaceStation_Obstacle_H1g_01"    
+                    },
+                        
+                    "Obstacle_H1W2": {
+                        "0": "Highway_SpaceStation_Obstacle_H1W2_01"
+                    },
+                        
+                    "Obstacle_H1W3": {
+                        "0": "Highway_SpaceStation_Obstacle_H1W3_01"
+                    },
+                        
+                    "Obstacle_H2": {
+                        "0": "Highway_SpaceStation_Obstacle_H2_01",
+                        "1": "Highway_SpaceStation_Obstacle_H2_02",
+                        "2": "Highway_SpaceStation_Obstacle_H2_03",
+                        "3": "Highway_SpaceStation_Obstacle_H2_04",
+                        "4": "Highway_SpaceStation_Obstacle_H2_05",
+                        "5": "Highway_SpaceStation_Obstacle_H2_06",
+                        "6": "Highway_SpaceStation_Obstacle_H2_07"
+                    },
+                        
+                    "Obstacle_H2g": {
+                        "0": "Highway_SpaceStation_Obstacle_H2g_01",
+                        "1": "Highway_SpaceStation_Obstacle_H2g_02"
+                    },
+                        
+                    "Obstacle_H2W2": {
+                        "0": "Highway_SpaceStation_Obstacle_H2W2_01",
+                        "1": "Highway_SpaceStation_Obstacle_H2W2_02"
+                    },
+                        
+                    "Obstacle_H3": {
+                        "0": "Highway_SpaceStation_Obstacle_H3_01",
+                        "1": "Highway_SpaceStation_Obstacle_H3_02",
+                        "2": "Highway_SpaceStation_Obstacle_H3_03"
+                    },
+                        
+                    "Obstacle_H3W3": {
+                        "0": "Highway_SpaceStation_Obstacle_H3W3_01"    
+                    },
+                        
+                    "Obstacle_LH2": {
+                        "0": "Highway_SpaceStation_Obstacle_LH2_01",
+                        "1": "Highway_SpaceStation_Obstacle_LH2_02"
+                    },
+                        
+                    "Obstacle_RA": {
+                        "0": "Highway_SpaceStation_Obstacle_RA_01",
+                        "1": "Highway_SpaceStation_Obstacle_RA_02"
+                    }
+                    
+                },
+                    
+                "Shared": {
+                    
+                    "Obstacle_H1": {
+                        "0": "Highway_Shared_Obstacle_H1_01"
+                    },
+                        
+                    "Obstacle_H2": {
+                        "0": "Highway_Shared_Obstacle_H2_01",
+                        "1": "Highway_Shared_Obstacle_H2_02",
+                        "2": "Highway_Shared_Obstacle_H2_03"
+                    },
+                        
+                    "Obstacle_H2g": {
+                        "0": "Highway_Shared_Obstacle_H2g_01"
+                    },
+                        
+                    "Obstacle_H2W3": {
+                        "0": "Highway_Shared_Obstacle_H2W3_01"
+                    },
+                    
+                    "Obstacle_Trigger": {
+                        "0": "Highway_Shared_Obstacle_Trigger_01",
+                        "1": "Highway_Shared_Obstacle_Trigger_02",
+                        "2": "Highway_Shared_Obstacle_Trigger_03",
+                        "3": "Highway_Shared_Obstacle_Trigger_04",
+                        "4": "Highway_Shared_Obstacle_Trigger_05",
+                        "5": "Highway_Shared_Obstacle_Trigger_06",
+                        "6": "Highway_Shared_Obstacle_Trigger_07",
+                        "7": "Highway_Shared_Obstacle_Trigger_08"
+                    }
+                    
+                }
+                
+            }
+        }
+        
+    }
+    
+}
