@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+    <title>Vex 3</title>
+
+    <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+</head>
+<body>
+<div id="dummy" style="position:fixed;right:0;bottom:0"></div>
+<div id="orientation"></div>
+<div id="content"></div>
+
+<script type="text/javascript">
+    var gameName = 'vex-3.min.js';
+
+    //This all here is for cache busting;
+    function addScript(src ,buster, callback) {
+        var s = document.createElement( 'script' );
+        s.setAttribute( 'src', src + '?v=' + buster );
+        if (typeof callback === 'function') {
+            s.onload=callback;
+        }
+        document.body.appendChild( s );
+    }
+
+    addScript('version.js', Date.now(), function () {
+        addScript(gameName, version, function () {
+            /**
+             * Here we create the game
+             */
+            var game = new Vex3.Game.getInstance();
+            game.start();
+        })
+    })
+</script>
+</body>
+</html>
