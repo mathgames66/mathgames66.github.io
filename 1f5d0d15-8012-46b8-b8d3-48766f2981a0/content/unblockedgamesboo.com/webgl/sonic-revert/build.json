@@ -1,0 +1,16 @@
+{
+"companyName": "Taldius",
+"productName": "Sonic Revert",
+"productVersion": "0.11.1",
+"dataUrl": "Sonic_Revert.data.unityweb",
+"wasmCodeUrl": "Sonic_Revert.wasm.code.unityweb",
+"wasmFrameworkUrl": "Sonic_Revert.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.5f1"
+}
