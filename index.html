@@ -449,7 +449,7 @@ button.submit {
  margin: 5px;
 }
 
-button span {
+button.aboutblank span {
  cursor: pointer;
  display: inline-block;
  position: relative;
@@ -459,7 +459,7 @@ button span {
   
 }
 
-button span:after {
+button.aboutblank span:after {
 
  position: absolute;
  opacity: 0;
@@ -471,13 +471,13 @@ button span:after {
   
 }
 
-button:hover span {
+button.aboutblank:hover span {
  padding-right: 15px;
     z-index: 5;
   
 }
 
-button:hover span:after {
+button.aboutblank:hover span:after {
  opacity: 1;
  right: 0;
     z-index: 5;
@@ -586,11 +586,11 @@ h7 {
         <span> + submit</span>
        </button> <br><br>
        
-<button onclick="openGame()">open mathgames66 in "about:blank"</button>
+<button class="aboutblank" onclick="openGame()">open mathgames66 in "about:blank"</button>
 <script>
   function openGame() {
   var win = window.open()
-  var url = "https://example.com"
+  var url = "/index.html"
   var iframe = win.document.createElement('iframe')
   iframe.style.width = "100%";
   iframe.style.height = "100%";
