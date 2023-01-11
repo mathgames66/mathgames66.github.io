@@ -1,0 +1,694 @@
+{
+    "decals": [
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 2858.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 2608.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 2370.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 2129.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 1893.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 1641.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 1390.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 1138.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 886.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 637.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 386.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1311.25,
+		"y": 127.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 226.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 356.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 478,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 609.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 741.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 867.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 700.5,
+		"y": 226.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 700.5,
+		"y": 356.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2920.3,
+		"y": 2728.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2920.3,
+		"y": 2595.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2920.3,
+		"y": 2452.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2920.3,
+		"y": 2316.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 1747.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 1592.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 1438.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 1274.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 1126.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 1731.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 1576.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 1422.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 1258.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 1110.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2070.95,
+		"y": 103.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zebra.png",
+		"x": 660.2,
+		"y": 1909.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "Zebra.png",
+		"x": 730.2,
+		"y": 1913.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 1006.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 1136.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 1258.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 1390.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 1522.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 274.65,
+		"y": 1648.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 948,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 794,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 630,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2269.25,
+		"y": 482,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 968,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 814,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 650,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2609.25,
+		"y": 502,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2207,
+		"y": 103.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2487.05,
+		"y": 103.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	}
+],
+    "decals_additional": [
+	{
+		"name": "decal_04.png",
+		"x": 2886.15,
+		"y": 1954,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -143.76651000976562
+	},
+	{
+		"name": "decal_03.png",
+		"x": 1874.15,
+		"y": 68.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 2364.95,
+		"y": 307.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_05.png",
+		"x": 1317.05,
+		"y": 357.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_06.png",
+		"x": 1108.9,
+		"y": 1625.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1682.2,
+		"y": 734.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_09.png",
+		"x": 1184.4,
+		"y": 1668.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 971.3,
+		"y": 317.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 349.65,
+		"y": 363.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_06.png",
+		"x": 207.2,
+		"y": 7.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": -23.15,
+		"y": 734.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 2342.95,
+		"y": 1137,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 2671.8,
+		"y": 1034.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_10.png",
+		"x": 2727.3,
+		"y": 1054.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 309.65,
+		"y": 1632.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_08.png",
+		"x": 589.15,
+		"y": 1062.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 447.5,
+		"y": 1174.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 1285.3,
+		"y": 1264.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 977.3,
+		"y": 980.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1962.05,
+		"y": 2391.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_10.png",
+		"x": 2017.55,
+		"y": 2412.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1090.4,
+		"y": 2339.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 2303,
+		"y": 2096.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_05.png",
+		"x": 155.45,
+		"y": 2554.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 485.6,
+		"y": 2754.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 370.65,
+		"y": 2375.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_08.png",
+		"x": 671.15,
+		"y": 2583.55,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_08.png",
+		"x": 1908.7,
+		"y": 2123.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_08.png",
+		"x": 2740.4,
+		"y": 1653.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1790.1,
+		"y": 1603.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_03.png",
+		"x": 1500.3,
+		"y": 1637.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 1110.2,
+		"y": 1934.6,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": 91.78553771972656
+	},
+	{
+		"name": "decal_07.png",
+		"x": 70.8,
+		"y": 1929.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	}
+]
+}

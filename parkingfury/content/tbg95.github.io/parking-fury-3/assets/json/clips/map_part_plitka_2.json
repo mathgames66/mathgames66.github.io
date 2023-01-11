@@ -1,0 +1,122 @@
+{
+    "base_sprite": {
+        "x": -380,
+        "y": -538.9,
+        "w": 757.8,
+        "h": 757.8,
+        "fixX": 381.75,
+        "fixY": 541.65,
+        "texture": "Trotuar.jpg"
+    },
+    "bordurs": [
+        {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -317.25,
+		    "y": -541.25,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 0
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 0.75,
+		    "y": -541.25,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 0
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": 318.75,
+		    "y": -476,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": -90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 381.75,
+		    "y": -158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": 317.25,
+		    "y": 160,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 0
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 317.25,
+		    "y": 223,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 180
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -0.75,
+		    "y": 223,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 180
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": -318.75,
+		    "y": 158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -381.75,
+		    "y": 158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": -90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": -317.25,
+		    "y": -478,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 180
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 381.75,
+		    "y": -476,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -381.75,
+		    "y": -160,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": -90
+	    }
+    ],
+    "shape_points": [[318.7,-538.15],[-318.25,-538.15],[-340.75,-535.1],[-361.95,-521.85],[-374.05,-503.4],[-378.25,-478.15],[-378.25,160.8],[-374.75,185.5],[-360.7,203.2],[-341.75,215.75],[-318.25,220.8],[318.7,220.8],[345.25,216],[361.1,203.2],[375.25,182.75],[378.7,160.8],[378.7,-478.15],[373.75,-502.25],[361.1,-520.6],[343.25,-532.5]]
+}

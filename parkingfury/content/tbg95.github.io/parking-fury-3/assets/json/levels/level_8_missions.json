@@ -1,0 +1,664 @@
+{
+	"frames": [
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 997.65,
+					"y": 2185,
+					"scaleX": 0.9999847412109375,
+					"scaleY": 0.9999847412109375,
+					"rotation": 90
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 771.7,
+					"y": 2802.25,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -179.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1045.55,
+					"y": 2749.05,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 0.0052490234375
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1367.45,
+					"y": 2795.8,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 90.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1307.9,
+					"y": 2576.5,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1536.45,
+					"y": 2363.65,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 90.0052490234375
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1512.65,
+					"y": 1883.8,
+					"scaleX": -0.899993896484375,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1229.85,
+					"y": 1935.9,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 972.8,
+					"y": 1935.9,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 643.9,
+					"y": 1897.2,
+					"scaleX": -0.899993896484375,
+					"scaleY": 1,
+					"rotation": -90
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 645.3,
+					"y": 2257.85,
+					"scaleX": -0.899993896484375,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 759.85,
+					"y": 2543.15,
+					"scaleX": -0.899993896484375,
+					"scaleY": 1,
+					"rotation": -90
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1322.25,
+					"y": 2316.85,
+					"scaleX": 0.899993896484375,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1469.9,
+					"y": 2169.55,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 2795.35,
+					"y": 2651.95,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1420.5,
+					"y": 2244.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 90
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1417.05,
+					"y": 2477.8,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1360.25,
+					"y": 2799.15,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -179.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1581.6,
+					"y": 2800.35,
+					"scaleX": -1.0000000004689868,
+					"scaleY": 1.0000000004689868,
+					"rotation": 179.9982452392578
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1753.65,
+					"y": 2742.35,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2006.6,
+					"y": 2789.75,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 90
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1948.2,
+					"y": 2595.8,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -90.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2007.2,
+					"y": 2411.75,
+					"scaleX": -1.0000000004689868,
+					"scaleY": 1.0000000004689868,
+					"rotation": 89.99824523925781
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1968.1,
+					"y": 2170.35,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2219.75,
+					"y": 2169.25,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2457.75,
+					"y": 2233.25,
+					"scaleX": -1.0000000004689868,
+					"scaleY": 1.0000000004689868,
+					"rotation": 179.9982452392578
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2802.85,
+					"y": 2185.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 90
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2827.4,
+					"y": 2415.8,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 1518.75,
+					"y": 1247.25,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 90
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2110.25,
+					"y": 1345.3,
+					"scaleX": 1.000000001049112,
+					"scaleY": 0.9999847422600333,
+					"rotation": -90.00262451171875
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2519.75,
+					"y": 1296.85,
+					"scaleX": -0.9999847413261522,
+					"scaleY": 1.0000000001152165,
+					"rotation": -0.0008697509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1970.3,
+					"y": 1828.4,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -90.0052490234375
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1989.7,
+					"y": 2227,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 179.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1967.15,
+					"y": 1992.75,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2199.75,
+					"y": 2167.05,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2383.8,
+					"y": 2226.05,
+					"scaleX": -1.0000000004689868,
+					"scaleY": 1.0000000004689868,
+					"rotation": 179.9982452392578
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2684.4,
+					"y": 2215.55,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2681.3,
+					"y": 1978.7,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 90.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2622.2,
+					"y": 1762.6,
+					"scaleX": 1.0000000004689868,
+					"scaleY": 1.0000000004689868,
+					"rotation": -90.00175476074219
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2752.4,
+					"y": 1603.4,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2737,
+					"y": 1306.75,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2355.7,
+					"y": 1355.85,
+					"scaleX": 0.9999847430705789,
+					"scaleY": 0.9999847430705789,
+					"rotation": 179.9965057373047
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1915.25,
+					"y": 1156.3,
+					"scaleX": 1.000000001049112,
+					"scaleY": 0.9999847422600333,
+					"rotation": -90.00262451171875
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1960.85,
+					"y": 740.65,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1977.15,
+					"y": 986.45,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 90.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1683.55,
+					"y": 793.75,
+					"scaleX": 0.9999847430705789,
+					"scaleY": 0.9999847430705789,
+					"rotation": 179.9965057373047
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1378.15,
+					"y": 748.15,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -90.0052490234375
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1416.6,
+					"y": 974.7,
+					"scaleX": 1.000000001049112,
+					"scaleY": 0.9999847422600333,
+					"rotation": 179.99737548828125
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1143.4,
+					"y": 961.8,
+					"scaleX": 0.9999847430705789,
+					"scaleY": 0.9999847430705789,
+					"rotation": 179.9965057373047
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 806,
+					"y": 916.2,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -90.0052490234375
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 805.85,
+					"y": 1098.55,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 825.45,
+					"y": 1362.85,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 179.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1075.45,
+					"y": 1282.85,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2156.05,
+					"y": 1105.85,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -0.0052490234375
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 2521.95,
+					"y": 151.45,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1668.95,
+					"y": 742.2,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1375.4,
+					"y": 739.3,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2016.75,
+					"y": 789.7,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1959.4,
+					"y": 595.85,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1975.55,
+					"y": 355.2,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2185.1,
+					"y": 389.1,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2377.15,
+					"y": 326.1,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 787.25,
+					"y": 919.35,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1084.8,
+					"y": 914.25,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1415.95,
+					"y": 977.5,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 779.4,
+					"y": 1175.65,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 839.8,
+					"y": 1345.6,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 309.9,
+					"y": 376.35,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1419.9,
+					"y": 976.85,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1949.75,
+					"y": 560.9,
+					"scaleX": -1.0000000004689868,
+					"scaleY": 1.0000000004689868,
+					"rotation": -90.00175476074219
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 296.2,
+					"y": 955.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": -90
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1736.25,
+					"y": 800.35,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1375.45,
+					"y": 746.35,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1990.2,
+					"y": 805.55,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 294.7,
+					"y": 600.9,
+					"scaleX": 0.9999694866181942,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 606.6,
+					"y": 970.65,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2007.75,
+					"y": 379.85,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 353.85,
+					"y": 761,
+					"scaleX": -0.00003411969312261788,
+					"scaleY": 0.00003411969312261788,
+					"rotation": 243.43495178222656
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 870.65,
+					"y": 911.65,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1122.7,
+					"y": 970.65,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				}
+			]
+		}
+	]
+}

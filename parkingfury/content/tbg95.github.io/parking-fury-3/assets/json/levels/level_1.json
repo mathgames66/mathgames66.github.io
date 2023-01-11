@@ -1,0 +1,1618 @@
+{
+    "objects": [
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 914.45,
+		"y": 476.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1209.45,
+		"y": 476.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 319.5,
+		"y": 476.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 459.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1710.4,
+		"y": 476.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2007.35,
+		"y": 476.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2674,
+		"y": 465.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Barrels2.png",
+		"x": 1799.15,
+		"y": 329.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1823.4,
+		"y": 482.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 6.7735443115234375
+	},
+	{
+		"name": "Musor1.png",
+		"x": 1181.9,
+		"y": 378.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Musor2.png",
+		"x": 476.3,
+		"y": 534.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Barrels.png",
+		"x": 429.85,
+		"y": 1474.2,
+		"scaleX": 1.000030517578125,
+		"scaleY": 1.000030517578125,
+		"rotation": -93.94194030761719
+	},
+	{
+		"name": "Barrels.png",
+		"x": 2662.85,
+		"y": 631.75,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 147.27915954589844
+	},
+	{
+		"name": "wood_box.png",
+		"x": 2334.35,
+		"y": 504.2,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": -23.248153686523438
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 445.6,
+		"y": 2478.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 529,
+		"y": 2478.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 695.8,
+		"y": 2478.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 779.2,
+		"y": 2478.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 946,
+		"y": 2478.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 1029.4,
+		"y": 2478.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "wood_box.png",
+		"x": 474.9,
+		"y": 2327.3,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": -21.944915771484375
+	},
+	{
+		"name": "Barrels.png",
+		"x": 242.7,
+		"y": 2572.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2113.3,
+		"y": 2837.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2113.3,
+		"y": 3133.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Barrels2.png",
+		"x": 1878.85,
+		"y": 2629.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1614.05,
+		"y": 2770.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 33.244354248046875
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1656.75,
+		"y": 2810.9,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": -5.980010986328125
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 2214.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 2509.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 2804.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2385.7,
+		"y": 2561.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2089.7,
+		"y": 2561.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "wood_box.png",
+		"x": 2300.1,
+		"y": 2270.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 33.244354248046875
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 192.55,
+		"y": 2748.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "wood_box.png",
+		"x": 419.2,
+		"y": 1251.3,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -10.672012329101562
+	},
+	{
+		"name": "Car.png",
+		"x": 1914,
+		"y": 2707.45,
+		"scaleX": 0.889984130859375,
+		"scaleY": 0.889984130859375,
+		"rotation": 69.452392578125
+	},
+	{
+		"name": "beton.png",
+		"x": 1106.65,
+		"y": 2780.2,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -31.272247314453125
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1206.75,
+		"y": 2757.8,
+		"scaleX": 0.9999542236328125,
+		"scaleY": 0.9999542236328125,
+		"rotation": -52.43714904785156
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1910.45,
+		"y": 1808.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 33.244354248046875
+	},
+	{
+		"name": "beton.png",
+		"x": 1436.95,
+		"y": 2701.5,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 34.34913635253906
+	},
+	{
+		"name": "beton.png",
+		"x": 1307.85,
+		"y": 2728.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 9.136505126953125
+	},
+	{
+		"name": "wood_box.png",
+		"x": 2368.05,
+		"y": 2299.25,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": -21.944915771484375
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1965.75,
+		"y": 1815.75,
+		"scaleX": 0.9999542236328125,
+		"scaleY": 0.9999542236328125,
+		"rotation": -19.427322387695312
+	},
+	{
+		"name": "c6_1.png",
+		"x": 770.45,
+		"y": 1613.25,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 91.26048278808594
+	},
+	{
+		"name": "c2_1.png",
+		"x": 1434.35,
+		"y": 2223.7,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 139.74111938476562
+	},
+	{
+		"name": "Barrels.png",
+		"x": 1742.6,
+		"y": 1304.55,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 147.27915954589844
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1699.3,
+		"y": 1167.9,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": -26.51116943359375
+	},
+	{
+		"name": "Barrels2.png",
+		"x": 1412.75,
+		"y": 1457.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1404.3,
+		"y": 1550.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 33.244354248046875
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1447.25,
+		"y": 1616,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": -26.51116943359375
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1430.3,
+		"y": 1412.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 33.244354248046875
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 754.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 837.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 1004.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 1088.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 1524.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 1608.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2606.4,
+		"y": 754.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2606.4,
+		"y": 837.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2606.4,
+		"y": 1524.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2606.4,
+		"y": 1608.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Musor2.png",
+		"x": 1294.5,
+		"y": 1432.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Musor2.png",
+		"x": 1216.7,
+		"y": 1458.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -50.480712890625
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 1818.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 1902.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 2068.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 485.9,
+		"y": 2152.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2618.4,
+		"y": 1818.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2618.4,
+		"y": 1902.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2618.4,
+		"y": 2068.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2618.4,
+		"y": 2152.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2618.4,
+		"y": 2329,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2618.4,
+		"y": 2412.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 1028.2,
+		"y": 2723.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 1028.2,
+		"y": 2640,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 1028.2,
+		"y": 2903.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 1028.2,
+		"y": 2820.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -90
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1271.35,
+		"y": 2771.3,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 7.0036163330078125
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2042.25,
+		"y": 2473,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2042.25,
+		"y": 2556.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2040.25,
+		"y": 2675.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Klumba.jpg",
+		"x": 2040.25,
+		"y": 2758.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 745.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 1029.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 1313.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 1597.55,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 1881.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 2165.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 2171.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 363.45,
+		"y": 2455.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "c6_3.png",
+		"x": 2456.1,
+		"y": 1888.9,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 84.77766418457031
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 1630.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 1925.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 1052.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2703.1,
+		"y": 1347.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "wood_box.png",
+		"x": 174.15,
+		"y": 743.25,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -10.672012329101562
+	},
+	{
+		"name": "wood_box.png",
+		"x": 241.35,
+		"y": 905.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 97.33151245117188
+	},
+	{
+		"name": "Musor2.png",
+		"x": 220.45,
+		"y": 876.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -50.480712890625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1545.15,
+		"y": 2785.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1545.15,
+		"y": 3081.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 180
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 966.45,
+		"y": 1352.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 669.5,
+		"y": 1352.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 371.5,
+		"y": 1352.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2410.8,
+		"y": 1352.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 2113.85,
+		"y": 1352.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1883.85,
+		"y": 1352.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "wood_box.png",
+		"x": 1821.75,
+		"y": 1347.65,
+		"scaleX": 0.9999542236328125,
+		"scaleY": 0.9999542236328125,
+		"rotation": -19.427322387695312
+	},
+	{
+		"name": "c3_4.png",
+		"x": 2060.65,
+		"y": 1902.1,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 89.6922607421875
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1081.5,
+		"y": 1645.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -179.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1085.5,
+		"y": 1777.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -179.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1071.4,
+		"y": 1776.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "Zabor_X3.jpg",
+		"x": 1293.3,
+		"y": 1776.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -89.9947509765625
+	},
+	{
+		"name": "gruz.png",
+		"x": 1398.4,
+		"y": 2757.65,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 12.4766845703125
+	},
+	{
+		"name": "wood_box.png",
+		"x": 814.4,
+		"y": 1377.85,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": 43.54277038574219
+	},
+	{
+		"name": "beton.png",
+		"x": 410.7,
+		"y": 2425.25,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -31.272247314453125
+	},
+	{
+		"name": "beton.png",
+		"x": 434.75,
+		"y": 2260.85,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 71.51576232910156
+	},
+	{
+		"name": "Barrels2.png",
+		"x": 2555.8,
+		"y": 1356.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "beton.png",
+		"x": 2545.85,
+		"y": 1444.65,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 34.34913635253906
+	},
+	{
+		"name": "beton.png",
+		"x": 2486.4,
+		"y": 1357.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 69.79118347167969
+	},
+	{
+		"name": "wood_box.png",
+		"x": 2507.4,
+		"y": 1644.55,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 33.244354248046875
+	},
+	{
+		"name": "decal_wood_box.png",
+		"x": 2266.35,
+		"y": 1373.15,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 26.947052001953125
+	},
+	{
+		"name": "decal_wood_box.png",
+		"x": 2354.45,
+		"y": 2445.3,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": -16.780380249023438
+	}
+],
+    "up": [
+	{
+		"name": "House.jpg",
+		"x": 2140.25,
+		"y": 2591.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "House.jpg",
+		"x": 1270.1,
+		"y": 332.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "House.jpg",
+		"x": 471,
+		"y": 2556.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree2.png",
+		"x": 923.9,
+		"y": 224.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree2.png",
+		"x": 346.45,
+		"y": 312.95,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 47.49787902832031
+	},
+	{
+		"name": "Tree2.png",
+		"x": 192.5,
+		"y": 111,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 47.49787902832031
+	},
+	{
+		"name": "Tree1.png",
+		"x": 835.05,
+		"y": 143.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree2.png",
+		"x": 1809.55,
+		"y": 214.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree1.png",
+		"x": 3056.4,
+		"y": 592.9,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 136.17420959472656
+	},
+	{
+		"name": "Tree1.png",
+		"x": 3015.15,
+		"y": 1859.05,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -169.23683166503906
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2631.1,
+		"y": 1361.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree1.png",
+		"x": 471.6,
+		"y": 1653.25,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": 40.97621154785156
+	},
+	{
+		"name": "Tree2.png",
+		"x": 18.25,
+		"y": 1691.4,
+		"scaleX": 1.000030517578125,
+		"scaleY": 1.000030517578125,
+		"rotation": 5.05755615234375
+	},
+	{
+		"name": "Tree1.png",
+		"x": 3000,
+		"y": 1962.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2532.6,
+		"y": 1952.1,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": -58.98970031738281
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2940.85,
+		"y": 1715.35,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 16.25
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2728.55,
+		"y": 2689.8,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": -58.98970031738281
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2871.85,
+		"y": 2512.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree2.png",
+		"x": 900.85,
+		"y": 3178.2,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -131.98605346679688
+	},
+	{
+		"name": "Tree1.png",
+		"x": 1278.45,
+		"y": 2760.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree1.png",
+		"x": 438.75,
+		"y": 2578.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree2.png",
+		"x": 83.5,
+		"y": 2868.35,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -131.98605346679688
+	},
+	{
+		"name": "Tree1.png",
+		"x": 379.85,
+		"y": 2259.35,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 137.93963623046875
+	},
+	{
+		"name": "Tree2.png",
+		"x": 24.55,
+		"y": 1408.75,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -48.484527587890625
+	},
+	{
+		"name": "House.jpg",
+		"x": 429.85,
+		"y": 244.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "House.jpg",
+		"x": 2110.25,
+		"y": 244.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "roof.jpg",
+		"x": 1202.35,
+		"y": 1099.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "roof.jpg",
+		"x": 1869.5,
+		"y": 1406.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 90
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2161.15,
+		"y": 3122.15,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -131.98605346679688
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2029.1,
+		"y": 3162.15,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": -131.98605346679688
+	},
+	{
+		"name": "Tree1.png",
+		"x": 742.3,
+		"y": 2700.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree1.png",
+		"x": 183.45,
+		"y": 1397.1,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": 40.97621154785156
+	},
+	{
+		"name": "Tree2.png",
+		"x": 384.7,
+		"y": 862.05,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": 72.26605224609375
+	},
+	{
+		"name": "Tree1.png",
+		"x": -197.2,
+		"y": 832.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree1.png",
+		"x": 206.9,
+		"y": 139.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree1.png",
+		"x": 506.95,
+		"y": 43.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree2.png",
+		"x": 1171.95,
+		"y": -95.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree2.png",
+		"x": 1441.45,
+		"y": -105.85,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree1.png",
+		"x": 1591.2,
+		"y": 139.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree1.png",
+		"x": 1899.25,
+		"y": 31.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2255.35,
+		"y": 47.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2563.45,
+		"y": 47.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2563.05,
+		"y": 1125.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2635.05,
+		"y": 857.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2612.5,
+		"y": 2529.75,
+		"scaleX": 1.0000152587890625,
+		"scaleY": 1.0000152587890625,
+		"rotation": -58.98970031738281
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2716.35,
+		"y": 2702.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree2.png",
+		"x": 1714.85,
+		"y": 1077.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree2.png",
+		"x": 854.65,
+		"y": 1085.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2171.8,
+		"y": 1150.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree2.png",
+		"x": 1738.9,
+		"y": 1621.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree2.png",
+		"x": 854.65,
+		"y": 1673.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	},
+	{
+		"name": "Tree1.png",
+		"x": 1187.55,
+		"y": 1102.65,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree1.png",
+		"x": 1751.7,
+		"y": 798.6,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree1.png",
+		"x": 1531.65,
+		"y": 1610.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 72.97871398925781
+	},
+	{
+		"name": "Tree2.png",
+		"x": 404.8,
+		"y": 1013.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree1.png",
+		"x": 563,
+		"y": 1056.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -43.45536804199219
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2001.6,
+		"y": 862.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2744.3,
+		"y": 1117,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 136.17420959472656
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2944.35,
+		"y": 981,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 136.17420959472656
+	},
+	{
+		"name": "Tree1.png",
+		"x": 23.45,
+		"y": 1150.05,
+		"scaleX": 0.999969482421875,
+		"scaleY": 0.999969482421875,
+		"rotation": 40.97621154785156
+	},
+	{
+		"name": "Tree1.png",
+		"x": 2650.45,
+		"y": 1254.9,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 136.17420959472656
+	},
+	{
+		"name": "Tree2.png",
+		"x": 2475.05,
+		"y": 1283.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": -35.74412536621094
+	}
+],
+    "light": [
+        {
+            "name": "WINDOW",
+            "x": 1452.9,
+            "y": 1690.05,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 90
+        },
+        {
+            "name": "WINDOW",
+            "x": 1284.3,
+            "y": 1505.4,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 0
+        },
+        {
+            "name": "WINDOW",
+            "x": 1628.25,
+            "y": 1883.2,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 0
+        },
+        {
+            "name": "WINDOW",
+            "x": 2217.95,
+            "y": 2489.05,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 180
+        },
+        {
+            "name": "FARA",
+            "x": 1092,
+            "y": 1976.55,
+            "scaleX": 0.69921875,
+            "scaleY": 0.99884033203125,
+            "rotation": 136.6050567626953
+        },
+        {
+            "name": "FARA",
+            "x": 1140.1,
+            "y": 1931.4,
+            "scaleX": 0.69921875,
+            "scaleY": 0.9988555908203125,
+            "rotation": 141.07359313964844
+        },
+        {
+            "name": "WINDOW",
+            "x": 1111.55,
+            "y": 2620,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": -90
+        },
+        {
+            "name": "WINDOW",
+            "x": 894.6,
+            "y": 2452.2,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 180
+        },
+        {
+            "name": "WINDOW",
+            "x": 640.75,
+            "y": 2450.2,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 180
+        },
+        {
+            "name": "FARA",
+            "x": 2090.3,
+            "y": 2015,
+            "scaleX": 0.6992034912109375,
+            "scaleY": 0.9988250732421875,
+            "rotation": 82.98863220214844
+        },
+        {
+            "name": "FARA",
+            "x": 2082.45,
+            "y": 1949.45,
+            "scaleX": 0.699188232421875,
+            "scaleY": 0.9988555908203125,
+            "rotation": 87.45756530761719
+        },
+        {
+            "name": "WINDOW",
+            "x": 2563.85,
+            "y": 2489.05,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 180
+        },
+        {
+            "name": "WINDOW",
+            "x": 2036,
+            "y": 2647,
+            "scaleX": 0.5,
+            "scaleY": 0.6999969482421875,
+            "rotation": 90
+        }
+    ],
+    "flares": [
+	{
+		"name": "Flare_level",
+		"x": 2295.5,
+		"y": 1980.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Flare_level",
+		"x": 2289.45,
+		"y": 1926.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Flare_level",
+		"x": 1283.7,
+		"y": 2081.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Flare_level",
+		"x": 1244.25,
+		"y": 2116.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	}
+]
+}

@@ -1,0 +1,454 @@
+{
+    "decals": [
+	{
+		"name": "razmetka.png",
+		"x": 3037.25,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2769.35,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2499.45,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1707.7,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1461.8,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1211.85,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 965.95,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 712.05,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 462.15,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 186.25,
+		"y": 1901.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "Zebra.png",
+		"x": 2073.95,
+		"y": 1972.95,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zebra.png",
+		"x": 2073.95,
+		"y": 1904,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zebra.png",
+		"x": 2073.95,
+		"y": 1839,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "Zebra.png",
+		"x": 2073.95,
+		"y": 1769,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1526.4,
+		"y": 2448.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0.3330841064453125
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1526.4,
+		"y": 2804.3,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0.3330841064453125
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2411.95,
+		"y": 791.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 63.7786865234375
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2411.95,
+		"y": 943.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 63.7786865234375
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2411.95,
+		"y": 1079.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 63.7786865234375
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2411.95,
+		"y": 1247.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 63.7786865234375
+	},
+	{
+		"name": "razmetka.png",
+		"x": 401.6,
+		"y": 841,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 245.5,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 613.6,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 937.7,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1277.75,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 1641.85,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2017.95,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 2370.05,
+		"y": 244.9,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 401.6,
+		"y": 1009.05,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 401.6,
+		"y": 1165.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	},
+	{
+		"name": "razmetka.png",
+		"x": 401.6,
+		"y": 1325.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 89.9947509765625
+	}
+],
+    "decals_additional": [
+	{
+		"name": "decal_06.png",
+		"x": 2313.2,
+		"y": 891.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_06.png",
+		"x": 987.25,
+		"y": 1087.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_03.png",
+		"x": 1455.25,
+		"y": 582.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 816.75,
+		"y": 555.45,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_05.png",
+		"x": 1473.35,
+		"y": 1400.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1682.15,
+		"y": 740.2,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 914.45,
+		"y": 866.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_03.png",
+		"x": 2252.9,
+		"y": 1751.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_08.png",
+		"x": 1093.95,
+		"y": 1102.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 1076.75,
+		"y": 1157.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 82.85,
+		"y": 1788.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_05.png",
+		"x": 514.5,
+		"y": 1995.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 830.8,
+		"y": 1891.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1851.75,
+		"y": 1991.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 1826.4,
+		"y": 1641.05,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 123.77131652832031
+	},
+	{
+		"name": "decal_04.png",
+		"x": 1710.85,
+		"y": 2348.35,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 162.2295684814453
+	},
+	{
+		"name": "decal_04.png",
+		"x": 2867.35,
+		"y": 2050.05,
+		"scaleX": 0.9999847412109375,
+		"scaleY": 0.9999847412109375,
+		"rotation": 123.77131652832031
+	},
+	{
+		"name": "decal_10.png",
+		"x": 1987.25,
+		"y": 1978.25,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_09.png",
+		"x": 2370.7,
+		"y": 917.8,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 2011.7,
+		"y": 512.5,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 2053.7,
+		"y": 1327.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 1849.15,
+		"y": 1175.15,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 376.6,
+		"y": 367.4,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_07.png",
+		"x": 132.7,
+		"y": 851.1,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	{
+		"name": "decal_04.png",
+		"x": 1136.8,
+		"y": -36.7,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	}
+]
+}

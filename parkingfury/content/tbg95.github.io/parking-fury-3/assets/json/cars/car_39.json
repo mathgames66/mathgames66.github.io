@@ -1,0 +1,73 @@
+{
+    "shadow": {
+        "x": -78.4,
+        "y": -46.3,
+        "scaleX": 0.753,
+        "scaleY": 0.784
+    },
+    "wheels": {
+        "wheel_l_x": -45.95,
+        "wheel_l_y": -23.5,
+        "wheel_r_x": -45.95,
+        "wheel_r_y": 23.25,
+        "inverted": true
+    },
+    "car_image": {
+        "image": "car_n_12.png",
+        "x": -61,
+        "y": -28.5,
+        "angle": 90
+    },
+    "additional_img": {
+        "image": "decal_wood_box.png",
+        "x": 57,
+        "y": 0,
+        "scaleX": 0.959,
+        "scaleY": 0.959,
+        "angle": 87.2
+    },
+    "boxes": [
+        {
+            "x": -22.45,
+            "y": 0,
+            "scaleX": 69,
+            "scaleY": 54.6
+        },
+        {
+            "x": 42.55,
+            "y": -15.25,
+            "scaleX": 58.9,
+            "scaleY": 4.1
+        },
+        {
+            "x": 42.05,
+            "y": 16.25,
+            "scaleX": 58.9,
+            "scaleY": 4.1
+        },
+        {
+            "x": 55.55,
+            "y": 0.0,
+            "scaleX": 45.9,
+            "scaleY": 64.4,
+            "angle":  -3.3
+        }
+    ],
+    "cam_point": {
+        "x": 60.25,
+        "y": 0
+    },
+    "hitpoints": [
+        [ -57, -26 ],
+        [ 19, -26 ],
+        [ 19, 26 ],
+        [ -57, 26 ]
+    ],
+    "flares": [
+        [ -58.75, -22.95 ],
+        [ -58.75, 21.05 ],
+        [ 12.35, -21.95 ],
+        [ 13.35, 23.55 ]
+    ],
+    "inverted": true
+}

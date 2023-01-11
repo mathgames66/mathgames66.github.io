@@ -1,0 +1,104 @@
+{
+    "base_sprite": {
+        "x": -380,
+        "y": -222,
+        "w": 757.8,
+        "h": 443,
+        "fixX": 381.78,
+        "fixY": 224.65,
+        "texture": "Trotuar.jpg"
+    },
+    "bordurs": [
+        {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -317.25,
+		    "y": -223.25,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 0
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 0.75,
+		    "y": -223.25,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 0
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": 318.75,
+		    "y": -158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": -90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 381.75,
+		    "y": -158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": 317.25,
+		    "y": 160,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 0
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": 317.25,
+		    "y": 223,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 180
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -0.75,
+		    "y": 223,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 180
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": -318.75,
+		    "y": 158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_Long.jpg",
+		    "x": -381.75,
+		    "y": 158,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": -90
+	    },
+	    {
+		    "type": "bitmap",
+		    "name": "Bordur_rot.png",
+		    "x": -317.25,
+		    "y": -160,
+		    "scaleX": 1,
+		    "scaleY": 1,
+		    "rotation": 180
+	    }
+    ],
+    "shape_points": [[342.25,-216],[361.1,-203.6],[375.25,-182.25],[378.7,-161.15],[378.7,160.8],[374.25,185.25],[361.1,203.2],[343.25,216.5],[318.7,220.8],[-318.25,220.8],[-343.25,215],[-360.7,203.2],[-374.25,185.75],[-378.25,160.8],[-378.25,-161.15],[-374.5,-185],[-360.7,-203.6],[-343.5,-215.75],[-318.25,-221.15],[318.7,-221.15]]
+}
