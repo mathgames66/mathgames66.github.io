@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>ClassiCube</title>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Free multiplayer sandbox block game">
+<meta name="keywords" content="Minecraft,Free,Multiplayer,Free Minecraft,ClassiCube,Classic Cube,miecraft,miencraft,video games,fre minecraft,minecraft classic,minecraft classic on android,mojang,microsoft minecraft,play.jsp">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+<!-- <link href="/static/v2/style/fi.css?v=2" rel="stylesheet" type="text/css">
+<link href="/static/v2/style/style.css?v=10" rel="stylesheet" type="text/css"> -->
+<script type="text/javascript" src="static/jquery.js"></script>
+</head>
+<body>
+<style>
+  body, html { padding: 0; margin: 0 }
+/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+#ClassiCubeCanvas { display:block; box-sizing:border-box; border-width:0px !important; padding:0 !important; margin:0 auto; background-color: black;  width:100%; height:auto; }
+</style>
+<canvas class="emscripten" id="ClassiCubeCanvas" oncontextmenu="event.preventDefault()" tabindex=-1 width="1000" height="562"></canvas>
+<script type='text/javascript'>
+      // need to load IndexedDB before running the game
+      function preloadIndexedDB() {
+        addRunDependency('load-idb');
+        FS.mkdir('/classicube');
+        FS.mount(IDBFS, {}, '/classicube');
+        FS.syncfs(true, function(err) { 
+            assert(!err); 
+            removeRunDependency('load-idb');
+        })
+      }
+	  
+	  function resizeGameCanvas() {
+        var cc_canv = $('canvas#ClassiCubeCanvas');
+
+        var dpi = window.devicePixelRatio;
+
+        var aspect_ratio = 16/9;
+
+        var viewport_w = cc_canv.parent().width();
+        var viewport_h = viewport_w / aspect_ratio;
+
+        var canv_w = viewport_w;
+        var canv_h = viewport_h;
+
+        canv_h = Math.round(canv_h);
+        canv_w = Math.round(canv_w);
+
+        if (canv_h % 2) {
+          canv_h = canv_h - 1;
+        }
+
+        if (canv_w % 2) {
+          canv_w = canv_w - 1;
+        }
+
+        cc_canv[0].width = canv_w * dpi;
+        cc_canv[0].height = canv_h * dpi;
+      }
+      
+      var Module = {
+        preRun: [ preloadIndexedDB, resizeGameCanvas ],
+        postRun: [],
+        arguments: ['Singleplayer'],
+        print: function(text) {
+            if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+            console.log(text);
+        },
+        printErr: function(text) {
+          if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+          console.error(text);
+        },
+        canvas: (function() {
+          var canvas = document.getElementById('ClassiCubeCanvas');
+
+          // As a default initial behavior, pop up an alert when webgl context is lost. To make your
+          // application robust, you may want to override this behavior before shipping!
+          // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
+          canvas.addEventListener("webglcontextlost", function(e) { alert('WebGL context lost. You will need to reload the page.'); e.preventDefault(); }, false);
+
+          return canvas;
+        })(),
+        setStatus: function(text) { 
+			console.log(text);
+			// var logElement = document.getElementById('logmsg');
+			// logElement.innerHTML = text;
+		},
+        totalDependencies: 0,
+        monitorRunDependencies: function(left) {
+          this.totalDependencies = Math.max(this.totalDependencies, left);
+          Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
+        }
+      };
+      Module.setStatus('Downloading...');
+      window.onerror = function(event) {
+        // TODO: do not warn on ok events like simulating an infinite loop or exitStatus
+        Module.setStatus('Exception thrown, see JavaScript console');
+        Module.setStatus = function(text) {
+          if (text) Module.printErr('[post-exception status] ' + text);
+        };
+      };
+
+      window.addEventListener('load', function () {
+    window.focus();
+    document.body.addEventListener('click',function(e) {
+        window.focus();
+    },false);
+});
+    </script>
+<script async type="text/javascript" src="static/ClassiCube.js?v=1"></script>
+</body>
+</html>
