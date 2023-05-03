@@ -1,0 +1,315 @@
+{"frames": [
+
+{
+	"filename": "room1 instance 10000",
+	"frame": {"x":530,"y":530,"w":527,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":353},
+	"sourceSize": {"w":527,"h":353}
+}
+,{
+	"filename": "room1Front instance 10000",
+	"frame": {"x":530,"y":1,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room1wall1 instance 10000",
+	"frame": {"x":991,"y":1768,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room1wall2 instance 10000",
+	"frame": {"x":991,"y":1878,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room1wall3 instance 10000",
+	"frame": {"x":1189,"y":1877,"w":196,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":106},
+	"sourceSize": {"w":196,"h":106}
+}
+,{
+	"filename": "room1wall4 instance 10000",
+	"frame": {"x":1189,"y":1768,"w":196,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":107},
+	"sourceSize": {"w":196,"h":107}
+}
+,{
+	"filename": "room2 instance 10000",
+	"frame": {"x":1059,"y":530,"w":527,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":353},
+	"sourceSize": {"w":527,"h":353}
+}
+,{
+	"filename": "room2Front instance 10000",
+	"frame": {"x":1066,"y":885,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room3 instance 10000",
+	"frame": {"x":1,"y":356,"w":527,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":353},
+	"sourceSize": {"w":527,"h":353}
+}
+,{
+	"filename": "room3Front instance 10000",
+	"frame": {"x":1595,"y":1,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room4 instance 10000",
+	"frame": {"x":885,"y":1414,"w":527,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":352},
+	"sourceSize": {"w":527,"h":352}
+}
+,{
+	"filename": "room4Front instance 10000",
+	"frame": {"x":1,"y":711,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room4wall1 instance 10000",
+	"frame": {"x":1588,"y":641,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room4wall2 instance 10000",
+	"frame": {"x":1786,"y":530,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room4wall3 instance 10000",
+	"frame": {"x":1,"y":1880,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room4wall4 instance 10000",
+	"frame": {"x":199,"y":1769,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room5 instance 10000",
+	"frame": {"x":1,"y":1,"w":527,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":353},
+	"sourceSize": {"w":527,"h":353}
+}
+,{
+	"filename": "room5Front instance 10000",
+	"frame": {"x":711,"y":885,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room5wall1 instance 10000",
+	"frame": {"x":595,"y":1878,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room5wall2 instance 10000",
+	"frame": {"x":1588,"y":751,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room5wall3 instance 10000",
+	"frame": {"x":793,"y":1768,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room5wall4 instance 10000",
+	"frame": {"x":793,"y":1878,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room6 instance 10000",
+	"frame": {"x":356,"y":1414,"w":527,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":352},
+	"sourceSize": {"w":527,"h":352}
+}
+,{
+	"filename": "room6Front instance 10000",
+	"frame": {"x":1,"y":1240,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room6wall1 instance 10000",
+	"frame": {"x":1786,"y":640,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room6wall2 instance 10000",
+	"frame": {"x":595,"y":1768,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room6wall3 instance 10000",
+	"frame": {"x":1786,"y":750,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room6wall4 instance 10000",
+	"frame": {"x":199,"y":1879,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room7 instance 10000",
+	"frame": {"x":1421,"y":1239,"w":527,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":352},
+	"sourceSize": {"w":527,"h":352}
+}
+,{
+	"filename": "room7Front instance 10000",
+	"frame": {"x":885,"y":1,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room8 instance 10000",
+	"frame": {"x":1421,"y":885,"w":527,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":352},
+	"sourceSize": {"w":527,"h":352}
+}
+,{
+	"filename": "room8Front instance 10000",
+	"frame": {"x":1240,"y":1,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}
+,{
+	"filename": "room8wall1 instance 10000",
+	"frame": {"x":1,"y":1769,"w":196,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":109},
+	"sourceSize": {"w":196,"h":109}
+}
+,{
+	"filename": "room8wall2 instance 10000",
+	"frame": {"x":1588,"y":530,"w":196,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":109},
+	"sourceSize": {"w":196,"h":109}
+}
+,{
+	"filename": "room8wall3 instance 10000",
+	"frame": {"x":397,"y":1768,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room8wall4 instance 10000",
+	"frame": {"x":397,"y":1878,"w":196,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":108},
+	"sourceSize": {"w":196,"h":108}
+}
+,{
+	"filename": "room9 instance 10000",
+	"frame": {"x":1414,"y":1593,"w":527,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":527,"h":352},
+	"sourceSize": {"w":527,"h":352}
+}
+,{
+	"filename": "room9Front instance 10000",
+	"frame": {"x":356,"y":885,"w":353,"h":527},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":527},
+	"sourceSize": {"w":353,"h":527}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "level9_2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
