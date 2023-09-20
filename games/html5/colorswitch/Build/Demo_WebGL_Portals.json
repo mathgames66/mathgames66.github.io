@@ -1,0 +1,14 @@
+{
+"companyName": "Daniel Nora",
+"productName": "Cardinal Chains",
+"dataUrl": "Demo_WebGL_Portals.data.unityweb",
+"asmCodeUrl": "Demo_WebGL_Portals.asm.code.unityweb",
+"asmMemoryUrl": "Demo_WebGL_Portals.asm.memory.unityweb",
+"asmFrameworkUrl": "Demo_WebGL_Portals.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "Demo_WebGL_Portals.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}

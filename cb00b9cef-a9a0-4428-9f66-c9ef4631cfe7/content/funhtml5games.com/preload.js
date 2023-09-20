@@ -1,1 +1,0 @@
-function preload_hide(){document.getElementById("preload_div").style.display="none"}function preload_done(){document.getElementById("preload_continue").innerHTML="CONTINUE TO GAME"}setTimeout(preload_done,6e3)

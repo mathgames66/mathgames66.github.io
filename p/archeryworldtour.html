@@ -1,51 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../theme.css">
-    </head>
 
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/theme.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="['math games 66', 'mathgames66', 'unblocked', 'online', 'free', 'games', 'game', 'interactive', 'HTML5']">
+    <meta name="author" content="Brayden Towner/TheDiamondfinderNG, RM">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/q5.min.js"></script>
+    <script src="../scripts/circles.js"></script>
+    <script src="../scripts/series_check.js"></script>
+    <title>🎮 Archery World Tour Unblocked! | [No Ads] | Play it at Mathgames66</title>
+</head>
+
+<body>
     <header>
-        <center>
-            <h5>
-              <a href="..">return home</a>
-            </h5>
-        </center>
-</header>
-       
+        <a href=".." id="home">
+            <img id="home-big" src="../images/vectors/logo.svg"><img id="home-small" src="../images/vectors/icon.svg">
+        </a>
+        <form action="../../search" autocomplete="off" onkeydown="document.getElementById('search-bar').classList.remove('failedSearch');">
+            <input name="search" id="search-bar" class="search-text" type="text" required="" oninvalid="document.getElementById('search-bar').classList.add('failedSearch');">
 
-    <wgTitle>
-Archery World Tour
-    </wgTitle>
-    <wgDev>
-by Happylander, uploaded by rm<br><br><br>
-if you want to play this on an iPad (safari), tap on the "aA" button on the top left of your screen, on the left side of the url box, then tap on "Request Mobile Site"
-</wgDev> <br>
-    <div class="wgHelp">
-    </div>
-    <wgEmbed>
-        <iframe height="720" width="405" src="../e4c94df6-823f-48ee-bb7a-d63c748de1ae/content/sda.4399.com/4399swf/upload_swf/ftp24/gamehwq/20180316/15b/index.html">
-  
-        </iframe>
-    </wgEmbed>
+            <input type="submit" id="submit-search" class="search-button" value="">
+        </form>
+    </header>
+    <main>
+        <div id="game-container">
+            <span class="center">
+                <h5>
+                    <label for="settings">Circle Display:</label>
+                    <select id="settings" name="settings">
+                        <option onclick="loop()" value="i">Interactive</option>
+                        <option onclick="stopScript(true)" value="s">Static</option>
+                        <option onclick="stopScript(false);" value="n">None</option>
+                    </select>
+                </h5>
+            </span>
+            <div id="wgTitle">
+                Archery World Tour
+            </div>
+            <div id="wgDev">
+                by <a href="../search/?create=Happylander">Happylander</a>, uploaded by <a href="../search/?uploader=rm">rm</a><br><br><br>
+                if you want to play this on an iPad (safari), tap on the "aA" button on the top left of your screen, on
+                the
+                left
+                side of the url box, then tap on "Request Mobile Site"
+                <h2 style="color: red;">WARNING! Due to us reworking the entire file system and using automated tools to fix the frames, some games might return a 404. We are actively working on this, DO NOT make an issue about this. They should all be fixed by friday!</h2>
+            </div> <br>
+            <div id="wgEmbed">
+                <iframe src="../games/html5/archeryworldtour" >
 
-<Comments>
-    <script src="https://giscus.app/client.js"
-        data-repo="mathgames66/mathgames66.github.io"
-        data-repo-id="R_kgDOGdm08Q"
-        data-category="General"
-        data-category-id="DIC_kwDOGdm08c4CA4Ew"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
-</Comments>
+                </iframe>
+            </div>
+        </div>
+        <div id="details">
+            <div id="description">
+                <h2>description</h2>
+                <p>Archery World Tour: Shooting with a bow and arrow is a precision sport that has been part of the Olympic Games in 1900 for the first time. It's a classy and highly regarded form of precision shooting that requires a steady hand and good sight. With our HTML5 game Archery World Tour you are able to experience the thrill and fun of archery on a journey along different shooting ranges across the land and master new challenges every time. On your way to become a master archer you have to take a few things into consideration, though. First of all there is the distance of the targets. The farther away it is, the more you have to compensate for the wind. And wind is your hardest enemy while trying to make the perfect shot and hit right in the 10.The direction and strength of the wind is shown on screen at all times. The stronger it blows from the side the more you will have to aim your bow in the opposite direction to hit your target. Furthermore the wind can also push your arrow down or give it an uplift, depending on the direction it comes from. You have to compensate for that as well. If you don't feel like playing the Archery World Tour you can just take on the endless game and try to get as far as you can by achieving each levels specific goal. If you fail, you're out. In the HTML5 game world Archery World Tour is a unique experience with exceptional audiovisual quality and physics-based gameplay that will keep you entertained for hours and hours. So take your bow and arrow and prove your aiming skills to become the HTML5 Archery Master.</p>
+            </div>
+            <div id="tags">
+                <h2>tags</h2>
+                <a class="tag-block" href="../search?tags=HTML5">HTML5</a><a class="tag-block" href="../search?tags=3d">3d</a><a class="tag-block" href="../search?tags=1+player">1 player</a><a class="tag-block" href="../search?tags=sports">sports</a>
+            </div>
+            <div id="series">
+                <h1><a href="/search/?series=">more from this series &rarr;</a></h1>
+                <div id="series-games" onload="checkSelf()"></div>
+            </div>
+        </div>
+        <p class="center">
+            Problem? Submit a <a href="https://github.com/mathgames66/mathgames66.github.io/issues/new">Github Issue</a>!
+            <br>
+            Want to download this or another game? Check them out <a href="https://github.com/mathgames66/mathgames66.github.io/tree/main/games">here</a>!
+        </p>
+        <div id="comments" class="center">
+            <img src="../images/bitmap/CLOSED.png">
+            <p>We're in the process of changing all the discussions to "Comments" instead of "General" for github clarity. Please be patient with us for now! This is better then scrapping it all, because I like archives</p>
+        </div>
+    </main>
+    <footer class="center">
+        <span>
+            <img src="https://www.free-website-hit-counter.com/c.php?d=9&amp;id=131796&amp;s=7" border="0">
+        </span>
+    </footer>
 
-<center>
-<img src='https://www.free-website-hit-counter.com/c.php?d=9&id=131796&s=7' border='0' >
-</center>
+
+</body></html>
+
 </html>

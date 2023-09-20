@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="27" height="362" viewBox="0 0 27 362">
+  <defs>
+    <linearGradient id="grad_1" x2="1">
+      <stop offset="0" stop-color="#666666" stop-opacity="1"/>
+      <stop offset="1" stop-color="#666666" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="grad_2" x2="1">
+      <stop offset="0" stop-color="#666666" stop-opacity="1"/>
+      <stop offset="1" stop-color="#666666" stop-opacity="0"/>
+    </linearGradient>
+  <linearGradient id="grad_1-,0,0,1,1,1" x2="26" x1="1" y1="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666666" stop-opacity="1"/>
+      <stop offset="1" stop-color="#666666" stop-opacity="0"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <path id="ID0.47917770594358444" fill="url(#grad_1-,0,0,1,1,1)" stroke="url(#grad_2)" stroke-width="2" d="M 1 1 L 26 1 L 26 361 L 1 361 L 1 1 Z "/>
+</svg>

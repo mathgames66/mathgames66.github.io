@@ -1,1 +1,0 @@
-var GameOverState = {preload: function(){world = this; settings(this); game.stage.backgroundColor = "#FFFFFF"; }, create: function() {world.game.add.sprite(0,0, 'goScreen'); game.input.onDown.add(goClick); }, update: function(){} }; function goClick(pointer){if(rotDevice){return;} levl = 0; clickSound(); newState(); }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="30.709300994873047" height="35.01219940185547" viewBox="0.2999999523162842 0.1499999761581421 30.709300994873047 35.01219940185547">
+  <defs>
+    <linearGradient id="grad_1" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.8367" stop-color="#000000" stop-opacity="0.8"/>
+    </linearGradient>
+  <linearGradient id="grad_1-.765065610408783,-0.6439523100852966,-0.6439523100852966,-0.765065610408783,26.133663764595983,79.25082012712956" x1="13.2665" y1="14.2705" x2="30.0093" y2="34.1622" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.8367" stop-color="#000000" stop-opacity="0.8"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <image id="ID0.7968572787940502" width="47" height="47" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAA0klEQVR42tXXUQqEMAxFUT/extyTy8ie3tZm/BBEHMcZ0phbqNBawiFNBDVxh0WFrw9R4US89wtR4SS8zzZFhRPwvnopKrwz3ncOiQrviPcvh0WFd8PPZPxExZuGj/dciJkPatkEteaD2rCRHVBUeBU+RgUWFT4aH6OvVFT4KHwUfQTS8WXwbHwpPBNfDs/CPwLPwi8JMeYODYvKvJMyXvYn5X+v+enMm1o2pta8qQ3bEn4H3xb+Dd8afoVvD/+ER8DP8Bj4EY+C7/E4+IZHwtfxAmnHIIDXHWAjAAAALXRFWHRTb2Z0d2FyZQBieS5ibG9vZGR5LmNyeXB0by5pbWFnZS5QTkcyNEVuY29kZXKoBn/uAAAAAElFTkSuQmCC" transform="matrix(-0.5,0,0,-0.5,25.25,25.75)" stroke-width="1"/>
+  <path id="ID0.4750219117850065" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M 1.3 25.85 L 26.5 1.15 "/>
+  <g id="ID0.8532889229245484">
+    <g id="ID0.2853620764799416">
+      <path id="ID0.8356158137321472" fill="url(#grad_1-.765065610408783,-0.6439523100852966,-0.6439523100852966,-0.765065610408783,26.133663764595983,79.25082012712956)" d="M 23.2124 5.8992 L 3.3207 22.6419 L 30.0093 34.1622 L 23.2124 5.8992 " stroke-width="0.9999999829471767"/>
+      <path id="ID0.975943093188107" fill="none" stroke="#FFFFFF" stroke-width="1.9999999658943535" d="M 23.2124 5.8992 L 3.3207 22.6419 L 30.0093 34.1622 L 23.2124 5.8992 "/>
+    </g>
+  </g>
+</svg>
