@@ -1,0 +1,379 @@
+  
+
+  
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other 
+    
+    /* Clear floats after the columns */
+
+
+    @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+  
+}
+textarea {
+  resize:none;
+}
+a {
+  color:white;
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+ background-color: #5a3fcd;
+}
+
+::selection {
+color: white;
+ background-color: #5a3fcd;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+.context h1left{
+    text-align: left;
+    color: #fff;
+    font-size: 2em;
+    padding-left: 50px;
+  text-decoration:bold;
+}
+
+.context h2{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+.context h2left{
+    text-align: left;
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 50px;
+  text-decoration:bold;
+}
+.context h3{
+    text-align: center;
+    color: #fff;
+    font-size: 1.17em;
+}
+.context h3left{
+    text-align: left;
+    color: #fff;
+    font-size: 1.17em;
+    padding-left: 50px;
+  text-decoration:bold;
+}
+
+.context h4{
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+}
+.context h4left{
+    text-align: left;
+    color: #fff;
+    font-size: 1em;
+    padding-left: 50px;
+  text-decoration:bold;
+}
+
+.context h5{
+    text-align: center;
+    color: #fff;
+    font-size: 0.83em;
+}
+.context h5left{
+    text-align: left;
+    color: #fff;
+    font-size: 0.83em;
+    padding-left: 50px;
+  text-decoration:bold;
+}
+
+.context h6{
+    text-align: center;
+    color: #fff;
+    font-size: 0.75em;
+}
+.context h6left{
+    text-align: left;
+    color: #fff;
+    font-size: 0.75em;
+    padding-left: 50px;
+  text-decoration:bold;
+}
+
+.context iframe{
+    text-align: center;
+  display:block;
+    color: #fff;
+    height: 700px;
+  width: 100%;
+  resize: both;
+  overflow: auto;
+  border-style: solid;
+  border-color:black;
+  border: 10px solid transparent
+}
+textarea {
+  background:#181818;
+  color:white;
+  font-family: 'Exo', sans-serif;
+  border-color:white;
+  border:2px solid;
+  border-radius:5px;
+  width:300px;
+  height:75px;
+}
+input {
+    background:#181818;
+  color:white;
+  font-family: 'Exo', sans-serif;
+  border-color:white;
+  border:2px solid;
+  border-radius:5px;
+}
+button {
+    background:#181818;
+  color:white;
+  font-family:Arial;
+  border-color:white;
+  border:1.5px solid;
+  border-radius:5px;
+}
+
+.area{
+  position:relative;
+  z-index:-1;
+background-color: #ff4e00;
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+   
+    background-repeat: no-repeat;
+  background-size:cover;
+  background-height:400vh;
+  background-repeat:none;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+.main {
+  background: #fcc;
+  margin: 10px 0;
+  
+}
+.side {
+  background: #fea;
+}
+.list {
+  background: #afd;
+}
+.main,
+.side,
+.list {
+  padding: 2%;
+  border-radius: 10px
+    
+}
+
+@media ( min-width : 600px ){
+	.flexbox {
+    display: -webkit-flex;
+    display: flex;
+	}
+  .main {
+    margin: 0 10px;
+    -webkit-flex: 2;
+    flex: 2;
+  }
+  .side {
+    -webkit-flex: 1;
+    flex: 1;
+  }
+}
+.sub {
+color:lightgreen;
+}
+
+h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+
+
+    
+    </style>
+    </head>
+    <body>
+    
+       <form target="_blank" action="https://formsubmit.co/mathgames66@mail.com" method="POST">
+       
+      <div class="context">
+        
+    
+        <div class="context">
+        
+          <h1>thank you for submitting a game.</h1>
+          <h3>in the meantime, you can <a href="/upload.html">submit another one</a> or <a href="/index.html">return home</a>
+    </div>
+      </div>
+     
+    
+    </div>
+    
+    
+    <div class="area" >
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+    
+        </div >
+    
+    
