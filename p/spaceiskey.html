@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../scripts/q5.min.js"></script>
     <script src="../scripts/circles.js"></script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script src="../scripts/series_check.js"></script>
     <title>🎮 Space is Key Unblocked! | [No Ads] | Play it at Mathgames66</title>
 </head>
@@ -29,10 +30,10 @@
             <span class="center">
                 <h5>
                     <label for="settings">Circle Display:</label>
-                    <select id="settings" name="settings">
-                        <option onclick="loop()" value="i">Interactive</option>
-                        <option onclick="stopScript(true)" value="s">Static</option>
-                        <option onclick="stopScript(false);" value="n">None</option>
+                    <select id="settings" name="settings" onchange="changeVal(event)">
+                        <option value="i">Interactive</option>
+                        <option value="s">Static</option>
+                        <option value="n">None</option>
                     </select>
                 </h5>
             </span>
@@ -45,7 +46,7 @@
                 the
                 left
                 side of the url box, then tap on "Request Mobile Site"
-                <h2 style="color: red;">WARNING! Due to us reworking the entire file system and using automated tools to fix the frames, some games might return a 404. We are actively working on this, DO NOT make an issue about this. They should all be fixed by friday!</h2>
+                <h2 style="color: red; line-height: normal;">WARNING! Due to us reworking the entire file system and using automated tools to fix the frames, some games might return a 404. We are actively working on this, DO NOT make an issue about this. They should all be fixed by friday!</h2>
             </div> <br>
             <div id="wgEmbed">
                 <iframe src="../games/html5/spaceiskey" >

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 
 :root {
 	--select-color: white;
@@ -9,6 +10,7 @@ body {
 	font-weight: bold;
 	padding: 50px 1vw;
 	color: #fff;
+	font-family: Poppins;
 }
 html {
 	background: #131313;
@@ -55,13 +57,13 @@ h5 {
 iframe {
 	line-height: 100%;
 	height: 700px;
-	width:100%
+	width: 100%;
 }
 
 #wgEmbed * {
 	display: block;
-	margin:auto;
-	resize:none;
+	margin: auto;
+	resize: none;
 	overflow: auto;
 	border-style: solid;
 	border-color: black;
@@ -102,13 +104,14 @@ canvas {
 	width: 100%;
 	z-index: -9;
 }
-#game-container{
+#game-container {
 	line-height: 0.2;
 }
 #home-small {
 	display: none;
 }
 #submit-search {
+	float: right;
 	width: 16.5px;
 	height: 18px;
 	margin: -12px;
@@ -193,16 +196,19 @@ canvas {
 	grid-template-columns: repeat(2, 1fr);
 }
 
-#tags{
+#tags {
 	float: right;
 	text-align: right;
 }
-#series{
+#series {
 	grid-column: 1 / span 2;
 }
-#series div{
+#series div {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+}
+#comments *{
+	width: 100%;
 }
 .card {
 	font-family: "Poppins", sans-serif;
@@ -214,32 +220,28 @@ canvas {
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-  }
-  
-  .card h3 {
+}
+.card h3 {
 	color: white;
 	font-size: 24px;
 	margin: 20px 0 0 20px;
-  
-  }
-  
-  .card p {
+}
+.card p {
 	color: white;
 	font-weight: 400;
 	font-size: 16px;
 	align-self: end;
 	margin: 0 0 20px 20px;
 	letter-spacing: 0.5px;
-  }
-  
-  .card img {
+}
+.card img {
 	position: absolute;
 	top: 0;
 	height: 110%;
 	width: 100%;
 	z-index: -1;
 	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-  }
+}
 @media only screen and (max-width: 900px) {
 	form {
 		position: relative;
@@ -250,8 +252,10 @@ canvas {
 	#submit-search {
 		width: 33px;
 		height: 36px;
-		margin: -30px;
-		top: -5px;
+		padding: 0;
+		float: right;
+		/* margin: -30px; */
+		top: -3em;
 	}
 	#search-bar {
 		font-size: 2em;
@@ -269,6 +273,7 @@ canvas {
 		display: initial;
 	}
 }
+
 @media only screen and (min-width: 900px) {
 	form {
 		position: absolute;
@@ -280,6 +285,7 @@ canvas {
 	#submit-search {
 		width: 16.5px;
 		height: 18px;
-		margin: -12px;
+		margin: -2em auto;
+		left: -1em;
 	}
 }

@@ -38,7 +38,6 @@ function setup() {
 function draw() {
 	// fill("white")
 	// text(frameRate(), 0,50)
-	localStorage.circleDisp = "i";
 	let mX = mouse.x,
 		mY = mouse.y;
 	clear();
@@ -80,23 +79,19 @@ function updateCanvas() {
 	resizeCanvas(windowWidth, min(2000, document.getElementsByTagName("body")[0].scrollHeight+200));
 	circles.resizeCanvas(width, height);
 	bg.resizeCanvas(width, height);
-	if (["s"].includes(localStorage.circleDisp)) {
-		stopScript(true);
-	}
 }
 
 
 function stopScript(drawStatic) {
 	noLoop();
 	requestAnimationFrame(() => {
-		localStorage.circleDisp = drawStatic ? "s" : "n";
 		clear();
 		if (!drawStatic) return;
 		baseCircles.resizeCanvas(width, height);
 		x = padding + radius / 2;
 		y = padding + radius / 2;
-		loopsX = width / (padding + radius + 1);
-		loopsY = height / (padding + radius + 1);
+		loopsX = windowwidth / (padding + radius + 1);
+		loopsY = windowheight / (padding + radius + 1);
 		baseCircles.blendMode(BLEND);
 
 		baseCircles.background("rgb(158,158,15  8)");
@@ -130,3 +125,17 @@ document.addEventListener("mousemove", updateMouse);
 ontouchend = () => {
 	stopScript(true);
 };
+
+function changeVal(e) {
+	localStorage.circleDisp =e.target.value
+	switch (localStorage.circleDisp) {
+		case "s":
+			stopScript(true);
+			return;
+		case "n":
+			stopScript(false);
+			return;
+		default:
+			draw()
+	}
+  }

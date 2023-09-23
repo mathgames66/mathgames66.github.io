@@ -11,6 +11,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: "Poppins", sans-serif;
+	line-height: 1
 }
 
 .context {
@@ -47,6 +48,7 @@ s {
 	grid-gap: 2rem;
 	margin: 2rem;
 }
+
 #counter {
 	margin-left: auto;
 	margin-right: auto;
@@ -59,7 +61,7 @@ s {
 }
 #el1 {
 	display: inline-block;
-  margin: none;
+  margin: 0;
 }
 h3 {
 	color: white;
@@ -154,8 +156,9 @@ button:hover span:after {
 .dotted {
 	color: black;
 	border-radius: 10px;
-	padding: 1em 0;
+	padding: 1em;
 	display: inline-block;
+	width:90%;
 }
 
 .pink {
@@ -188,7 +191,7 @@ a.link {
 #submit-search {
 	width: 22px;
 	height: 24px;
-	margin: -13.5px;
+	margin: -8px -13.5px;
 	position: relative;
 	left: -27px;
 	background-image: url("../images/bitmap/search.png");
@@ -208,7 +211,9 @@ a.link {
 	scale: 120%;
 }
 #advanced-search {
-	margin: 10px;
+	position: relative;
+	top: 8px;
+	margin: 0px 10px;
 	width: 24px;
 	height: 24px;
 	background-image: url("../images/bitmap/drop.png");
@@ -224,18 +229,21 @@ a.link {
 	border: #1e1e1e solid;
 	text-align: left;
 	margin: -15px calc(50% - 165px) 20px auto;
-	padding: 0 2em;
+	padding: 0px 2em;
 	height: 0px;
 	transition: all 1s;
+	line-height: normal;
 }
 #advanced-search.active + #advanced-menu {
 	/* display: block; */
 	/* height: 120px; */
 	padding: 2em;
 	font-weight: bold;
-	height: fit-content;
+	height: 400px;
+	/* margin: -15px calc(50% - 165px) 20px auto; */
 }
 #search-bar {
+	width: 22em;
 	position: relative;
 	padding: 0.6em 1em;
 	box-sizing: border-box;
@@ -269,7 +277,7 @@ a.link {
   margin-top: 0.3em;
 }
 .text-container input{
-  min-width: 65%;
+  flex: auto;
 }
 .search-text {
 	color: white;

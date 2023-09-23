@@ -144,13 +144,15 @@ async function getGameData() {
 		<h1>failed to fetch game data. if problem persists, send the following to <a href="mailto:mathgames66@mail.com">mathgames66@mail.com</a> or include in github issue</h1>
 		<p style="text-align:left; color:#F00; background:#111; font-family:monospace;">${error}<br />${
 				error.lineNumber
-					? "lineNum: " +
-					  error.lineNumber +
-					  "<br />fileName: " +
-					  error.fileName
-					: "Firefox contains more details in error messages, such as line number and file name. Due to the fact Chrome doesn't have these features, we can't show those to you"
+					? "lineNum: " + error.lineNumber
+					: "couldn't fetch line number"}
+				 <br />
+				${error.lineNumber
+					? +"fileName: " + error.fileName
+					: "couldn't fetch file name"
 			}</p>
 		  </div>`;
+			throw error;
 		});
 }
 const fuseOptions = {
@@ -198,16 +200,29 @@ if (searchQueryObject.search) {
 	}
 }
 //https://stackoverflow.com/questions/41661287/how-to-check-if-an-array-contains-another-array#41661388
-function isArrayInArray(arr, item){
-	console.log(JSON.stringify(item)==JSON.stringify(item.filter((ele)=>{return arr.includes(ele)})))
-	return JSON.stringify(item)==JSON.stringify(item.filter((ele)=>{return arr.includes(ele)}))
-  }
+function isArrayInArray(arr, item) {
+	console.log(
+		JSON.stringify(item) ==
+			JSON.stringify(
+				item.filter(ele => {
+					return arr.includes(ele);
+				})
+			)
+	);
+	return (
+		JSON.stringify(item) ==
+		JSON.stringify(
+			item.filter(ele => {
+				return arr.includes(ele);
+			})
+		)
+	);
+}
 
 let fuseSearch;
-getGameData()
-.then(searchFunction);
+getGameData().then(searchFunction);
 async function searchFunction() {
-	console.log("START")
+	console.log("START");
 	if (searchQueryObject.search) {
 		console.log("hi1");
 		fuseSearch = new Fuse(gameDataObj, fuseOptions);
@@ -225,10 +240,10 @@ async function searchFunction() {
 	}
 	if (searchQueryObject.tags) {
 		gameDataObj = gameDataObj.filter(thing => {
-			if(isArrayInArray(thing.siteTags, searchQueryObject.tags)){
-				console.log(thing.siteTags, searchQueryObject.tags)
+			if (isArrayInArray(thing.siteTags, searchQueryObject.tags)) {
+				console.log(thing.siteTags, searchQueryObject.tags);
 			}
-			return isArrayInArray(thing.siteTags, searchQueryObject.tags)
+			return isArrayInArray(thing.siteTags, searchQueryObject.tags);
 		});
 	}
 	if (searchQueryObject.create) {

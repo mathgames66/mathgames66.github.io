@@ -7,5 +7,6 @@ checkSelf = () => {
 	}
 }
 onload = ()=>{
+	checkSelf()
 onscroll = ()=>{checkSelf(); onscroll=null}
 }
