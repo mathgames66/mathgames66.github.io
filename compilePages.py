@@ -1,4 +1,3 @@
-#CURRENTLY UNSTABLE, UNFINISHED, AND UNDOCUMENTED. ONLY USE IF YOU KNOW WHAT YOU'RE DOING 
 import json, copy,  time, pprint, os, re, pathlib, argparse, glob
 
 from html.parser import HTMLParser
@@ -80,7 +79,7 @@ args = args_parser.parse_args()
 #     exit()
 timeSec = 1
 os.system("rmdir p /s /q")
-os.system("robocopy \"p copy\" p > nul")
+os.system("robocopy \"p copy\" p")
 
 
 class MyHTMLParser(HTMLParser):
@@ -178,6 +177,6 @@ with open("gamedata.json", "r", encoding='utf8') as json_file:
         # item.update({"pageData": {'is_frame': frame_tag, 'attributes': {}}})
         # for attr in iframe_attributes:
         #     item['pageData']['attributes'][attr[0]] = attr[1]
-    # json_file.write(json.dumps(json_array, ensure_ascii=False))
+    # c
 # parser = MyHTMLParser()
 # parser.feed(html_string)

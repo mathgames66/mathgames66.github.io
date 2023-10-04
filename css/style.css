@@ -235,12 +235,10 @@ a.link {
 	line-height: normal;
 }
 #advanced-search.active + #advanced-menu {
-	/* display: block; */
-	/* height: 120px; */
 	padding: 2em;
 	font-weight: bold;
 	height: 400px;
-	/* margin: -15px calc(50% - 165px) 20px auto; */
+	overflow-y: auto;
 }
 #search-bar {
 	width: 22em;

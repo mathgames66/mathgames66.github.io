@@ -171,17 +171,7 @@ canvas {
 	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 	filter: brightness(0.6);
 }
-.card {
-	height: 215px;
-	position: relative;
-	overflow: hidden;
-	border-radius: 8px;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-	display: grid;
-	grid-template-rows: 1fr 1fr;
-	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-	z-index: 1;
-}
+
 .card:hover {
 	transform: scale(1.035, 1.035);
 	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
@@ -220,6 +210,8 @@ canvas {
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+	margin: 10px;
+	z-index: 1;
 }
 .card h3 {
 	color: white;

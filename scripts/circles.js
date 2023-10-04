@@ -1,3 +1,4 @@
+
 new Q5("global");
 let radius = 40,
 	padding = 20,
@@ -90,8 +91,8 @@ function stopScript(drawStatic) {
 		baseCircles.resizeCanvas(width, height);
 		x = padding + radius / 2;
 		y = padding + radius / 2;
-		loopsX = windowwidth / (padding + radius + 1);
-		loopsY = windowheight / (padding + radius + 1);
+		loopsX = windowWidth / (padding + radius + 1);
+		loopsY = windowHeight / (padding + radius + 1);
 		baseCircles.blendMode(BLEND);
 
 		baseCircles.background("rgb(158,158,15  8)");
@@ -119,9 +120,9 @@ function stopScript(drawStatic) {
 function updateMouse(e) {
 	mouse = { x: e.pageX, y: e.pageY };
 }
-ontouchstart = loop;
 document.addEventListener("mousemove", updateMouse);
 
+ontouchstart = loop;
 ontouchend = () => {
 	stopScript(true);
 };

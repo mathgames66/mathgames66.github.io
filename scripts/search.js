@@ -1,4 +1,5 @@
 //Hi there! - Diamond
+// Comments aren't completed (obviously) so some parts might be a little harder to understand
 
 //Mobile check via
 let hasTouchScreen = false;
@@ -84,7 +85,7 @@ if (document.readyState === "loading") {
 // Also, replace all the "+" (default space placeholder) with URI encoded space.
 // Then it will decode the URI
 // For example, if the url is mathgames66.github.io/search?search=hi&tags=2dANDscratch, it grabs "search=hi&tags=2dANDscratch")
-let searchString = decodeURI(
+let searchString = decodeURIComponent(
 	document.location.search.slice(1).replaceAll("+", "%20")
 );
 // Split the searchString at every & symbol into an array ("search=hi&tags=2dANDscratch" becomes ["search=hi", "tags=2dANDscratch"])
@@ -259,7 +260,24 @@ async function searchFunction() {
 		});
 	}
 	document.getElementById("container").replaceChildren();
-	if (gameDataObj.length == 0) {
+	 if(["hi", "hello", "hey"].includes(searchQueryObject.search)){
+		document.getElementById(
+			"container"
+		).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323;">
+    <h1>hi :)</h1>
+    <h1>hope you're enjoying the site! :D</h1>
+      </div>`;
+	}else if(["secret", "hidden"].includes(searchQueryObject.search)){
+		document.getElementById(
+			"container"
+		).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323;">
+    <h1 style="font-family: Comic Sans MS, cursive; color:orange">secert O0O pog</h1>
+    <video loop mute autoplay >
+	<source src="https://mg66-secrets.pages.dev/funny.mp4" type="video/mp4">
+      <p>ur browser suck. no secret for you :(</p> 
+    </video>
+      </div>`;
+	} else if (gameDataObj.length == 0) {
 		document.getElementById(
 			"container"
 		).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323;">

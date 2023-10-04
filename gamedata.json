@@ -31,12 +31,12 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "https://scratch.mit.edu/projects/135170508/embed/",
+                "src": "../games/html5/ball2/",
                 "allowtransparency": "true",
                 "frameborder": "0",
                 "scrolling": "no",
                 "allowfullscreen": null,
-                "style": "width: 485px; height: 402px; "
+                "style": "min-width: 485px; min-height: 402px; "
             }
         },
         "url": "scratch-rollingsky",
@@ -109,7 +109,7 @@
             "attributes": {
                 "class": "ok",
                 "src": "../games/html5/2048hacked",
-                "style": "height: 1000px; width: 405px; "
+                "style": "min-height: 1000px; min-width: 405px; "
             }
         },
         "url": "2048hacked",
@@ -225,7 +225,7 @@
             "isFrame": "iframe",
             "attributes": {
                 "src": "../games/html5/alieninvadersio",
-                "style": "height: 720px; width: 100%px; "
+                "style": "min-height: 720px; width: 100%; "
             }
         },
         "url": "alieninvadersio",
@@ -261,7 +261,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../493aca18-ee76-4134-9267-a72e6f4350f6/content/w8.snokido.com/games/html5/among-us/index.html"
+                "src": "../games/html5/among-us-single-player"
             }
         },
         "url": "amongus-sp",
@@ -390,7 +390,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "awesome tanks",
         "isMobile": true,
         "creator": "EmitterCritter",
         "uploader": "rm",
@@ -414,7 +414,7 @@
             "2d",
             "1 player"
         ],
-        "series": null,
+        "series": "awesome tanks",
         "isMobile": true,
         "creator": "EmitterCritter",
         "uploader": "rm",
@@ -500,7 +500,7 @@
             "attributes": {
                 "frameborder": "1",
                 "scrolling": "no",
-                "src": "../989654c0-6c6e-40e4-956c-1db1ec95bd76/content/v6p9d9t4.ssl.hwcdn.net/html/3227960/Backrooms%20v1.5%20-%20WebGL/index.html",
+                "src": "../games/html5/backrooms/INDEX~1.HTM",
                 "style": ""
             }
         },
@@ -537,7 +537,7 @@
             "attributes": {
                 "frameborder": "1",
                 "scrolling": "no",
-                "src": "../b92261bf-dae7-4055-bd8a-8eb6d069a6fc/content/v6p9d9t4.ssl.hwcdn.net/html/4965007/WebGL/index.html",
+                "src": "../games/html5/baldisbasicsfieldtripcampingremake",
                 "style": ""
             }
         },
@@ -613,7 +613,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../1470765d-0221-4caf-94ac-9c9870dfdb9d/content/www.enjoy4fun.com/game/basketballlegends2020/v4/index.html"
+                "src": "../games/html5/basketball-legends-2020"
             }
         },
         "url": "bblegends2020",
@@ -649,7 +649,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../46a0946f-dba7-45ea-b645-cd04bb423bc4/content/unblockeds-games.com/webgl/basketball-io/index.html"
+                "src": "../games/html5/basketballio"
             }
         },
         "url": "basketballio",
@@ -1125,7 +1125,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "color switch",
         "isMobile": false,
         "creator": "Fortafy Games",
         "uploader": "rm",
@@ -1158,14 +1158,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "color switch",
         "isMobile": false,
         "creator": "Fortafy Games",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../e7385ca8-a374-45a9-8012-1a8cb1b8b937/content/tybsi.com/games/color-switch-challenges-edition/index.html"
+                "src": "../games/html5/colorswitchchallengesedition"
             }
         },
         "url": "cs-challenges",
@@ -1339,7 +1339,7 @@
             "attributes": {
                 "frameborder": "1",
                 "scrolling": "no",
-                "src": "../ed88dccb-29af-467e-822f-1d7a4d8e75f9/content/app-170777.games.s3.yandex.net/170777/0u785ls0nsprci3xwixktrynxlnvnezd/index.html",
+                "src": "../games/html5/deathcario",
                 "style": ""
             }
         },
@@ -1450,7 +1450,8 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../9b3d9d1e-55a0-45fa-b820-e75d8d569306/content/playhackgame.com.js2.mfzjdq.com/youxi/UploadFile/html5-hacked/Dont-Drop-The-White-Ball-2/index.htm/index.html"
+                "src": "../games/html5/dontdropthewhiteball2hacked",
+                "WATCH!!!":""
             }
         },
         "url": "ddtwb2hacked",
@@ -1487,7 +1488,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../cffd6473-61f8-49c2-a88f-7a6a61699ca1/content/www.julgames.com/games/2021/unity/dont-fall-io/index.html"
+                "src": "../games/html5/dontfallio/"
             }
         },
         "url": "dontfallio",
@@ -1560,7 +1561,7 @@
             "attributes": {
                 "frameborder": "1",
                 "scrolling": "no",
-                "src": "https://mathplayground.com/drift-boss-v3/index.html",
+                "src": "../games/html5/driftboss",
                 "style": ""
             }
         },
@@ -1734,7 +1735,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../9a0fa683-b1e6-40f0-a386-825df313039c/content/unblockedgamesboo.com/webgl/gunspin/index.html"
+                "src": "../games/html5/finnsfantasticfoodmachine"
             }
         },
         "url": "finnsfantasticfoodmachine",
@@ -1808,7 +1809,7 @@
             "attributes": {
                 "frameborder": "1",
                 "scrolling": "no",
-                "src": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web//index.html",
+                "src": "../games/html5/fnafweb/public",
                 "style": ""
             }
         },
@@ -1883,12 +1884,12 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "https://scratch.mit.edu/projects/356595737/embed/index.html",
+                "src": "../games/html5/geometrydashcadenza",
                 "allowtransparency": "true",
                 "frameborder": "0",
                 "scrolling": "no",
                 "allowfullscreen": null,
-                "style": "width: 485px; height: 402px; "
+                "style": "min-width: 485px; min-height: 402px; "
             }
         },
         "url": "gds-cadenza",
@@ -1930,52 +1931,11 @@
                 "frameborder": "0",
                 "scrolling": "no",
                 "allowfullscreen": null,
-                "style": "width: 485px; height: 402px; "
+                "style": "min-width: 485px; min-height: 402px; "
             }
         },
         "url": "gdscratch",
         "thumbnailURL": "gdscratch3060.png"
-    },    {
-        "name": "geometrydashunbrokenonscratch",
-        "dispName": "Geometry Dash UnBroken on Scratch",
-        "description": "",
-        "siteTags": [
-            "side scrolling platformer",
-            "HTML5",
-            "fangame",
-            "geometry dash",
-            "2d",
-            "1 player",
-            "scratch"
-        ],
-        "metaTags": [
-            "math games 66",
-            "mathgames66",
-            "unblocked",
-            "online",
-            "free",
-            "games",
-            "game",
-            "interactive",
-            "HTML5"
-        ],
-        "series": null,
-        "isMobile": true,
-        "creator": "d1a5",
-        "uploader": "rm",
-        "pageData": {
-            "isFrame": "iframe",
-            "attributes": {
-                "src": "https://scratch.mit.edu/projects/444136959/embed/index.html",
-                "allowtransparency": "true",
-                "frameborder": "0",
-                "scrolling": "no",
-                "allowfullscreen": null,
-                "style": "width: 485px; height: 402px; "
-            }
-        },
-        "url": "gdunbroken",
-        "thumbnailURL": "gd_unbroken.png"
     },
     {
         "name": "geometrydashunbroken2onscratch",
@@ -2001,25 +1961,66 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "geometry dash unbroken",
         "isMobile": true,
         "creator": "d1a5",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "https://scratch.mit.edu/projects/479206255/embed/index.html",
+                "src": "../games/html5/geometrydashunbroken2",
                 "allowtransparency": "true",
                 "frameborder": "0",
                 "scrolling": "no",
                 "allowfullscreen": null,
-                "style": "width: 485px; height: 402px; "
+                "style": "min-width: 485px; min-height: 402px; "
             }
         },
         "url": "gdunbroken2",
         "thumbnailURL": "gd_unbroken.png"
     },
-
+    {
+        "name": "geometrydashunbrokenonscratch",
+        "dispName": "Geometry Dash UnBroken on Scratch",
+        "description": "",
+        "siteTags": [
+            "side scrolling platformer",
+            "HTML5",
+            "fangame",
+            "geometry dash",
+            "2d",
+            "1 player",
+            "scratch"
+        ],
+        "metaTags": [
+            "math games 66",
+            "mathgames66",
+            "unblocked",
+            "online",
+            "free",
+            "games",
+            "game",
+            "interactive",
+            "HTML5"
+        ],
+        "series": "geometry dash unbroken",
+        "isMobile": true,
+        "creator": "d1a5",
+        "uploader": "rm",
+        "pageData": {
+            "isFrame": "iframe",
+            "attributes": {
+                "src": "../games/html5/geometrydashunbroken",
+                "allowtransparency": "true",
+                "frameborder": "0",
+                "scrolling": "no",
+                "allowfullscreen": null,
+                "style": "min-width: 485px; min-height: 402px; "
+            }
+        },
+        "url": "gdunbroken",
+        "thumbnailURL": "gd_unbroken.png"
+    },
     {
         "name": "geometryjumpsketchy",
         "dispName": "Geometry Jump Sketchy",
@@ -2118,7 +2119,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "geometry neon dash",
         "isMobile": true,
         "creator": "kiz10",
         "uploader": "rm",
@@ -2154,7 +2155,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "geometry neon dash",
         "isMobile": true,
         "creator": "kiz10",
         "uploader": "rm",
@@ -2524,7 +2525,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../def041f0-93c2-47ef-83b2-2eaed657e736/content/moyaimoment.github.io/test/idle-breakout/index.html"
+                "src": "../games/html5/idlebreakout"
             }
         }
     },
@@ -2625,7 +2626,7 @@
             "isFrame": "iframe",
             "attributes": {
                 "src": "../games/html5/jumpjellyjump",
-                "style": "height: 600px; width: 800px; "
+                "style": "min-height: 600px; min-width: 800px; "
             }
         },
         "url": "jumpjellyjump",
@@ -2693,7 +2694,7 @@
         "pageData": {
             "isFrame": "embed",
             "attributes": {
-                "src": "../madness-accelerant.swf",
+                "src": "../games/flash/madnessaccelerant/madnessaccelerant.swf",
                 "pluginspage": "http://www.macromedia.com/go/getflashplayer",
                 "style": "height: 300px; width: 600px; "
             }
@@ -2902,7 +2903,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": false,
         "creator": "Mad Puffers",
         "uploader": "rm",
@@ -2937,7 +2938,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "Mad Puffers",
         "uploader": "rm",
@@ -2972,7 +2973,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "Mad Puffers",
         "uploader": "rm",
@@ -3007,7 +3008,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "Mad Puffers",
         "uploader": "rm",
@@ -3042,14 +3043,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "Mad Puffers",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../13e9680d-2aa4-4b60-a6be-878ac43c32a3/content/www.enjoy4fun.com/game/motox3m5poolparty/v4/index.html"
+                "src": "../games/html5/motox3m5poolparty"
             }
         },
         "url": "motox3m5",
@@ -3077,7 +3078,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "Mad Puffers",
         "uploader": "rm",
@@ -3112,7 +3113,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "Mad Puffers",
         "uploader": "rm",
@@ -3148,14 +3149,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "moto x3m",
         "isMobile": true,
         "creator": "PlayHackGame",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../mx3mhacked/content/playhackgame.com.js2.mfzjdq.com/youxi/UploadFile/html5/Moto-X3m/index.htm/index.html"
+                "src": "../games/html5/motox3mallbikesunlocked"
             }
         },
         "url": "motox3mabu",
@@ -3182,7 +3183,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "ovo",
         "isMobile": false,
         "creator": "dedragames",
         "uploader": "rm",
@@ -3216,7 +3217,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "ovo",
         "isMobile": true,
         "creator": "dedragames",
         "uploader": "rm",
@@ -3257,7 +3258,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../ovo1.4.4/index.html"
+                "src": "../games/html5/ovo144"
             }
         },
         "url": "ovo144",
@@ -3291,7 +3292,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../85d197d4-34f1-4f53-8910-a714d14df8e8/content/cache.armorgames.com/files/games/pe-noire-18467/index.html"
+                "src": "../games/html5/penoire"
             }
         },
         "url": "penoire",
@@ -3391,14 +3392,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "papa games",
         "isMobile": true,
         "creator": "Flipline",
         "uploader": "rm",
         "pageData": {
             "isFrame": "embed",
             "attributes": {
-                "src": "../papasburgeria.swf",
+                "src": "../games/flash/papasburgeria/papasburgeria.swf",
                 "pluginspage": "http://www.macromedia.com/go/getflashplayer",
                 "style": ""
             }
@@ -3427,14 +3428,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "papa games",
         "isMobile": false,
         "creator": "Flipline",
         "uploader": "rm",
         "pageData": {
             "isFrame": "embed",
             "attributes": {
-                "src": "../papaspizzeria/papaspizzeria/papaspizzeriav2.swf",
+                "src": "../games/flash/papaspizzeria/papaspizzeriav2.swf",
                 "pluginspage": "http://www.macromedia.com/go/getflashplayer",
                 "style": ""
             }
@@ -3464,14 +3465,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "paper.io",
         "isMobile": true,
         "creator": "Voodoo",
         "uploader": "BIGBOI101",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../a441d11f-fd51-4bcc-a62e-8120094dfde4/content/fun.touchpal.com/game/fourj-paper-io-online/gamefile/game.html/index.html"
+                "src": "../games/html5/paperio/game.html"
             }
         },
         "url": "paperio",
@@ -3499,14 +3500,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "paper.io",
         "isMobile": true,
         "creator": "Voodoo",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../othergames/paperio2/index.html"
+                "src": "../games/html5/paperio2/"
             }
         },
         "url": "paperio2",
@@ -3541,7 +3542,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../7094faa9-59e9-4bbd-9aa8-0f74e73a068b/content/pixel-cave.com/pixel-cave/index.html"
+                "src": "../games/html5/pixelcave"
             }
         },
         "url": "pixelcave",
@@ -3576,7 +3577,7 @@
             "isFrame": "iframe",
             "attributes": {
                 "src": "../games/html5/plactions",
-                "style": "height: 600px; width: 800px; "
+                "style": "min-height: 600px; min-width: 800px; "
             }
         },
         "url": "plactions",
@@ -3671,7 +3672,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "rabbit samurai",
         "isMobile": true,
         "creator": "Miniduck",
         "uploader": "rm",
@@ -3705,7 +3706,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "rabbit samurai",
         "isMobile": true,
         "creator": "Miniduck",
         "uploader": "rm",
@@ -3746,7 +3747,7 @@
         "pageData": {
             "isFrame": "embed",
             "attributes": {
-                "src": "../red-driver-5.swf",
+                "src": "../games/flash/red-driver-5/red-driver-5.swf",
                 "pluginspage": "http://www.macromedia.com/go/getflashplayer",
                 "style": "height: 440px; width: 600px; "
             }
@@ -3888,12 +3889,12 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "https://scratch.mit.edu/projects/162598454/embed/",
+                "src": "../games/html5/ball2",
                 "allowtransparency": "true",
                 "frameborder": "0",
                 "scrolling": "no",
                 "allowfullscreen": null,
-                "style": "width: 485px; height: 402px; "
+                "style": "min-width: 485px; min-height: 402px; "
             }
         },
         "url": "scratch-rollingskyryutoku",
@@ -3929,7 +3930,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../41842126-a678-4665-b10d-8b3869d9d458/content/w8.snokido.com/games/unity-webgl/rooftop-snipers/index.html"
+                "src": "../games/html5/rooftopsnipers"
             }
         },
         "url": "rooftopsnipers",
@@ -4034,7 +4035,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../4f835b64-2d5a-412e-8ed1-38615fad15ad/content/funkypotato.com/gamez/running-round/index.html"
+                "src": "../games/html5/runningaround"
             }
         },
         "url": "runninground",
@@ -4103,7 +4104,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../b958cc1c-fc13-4b75-ae67-b08dce1c28c7/content/19140.cache.armorgames.com/files/games/senya-and-oscar-2-19140/index.html"
+                "src": "../games/html5/senya-and-oscar-2"
             }
         },
         "url": "sao2",
@@ -4246,7 +4247,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../678fd780-11f4-4e61-9092-f99a71c58105/content/scorenga.com/data/627/index.html"
+                "src": "../games/html5/skyblock"
             }
         },
         "url": "skyblock034",
@@ -4343,7 +4344,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "slope",
         "isMobile": false,
         "creator": "Rob Kay",
         "uploader": "rm",
@@ -4378,7 +4379,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "slope",
         "isMobile": false,
         "creator": "RHM Interactive",
         "uploader": "rm",
@@ -4413,14 +4414,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "slope",
         "isMobile": true,
         "creator": "Robert Alsin",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../cb0b9cef-a9a0-4428-9f66-c9ef4631cfe7/content/unblockeds-games.com/webgl/slope-ball/index.html"
+                "src": "../games/html5/slopeballfallingball"
             }
         },
         "url": "slopeballfallingball",
@@ -4455,7 +4456,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../3927bf32-b572-442c-9f66-e19ca4fd330a/content/app-166133.games.s3.yandex.net/166133/cqi8jgft0lonphtppjblvgy1wj0sfr2v/index.html"
+                "src": "../games/html5/snakeio"
             }
         },
         "url": "snakeio",
@@ -4492,7 +4493,7 @@
             "isFrame": "iframe",
             "attributes": {
                 "src": "../games/html5/sonicrevert",
-                "style": "height: 600px; width: 800px; "
+                "style": "min-height: 600px; min-width: 800px; "
             }
         }
     },
@@ -4518,7 +4519,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "space is key",
         "isMobile": true,
         "creator": "ChrisJeff",
         "uploader": "rm",
@@ -4553,7 +4554,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "space is key",
         "isMobile": false,
         "creator": "ChrisJeff",
         "uploader": "rm",
@@ -4590,7 +4591,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "space is key",
         "isMobile": false,
         "creator": "ChrisJeff",
         "uploader": "rm",
@@ -4734,7 +4735,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "stickman boost",
         "isMobile": false,
         "creator": "Y8",
         "uploader": "rm",
@@ -4769,7 +4770,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "stickman boost",
         "isMobile": false,
         "creator": "Y8",
         "uploader": "rm",
@@ -4926,7 +4927,7 @@
     {
         "name": "supermario64",
         "dispName": "Super Mario 64",
-        "description": "",
+        "description": "Controls: Movement: Arrow Keys <br />A: X<br />B: C<br />L: Q<br />Z: Space<br />Start: Enter<br />C-stick: WASD<br />Because this is a huge game, you will have to wait at LEAST 30-60 seconds opening the tab as it loads. Please stay patient and do not go to another tab",
         "siteTags": [
             "HTML5",
             "mario",
@@ -5025,7 +5026,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../99465a7b-15ac-4e0c-9ee3-1faabd3ef232/content/frivwtf.com/games/superhero-io/index.html"
+                "src": "../games/html5/superheroio"
             }
         },
         "url": "superheroio",
@@ -5061,7 +5062,7 @@
             "isFrame": "iframe",
             "attributes": {
                 "src": "../games/html5/superhotprototype",
-                "style": "height: 720px; width: 357px; "
+                "style": "min-height: 720px; min-width: 357px; "
             }
         },
         "url": "superhotprototype",
@@ -5097,7 +5098,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../aa0d39d4-0356-46e1-b8cf-b4d0a6bf6402/content/playhackgame.com.js2.mfzjdq.com/game/2020/03/Tail-Of-The-Dragon-hacked/index.htm/index.html"
+                "src": "../games/html5/tailofthedragonunlimitedcoins"
             }
         },
         "url": "tailofthedragonhacked",
@@ -5306,7 +5307,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../3222e6b5-c758-4838-bbae-ed3388cdcc49/content/unblockeds-games.com/webgl/time-shooter-3/index.html"
+                "src": "../games/html5/timeshooter3swat"
             }
         },
         "url": "timeshooter3",
@@ -5407,7 +5408,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../af9bfa2b-4639-49fb-9636-5ff678a5a25d/content/cache.armorgames.com/files/games/tough-growth-18348/index.html"
+                "src": "../games/html5/toughgrowth"
             }
         },
         "url": "toughgrowth",
@@ -5474,7 +5475,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../uforun/index.api.html/index.html"
+                "src": "../games/html5/uforun/index.api.html"
             }
         },
         "url": "uforun",
@@ -5611,7 +5612,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "vex",
         "isMobile": true,
         "creator": "Agame",
         "uploader": "rm",
@@ -5646,7 +5647,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "vex",
         "isMobile": true,
         "creator": "Agame",
         "uploader": "rm",
@@ -5681,7 +5682,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "vex",
         "isMobile": true,
         "creator": "Agame",
         "uploader": "rm",
@@ -5716,7 +5717,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "vex",
         "isMobile": true,
         "creator": "Agame",
         "uploader": "rm",
@@ -5751,7 +5752,7 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "vex",
         "isMobile": true,
         "creator": "Agame",
         "uploader": "rm",
@@ -5786,14 +5787,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "wheely",
         "isMobile": true,
         "creator": "Pengas Games",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../newgames/wheely6/index.html"
+                "src": "../games/html5/wheely6"
             }
         },
         "url": "wheely6fairytale",
@@ -5821,14 +5822,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "wheely",
         "isMobile": true,
         "creator": "Pengas Games",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../newgames/wheely7/index.html"
+                "src": "../games/html5/wheely7"
             }
         },
         "url": "wheely7detective",
@@ -5856,14 +5857,14 @@
             "interactive",
             "HTML5"
         ],
-        "series": null,
+        "series": "wheely",
         "isMobile": true,
         "creator": "Pengas Games",
         "uploader": "rm",
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../newgames/wheely8/index.html"
+                "src": "../games/html5/wheely8"
             }
         },
         "url": "wheely8aliens",
@@ -5934,7 +5935,7 @@
         "pageData": {
             "isFrame": "iframe",
             "attributes": {
-                "src": "../7wf/content/18961.cache.armorgames.com/files/games/winter-falling-price-18961/index.html"
+                "src": "../games/html5/winterfallingpriceoflife"
             }
         },
         "url": "wfpol",
