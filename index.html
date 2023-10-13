@@ -6,11 +6,13 @@
   <meta name="keywords" content="
   mathgames66, math games 66.github.io, mathgames66.github.io, mathgames66.github, math games.66.github.io" />
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-  <script src="../scripts/search.js"></script>
-  <script src="../scripts/script.js"></script>
+  <script src="scripts/search.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/modal.js" defer></script>
   <link rel="stylesheet" type="text/css" href="css/circles.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/halloween.css">
+  <link rel="stylesheet" type="text/css" href="css/halloween.css">
+  <link rel="stylesheet" type="text/css" href="css/colors.css">
 
   <title>
     Mathgames66 - Adfree Unblocked Games
@@ -18,80 +20,89 @@
 </head>
 
 <body>
-
+  <!-- THIS IS TO BE REMOVED AFTER 2 WEEKS OF RELEASE -->
+  <dialog class="center">
+    <a id="close" autofocus><img src="images/vectors/x.svg" /></a>
+    <p>SEASON 3 TRAILER</p>
+    <iframe src="https://www.youtube-nocookie.com/embed/Bj0ovoo2dMg" width="100%" height="95%" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen frameborder="0"></iframe>
+  </dialog>
 
   <div class="context">
-        <form action="./search" autocomplete="off" onsubmit="return checkValues()" onkeydown="document.getElementById('search-bar').classList.remove('failedSearch');">
-          <input name="search" id="search-bar" class="search-text" type="text">
-    
-          <input type="submit" id="submit-search" class="search-button" value="">
-          <input type="button" id="advanced-search" class="search-button" onclick="this.classList.toggle('active')"
-            value="">
-          <div id="advanced-menu">
-            <label>search exact words:</label>
-            <input id="exact" name="exact" type="checkbox" />
-            <br>
-            <fieldset id="search-filters">
-              <legend>search using..</legend>
-                <label>title</label>
-                <input value="title" type="checkbox" checked />
-    
-                <br />
-                
-                <label>description</label>
-                <input value="desc" type="checkbox" checked />
-    
-                <br />
-                
-                <label>tags</label>
-                <input value="tags" type="checkbox" checked />
-    
-                <br />
-                
-                <label>urls</label>
-                <input value="urls" type="checkbox" checked />
-    
-                <br />
-    
-                <label>creator</label>
-                <input value="create" type="checkbox" checked />
-    
-                <br />
-    
-                <label>series</label>
-                <input value="series" type="checkbox" checked />
-    
-                <br />
-                
-                <label>uploader</label>
-                <input value="uploader" type="checkbox" />
-    
-                
-                <input id="filters" name="include" type="hidden" value="" />
-            </fieldset>
-            <br>
-            <div id="tag-container" class="text-container">
-            <label>tags: </label>
-            <input type="text" id="tag-search" class="search-text" onkeydown="if(event.keyCode==13){event.preventDefault();addTag()}" />
-            <input type="hidden" name="tags" value="" id="tags" />
-            <span id="submit-tag" onclick="addTag();">+</span>
-            </div>
-            <div id="tag-list">
-            </div>
-            <div id="series-container" class="text-container">
-              <label>series: </label>
-              <input type="text" id="series" name="series" class="search-text" onkeydown="if(event.keyCode==13){event.preventDefault(); document.getElementById('creator').focus()}" />
-              </div>
-            <div id="creator-container" class="text-container">
-            <label>creator: </label>
-            <input type="text" id="creator" name="create" class="search-text" onkeydown="if(event.keyCode==13){event.preventDefault(); document.getElementById('uploader').focus()}" />
-            </div>
-            <div id="uploader-container" class="text-container">
-            <label>uploader: </label>
-            <input type="text" id="uploader" name="uploader" class="search-text" />
-            </div>
-          </div>
-        </form>
+    <form action="./search" autocomplete="off" onsubmit="return checkValues()"
+      onkeydown="document.getElementById('search-bar').classList.remove('failedSearch');">
+      <input name="search" id="search-bar" class="search-text" type="text">
+
+      <input type="submit" id="submit-search" class="search-button" value="">
+      <input type="button" id="advanced-search" class="search-button" onclick="this.classList.toggle('active')"
+        value="">
+      <div id="advanced-menu">
+        <label>search exact words:</label>
+        <input id="exact" name="exact" type="checkbox" />
+        <br>
+        <fieldset id="search-filters">
+          <legend>search using..</legend>
+          <label>title</label>
+          <input value="title" type="checkbox" checked />
+
+          <br />
+
+          <label>description</label>
+          <input value="desc" type="checkbox" checked />
+
+          <br />
+
+          <label>tags</label>
+          <input value="tags" type="checkbox" checked />
+
+          <br />
+
+          <label>urls</label>
+          <input value="urls" type="checkbox" checked />
+
+          <br />
+
+          <label>creator</label>
+          <input value="create" type="checkbox" checked />
+
+          <br />
+
+          <label>series</label>
+          <input value="series" type="checkbox" checked />
+
+          <br />
+
+          <label>uploader</label>
+          <input value="uploader" type="checkbox" />
+
+
+          <input id="filters" name="include" type="hidden" value="" />
+        </fieldset>
+        <br>
+        <div id="tag-container" class="text-container">
+          <label>tags: </label>
+          <input type="text" id="tag-search" class="search-text"
+            onkeydown="if(event.keyCode==13){event.preventDefault();addTag()}" />
+          <input type="hidden" name="tags" value="" id="tags" />
+          <span id="submit-tag" onclick="addTag();">+</span>
+        </div>
+        <div id="tag-list">
+        </div>
+        <div id="series-container" class="text-container">
+          <label>series: </label>
+          <input type="text" id="series" name="series" class="search-text"
+            onkeydown="if(event.keyCode==13){event.preventDefault(); document.getElementById('creator').focus()}" />
+        </div>
+        <div id="creator-container" class="text-container">
+          <label>creator: </label>
+          <input type="text" id="creator" name="create" class="search-text"
+            onkeydown="if(event.keyCode==13){event.preventDefault(); document.getElementById('uploader').focus()}" />
+        </div>
+        <div id="uploader-container" class="text-container">
+          <label>uploader: </label>
+          <input type="text" id="uploader" name="uploader" class="search-text" />
+        </div>
+      </div>
+    </form>
     <!-- <ul id="search-suggestions">
       <li></li>
     </ul> -->
@@ -100,7 +111,7 @@
     <h6>ad-free unblocked games</h6>
 
     <span class="center">
-
+      <button id="show-button">Show the trailer again</button>
       <span class="small-text"><br>new games (added this week): Running Round [mobile/pc], White Pen Road
         [mobile/pc]<br><br>
 
@@ -143,13 +154,17 @@
       <h1>
 
         <h6>
-          bg rotating squares code <s>stolen</s> from @tokyoweb at codepen <br>
-          grid layout <s>stolen</s> from @julesforrest at codepen
-
+          animated square background <s>stolen</s> from <a class="link" href="https://codepen.io/tokyoweb">@tokyoweb</a>
+          at codepen <br />
+          grid layout <s>stolen</s> from <a class="link" href="https://codepen.io/julesforrest">@julesforrest</a> at
+          codepen <br />
+          <a class="link" href="http://fusejs.io">fuse.js</a> used for the search bar and menu functionality (Copyright
+          &copy 2022 Kiro Risk)
           <br><br>
-          github repo: mathgames66/mathgames66.github.io <br>
+          github repo: <a class="link" href="https://github.com/mathgames66/mathgames66.github.io">
+            mathgames66/mathgames66.github.io </a><br />
 
-          contact: mathgames66 [at] mail [dot] com
+          contact: <a href=",mailmathgames66@mail.com" class="link" type="email">mathgames66@mail.com</a>
           <br><br>
         </h6>
         <span class="center">
@@ -191,16 +206,16 @@
   </div>
   <div class="area">
     <ul class="circles">
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
-      <li><img src=".\images\vectors\jack.svg"/></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
+      <li><img src=".\images\vectors\jack.svg" /></li>
     </ul>
 
   </div>

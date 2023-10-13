@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 
+:root {
+	--color-hue: 0;
+	--color-saturation: 0%;
+}
+
 a {
 	text-decoration: none;
 	color: white;
@@ -11,7 +16,34 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: "Poppins", serif;
-	line-height: 1
+	line-height: 1;
+}
+
+::backdrop {
+	background: black;
+	opacity: 0.7;
+}
+
+dialog {
+	width: 40vw;
+	height: 30vw;
+	background-color: #121212;
+	border: none;
+	border-radius: 30px;
+	padding: 2em;
+	overflow: hidden;
+}
+
+#close {
+	float: right;
+	cursor: pointer;
+	margin: 0.1em;
+	width: 2em;
+	height: 2em;
+}
+#close img {
+	width: 2em;
+	height: 2em;
 }
 
 .context {
@@ -61,7 +93,7 @@ s {
 }
 #el1 {
 	display: inline-block;
-  margin: 0;
+	margin: 0;
 }
 h3 {
 	color: white;
@@ -76,7 +108,8 @@ p {
 	margin: 0 0 20px 20px;
 	letter-spacing: 0.5px;
 }
-img {
+.circles li img,
+.card img {
 	position: absolute;
 	top: 0;
 	height: 110%;
@@ -106,7 +139,7 @@ img {
 button {
 	display: inline-block;
 	border-radius: 4px;
-	background-color: #2d2d2d;
+	background-color: var(--search-backgrounds);
 	border: none;
 	color: #ffffff;
 	text-align: center;
@@ -118,8 +151,8 @@ button {
 	cursor: pointer;
 	margin: 5px;
 }
-#search-bar.failedSearch{
-  border-color: #f00;
+#search-bar.failedSearch {
+	border-color: #f00;
 }
 button span {
 	cursor: pointer;
@@ -158,7 +191,7 @@ button:hover span:after {
 	border-radius: 10px;
 	padding: 1em;
 	display: inline-block;
-	width:90%;
+	width: 90%;
 }
 
 .pink {
@@ -222,11 +255,11 @@ a.link {
 	transform: rotate(-180deg);
 }
 #advanced-menu {
-	background-color: #222;
+	background-color: color-mix(in hsl, var(--search-border-color), white 10%);
 	display: block;
 	overflow: hidden;
 	width: calc(340px - 2em);
-	border: #1e1e1e solid;
+	border: var(--search-border-color) solid;
 	text-align: left;
 	margin: -15px calc(50% - 165px) 20px auto;
 	padding: 0px 2em;
@@ -265,34 +298,34 @@ a.link {
 	justify-content: center;
 	height: 29px;
 	text-align: center;
-	border-color: #1e1e1e;
-	background-color: #2d2d2d;
+	border-color: var(--search-border-color);
+	background-color: var(--search-backgrounds);
 	cursor: pointer;
 }
 .text-container {
-  width: 100%;
-  display: inline-flex;
-  margin-top: 0.3em;
+	width: 100%;
+	display: inline-flex;
+	margin-top: 0.3em;
 }
-.text-container input{
-  flex: auto;
+.text-container input {
+	flex: auto;
 }
 .search-text {
 	color: white;
 	font-family: "Poppins";
 	border: solid;
-	border-color: #1e1e1e;
-	background-color: #2d2d2d;
+	border-color: var(--search-border-color);
+	background-color: var(--search-backgrounds);
 }
 .search-text:hover {
-	border-color: #6e6e6e;
+	border-color: color-mix(in hsl, var(--search-border-color), white 25%);
 	cursor: pointer;
 }
 .search-text:focus {
 	border-color: white;
 	outline: none;
 	cursor: text;
-	background-color: #3b3b3b;
+	background-color: color-mix(in hsl, var(--search-backgrounds), white 10%);
 }
 .tag-query {
 	cursor: url("../images/bitmap/x.png") 8 8, auto;
@@ -300,7 +333,11 @@ a.link {
 .tag-block {
 	padding: 5px;
 	display: inline-block;
-	background-color: #1c1c1c;
+	background-color: hsl(
+		var(--color-hue),
+		calc(var(--color-saturation) - 5%),
+		13%
+	);
 	margin: 2px 5px;
 	transition: 0.2s all;
 }
@@ -324,7 +361,9 @@ a.link {
 	background-size: 200% 100%;
 	animation: 1s linear 1s infinite load;
 }
-
+footer {
+	line-height: 1.5;
+}
 @keyframes load {
 	from {
 		background-position-x: -80%;
