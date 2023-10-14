@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40.19269937433941" height="48.477199496409725" viewBox="7.6211004547370305 12.855400114466034 40.19269937433941 48.477199496409725">
+  <defs>
+    <linearGradient id="grad_1" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="grad_2" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+  <linearGradient id="grad_1-.4088878631591797,-0.9125846028327942,0.9125846028327942,0.4088878631591797,-24.516047155857088,31.20619021654129" x1="41.4983" y1="25.719" x2="17.7711" y2="15.0879" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient><linearGradient id="grad_2-.4088878631591797,-0.9125846028327942,0.9125846028327942,0.4088878631591797,-33.666047155857086,53.95619021654129" x1="32.3483" y1="48.469" x2="8.6211" y2="37.8379" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_1-.4088878631591797,-0.9125846028327942,0.9125846028327942,0.4088878631591797,-24.516047155857088,31.20619021654129)" d="M 46.8138 13.8554 L 36.1827 37.5826 L 17.7711 15.0879 L 46.8138 13.8554 " stroke-width="0.9999999709831839"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="1.9999999419663679" d="M 46.8138 13.8554 L 36.1827 37.5826 L 17.7711 15.0879 L 46.8138 13.8554 "/>
+  </g>
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_2-.4088878631591797,-0.9125846028327942,0.9125846028327942,0.4088878631591797,-33.666047155857086,53.95619021654129)" d="M 37.6638 36.6054 L 27.0327 60.3326 L 8.6211 37.8379 L 37.6638 36.6054 " stroke-width="0.9999999709831839"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="1.9999999419663679" d="M 37.6638 36.6054 L 27.0327 60.3326 L 8.6211 37.8379 L 37.6638 36.6054 "/>
+  </g>
+</svg>

@@ -1,47 +1,89 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../theme.css">
-    </head>
 
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/theme.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="['math games 66', 'mathgames66', 'unblocked', 'online', 'free', 'games', 'game', 'interactive', 'HTML5']">
+    <meta name="author" content="Brayden Towner/TheDiamondfinderNG, RM">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/q5.min.js"></script>
+    <!--<script defer src="../scripts/circles.js"></script>-->
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script defer src="../scripts/series_check.js"></script>
+    <title>🎮 Backrooms (Alpha) Unblocked! | [No Ads] | Play it at Mathgames66</title>
+</head>
+
+<body>
     <header>
-        <center>
-            <h5>
-                <a href="..">return home</a>
-            </h5>
-        </center>
-</header>
-       
+        <a href=".." id="home">
+            <img id="home-big" src="../images/vectors/logo.svg"><img id="home-small" src="../images/vectors/icon.svg">
+        </a>
+        <form action="../../search" autocomplete="off" onkeydown="document.getElementById('search-bar').classList.remove('failedSearch');">
+            <input name="search" id="search-bar" class="search-text" type="text" required="" oninvalid="document.getElementById('search-bar').classList.add('failedSearch');">
 
-    <wgTitle>
-Backrooms (Alpha)
-    </wgTitle>
-    <wgDev>
-by IEP_Esy, uploaded by rm
-    </wgDev> <br>
-    <div class="wgHelp">
-    </div>
-    <wgEmbed>
-        <iframe frameBorder="1" scrolling="no" src="../989654c0-6c6e-40e4-956c-1db1ec95bd76/content/v6p9d9t4.ssl.hwcdn.net/html/3227960/Backrooms%20v1.5%20-%20WebGL/index.html"></iframe>
-    </wgEmbed>
-<Comments>
-    <script src="https://giscus.app/client.js"
-        data-repo="mathgames66/mathgames66.github.io"
-        data-repo-id="R_kgDOGdm08Q"
-        data-category="General"
-        data-category-id="DIC_kwDOGdm08c4CA4Ew"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
-</Comments>
-<center>
-    <img src='https://www.free-website-hit-counter.com/c.php?d=9&id=131796&s=7' border='0' >
-    </center>
+            <input type="submit" id="submit-search" class="search-button" value="">
+        </form>
+    </header>
+    <main>
+        <div id="game-container">
+            <!--<span class="center">
+                <h5>
+                    <label for="settings">Circle Display:</label>
+                    <select id="settings" name="settings" onchange="changeVal(event)">
+                        <option value="i">Interactive</option>
+                        <option value="s">Static</option>
+                        <option value="n">None</option>
+                    </select>
+                </h5>
+            </span>-->
+            <div id="wgTitle">
+                Backrooms (Alpha)
+            </div>
+            <div id="wgDev">
+                by <a href="../search/?create=IEP_Esy">IEP_Esy</a>, uploaded by <a href="../search/?uploader=rm">rm</a><br><br><br>
+                if you want to play this on an iPad (safari), tap on the "aA" button on the top left of your screen, on
+                the
+                left
+                side of the url box, then tap on "Request Mobile Site"
+            </div> <br>
+            <div id="wgEmbed">
+                <iframe frameborder="1" scrolling="no" src="../games/html5/backrooms/INDEX~1.HTM" style="" >
+
+                </iframe>
+            </div>
+        </div>
+        <div id="details">
+            <div id="description">
+                <h2>description</h2>
+                <p>Backrooms: Nothing but the stink of old, moist carpets, the madness of mono-yellow, and the blinding light of fluorescent bulbs at maximum hum-buzz. Over 600 million sq. miles of randomly segmented rooms. God save you if you hear something wandering nearby, because it sure as hell has heard you.</p>
+            </div>
+            <div id="tags">
+                <h2>tags</h2>
+                <a class="tag-block" href="../search?tags=HTML5">HTML5</a><a class="tag-block" href="../search?tags=3d">3d</a><a class="tag-block" href="../search?tags=horror">horror</a><a class="tag-block" href="../search?tags=1+player">1 player</a>
+            </div>
+            <div id="series">
+                <h1><a href="/search/?series=">more from this series &rarr;</a></h1>
+                <div id="series-games" onload="checkSelf()"></div>
+            </div>
+        </div>
+        <p class="center">
+            Problem? Submit a <a href="https://github.com/mathgames66/mathgames66.github.io/issues/new">Github Issue</a>!
+            <br>
+            Want to download this or another game? Check them out <a href="https://github.com/mathgames66/mathgames66.github.io/tree/main/games">here</a>!
+        </p>
+        <div id="comments" class="center">
+            <img src="../images/bitmap/CLOSED.png">
+            <p>We're in the process of changing all the discussions to "Comments" instead of "General" for github clarity. Please be patient with us for now! This is better then scrapping it all, because I like archives</p>
+        </div>
+    </main>
+    <footer class="center">
+        <span>
+            <img src="https://www.free-website-hit-counter.com/c.php?d=9&amp;id=131796&amp;s=7" border="0">
+        </span>
+    </footer>
+
+
+</body></html>
+
 </html>

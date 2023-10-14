@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="29.753601100707705" height="33.550699260497744" viewBox="11.746399866211089 0.14999996291366458 29.753601100707705 33.550699260497744">
+  <defs>
+    <linearGradient id="grad_1" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+  <linearGradient id="grad_1-.7510408759117126,0.6602557301521301,0.6602557301521301,-0.7510408759117126,-32.41511106491089,35.60583798885345" x1="29.913" y1="13.1737" x2="12.7464" y2="32.7007" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <image id="ID0.7968572787940502" width="47" height="47" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAA0klEQVR42tXXUQqEMAxFUT/extyTy8ie3tZm/BBEHMcZ0phbqNBawiFNBDVxh0WFrw9R4US89wtR4SS8zzZFhRPwvnopKrwz3ncOiQrviPcvh0WFd8PPZPxExZuGj/dciJkPatkEteaD2rCRHVBUeBU+RgUWFT4aH6OvVFT4KHwUfQTS8WXwbHwpPBNfDs/CPwLPwi8JMeYODYvKvJMyXvYn5X+v+enMm1o2pta8qQ3bEn4H3xb+Dd8afoVvD/+ER8DP8Bj4EY+C7/E4+IZHwtfxAmnHIIDXHWAjAAAALXRFWHRTb2Z0d2FyZQBieS5ibG9vZGR5LmNyeXB0by5pbWFnZS5QTkcyNEVuY29kZXKoBn/uAAAAAElFTkSuQmCC" transform="matrix(0.5,0,0,-0.5,16.4,25.75)" stroke-width="1"/>
+  <path id="ID0.4750219117850065" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M 40.5 25.85 L 15.3 1.15 "/>
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_1-.7510408759117126,0.6602557301521301,0.6602557301521301,-0.7510408759117126,-32.41511106491089,35.60583798885345)" d="M 39.6766 21.757 L 20.1495 4.5903 L 12.7464 32.7007 L 39.6766 21.757 " stroke-width="1.0000000132444775"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="2.000000026488955" d="M 39.6766 21.757 L 20.1495 4.5903 L 12.7464 32.7007 L 39.6766 21.757 "/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="56.4000015422459" height="44.55199815479473" viewBox="0.09999846593759365 -0.5000000081835001 56.4000015422459 44.55199815479473">
+  <defs>
+    <linearGradient id="grad_1" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="grad_2" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+  <linearGradient id="grad_1-0.8771077394485474,0.4802936911582947,-0.4802936911582947,-0.8771077394485474,93.2,44.5" x1="37.2755" y1="8.9971" x2="49.7632" y2="31.802" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient><linearGradient id="grad_2-0.8771077394485474,0.4802936911582947,-0.4802936911582947,-0.8771077394485474,70.4,55.75" x1="14.4755" y1="20.2471" x2="26.9632" y2="43.052" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_1-0.8771077394485474,0.4802936911582947,-0.4802936911582947,-0.8771077394485474,93.2,44.5)" d="M 25.8731 15.241 L 48.6779 2.7533 L 49.7632 31.802 L 25.8731 15.241 " stroke-width="1.0000000081835"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="2.000000016367" d="M 25.8731 15.241 L 48.6779 2.7533 L 49.7632 31.802 L 25.8731 15.241 "/>
+  </g>
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_2-0.8771077394485474,0.4802936911582947,-0.4802936911582947,-0.8771077394485474,70.4,55.75)" d="M 3.0731 26.491 L 25.8779 14.0033 L 26.9632 43.052 L 3.0731 26.491 " stroke-width="1.0000000081835"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="2.000000016367" d="M 3.0731 26.491 L 25.8779 14.0033 L 26.9632 43.052 L 3.0731 26.491 "/>
+  </g>
+  <image id="ID0.6673031295649707" width="107" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAA4CAYAAAD6pQZVAAABFklEQVR42u3cUQ6DIBBF0TZhY+yJZbgnlkbtb9MmRpHOhfv+MSOH0SjR1PY89zxM+CShQFhOgVimY963KrEgSHZW7FQvg1AksUBIYoGQxAIhiQVCEgsGJdYYoNzrYGIF7SKxoEhigZDEAiGJBQES61rywHG+dadGrGPZLowtPhTfD1PsrDm7RyyRxMIhrYy1UQtPIoklklhrIs2Mtc26+pJIYokk1ppIZKzlkIhYyyKRsJZHImGVSWpwp9jOGp/6ZQXWP9eUf9R39jj4neJqv8THEgmAJRIASyQAlkgALJEgWEIFx+r6hZ+5B8suAmCJBMASCYAlEgBLpOhYn/+5O5jWqaYWZG7CnU/qgGRGdpZIECyhOHkBd3BGgOttnK0AAAAtdEVYdFNvZnR3YXJlAGJ5LmJsb29kZHkuY3J5cHRvLmltYWdlLlBORzI0RW5jb2RlcqgGf+4AAAAASUVORK5CYII=" transform="matrix(-0.5,0,0,-0.5,54.6,28.5)" stroke-width="1"/>
+  <path id="ID0.1233572093769908" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M 1.35 27.55 L 55.5 1.3 "/>
+</svg>

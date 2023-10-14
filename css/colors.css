@@ -1,0 +1,6 @@
+/* Declares the colors */
+:root{
+    --search-border-color: hsl(var(--color-hue), var(--color-saturation), 12%);
+	--search-backgrounds: hsl(var(--color-hue), var(--color-saturation), 18%);
+	--dark-background: hsl(var(--color-hue), var(--color-saturation), 5%);
+}

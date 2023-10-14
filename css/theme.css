@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+:root {
+	--select-color: white;
+}
+
+html,
+body {
+	font-weight: bold;
+	padding: 50px 1vw;
+	color: #fff;
+	font-family: Poppins;
+}
+html {
+	background: #131313;
+}
+header {
+	position: absolute;
+	display: inline-block;
+	padding: 10px;
+	left: 0;
+	top: 0;
+	width: calc(100% - 20px);
+	height: 90px;
+	background: #090909;
+}
+header * {
+	max-height: 90px;
+}
+.center {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+#wgTitle {
+	line-height: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Exo", sans-serif;
+}
+
+#wgDev {
+	line-height: 100%;
+	text-align: center;
+	font-size: 1em;
+	font-family: "Exo", sans-serif;
+}
+
+h5 {
+	line-height: 250%;
+	font-family: Arial;
+}
+
+iframe {
+	line-height: 100%;
+	height: 700px;
+	width: 100%;
+}
+
+#wgEmbed * {
+	display: block;
+	margin: auto;
+	resize: none;
+	overflow: auto;
+	border-style: solid;
+	border-color: black;
+	border: 10px solid transparent;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: black;
+	background-color: var(--select-color);
+}
+
+::selection {
+	color: black;
+	background-color: var(--select-color);
+}
+
+.tag-block {
+	padding: 5px;
+	display: inline-block;
+	background-color: #1c1c1c;
+	margin: 2px 5px;
+	transition: 0.2s all;
+	border-radius: 5px;
+}
+
+.tag-block:hover {
+	color: orange;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+canvas {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: -9;
+}
+#game-container {
+	line-height: 0.2;
+}
+#home-small {
+	display: none;
+}
+#submit-search {
+	float: right;
+	width: 16.5px;
+	height: 18px;
+	margin: -12px;
+	position: relative;
+	left: -22px;
+	background-image: url("../images/bitmap/search.png");
+}
+.search-button {
+	padding: 0px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: 1s;
+}
+.search-button:hover {
+	scale: 120%;
+}
+#search-bar {
+	position: relative;
+	padding: 0.2em 2em 0.2em 1em;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 1.1em;
+	transition: 2s;
+}
+.search-text:hover {
+	border-color: #6e6e6e;
+	cursor: pointer;
+}
+.search-text:focus {
+	border-color: white;
+	outline: none;
+	cursor: text;
+	background-color: #3b3b3b;
+}
+#search-bar.failedSearch {
+	border-color: red;
+}
+.search-text {
+	color: white;
+	font-family: "Poppins";
+	border: solid;
+	border-color: #1e1e1e;
+	background-color: #2d2d2d;
+}
+.card img {
+	position: absolute;
+	top: 0;
+	height: 110%;
+	width: 100%;
+	z-index: -1;
+	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+	filter: brightness(0.6);
+}
+
+.card:hover {
+	transform: scale(1.035, 1.035);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+.card:hover img {
+	transform: translateY(-10px);
+}
+#details {
+	margin: 5em 0;
+	padding: 1em;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+#tags {
+	float: right;
+	text-align: right;
+}
+#series {
+	grid-column: 1 / span 2;
+}
+#series div {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+}
+#comments *{
+	width: 100%;
+}
+.card {
+	font-family: "Poppins", sans-serif;
+	height: 215px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+	margin: 10px;
+	z-index: 1;
+}
+.card h3 {
+	color: white;
+	font-size: 24px;
+	margin: 20px 0 0 20px;
+}
+.card p {
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+	align-self: end;
+	margin: 0 0 20px 20px;
+	letter-spacing: 0.5px;
+}
+.card img {
+	position: absolute;
+	top: 0;
+	height: 110%;
+	width: 100%;
+	z-index: -1;
+	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@media only screen and (max-width: 900px) {
+	form {
+		position: relative;
+		width: 50%;
+		top: 15px;
+		float: right;
+	}
+	#submit-search {
+		width: 33px;
+		height: 36px;
+		padding: 0;
+		float: right;
+		/* margin: -30px; */
+		top: -3em;
+	}
+	#search-bar {
+		font-size: 2em;
+		padding: 0.4em 1em 0.4em 0.6em;
+	}
+}
+@media only screen and (max-width: 600px) {
+	form {
+		width: 70%;
+	}
+	#home-big {
+		display: none;
+	}
+	#home-small {
+		display: initial;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	form {
+		position: absolute;
+		display: inline-block;
+		width: 30%;
+		left: 35%;
+		top: 40px;
+	}
+	#submit-search {
+		width: 16.5px;
+		height: 18px;
+		margin: -2em auto;
+		left: -1em;
+	}
+}

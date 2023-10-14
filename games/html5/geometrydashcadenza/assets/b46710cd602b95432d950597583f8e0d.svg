@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40.19279855646832" height="48.477199496409725" viewBox="1.170100002695405 12.849200277735077 40.19279855646832 48.477199496409725">
+  <defs>
+    <linearGradient id="grad_1" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="grad_2" x1="32" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+  <linearGradient id="grad_1-0.4088878631591797,-0.9125846028327942,-0.9125846028327942,0.4088878631591797,73.5,31.2" x1="7.4857" y1="25.7128" x2="31.2129" y2="15.0817" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient><linearGradient id="grad_2-0.4088878631591797,-0.9125846028327942,-0.9125846028327942,0.4088878631591797,82.65,53.95" x1="16.6357" y1="48.4628" x2="40.3629" y2="37.8317" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_1-0.4088878631591797,-0.9125846028327942,-0.9125846028327942,0.4088878631591797,73.5,31.2)" d="M 2.1701 13.8492 L 12.8012 37.5764 L 31.2129 15.0817 L 2.1701 13.8492 " stroke-width="0.9999999709831839"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="1.9999999419663679" d="M 2.1701 13.8492 L 12.8012 37.5764 L 31.2129 15.0817 L 2.1701 13.8492 "/>
+  </g>
+  <g id="ID0.714509782847017">
+    <path id="ID0.832331005949527" fill="url(#grad_2-0.4088878631591797,-0.9125846028327942,-0.9125846028327942,0.4088878631591797,82.65,53.95)" d="M 11.3201 36.5992 L 21.9512 60.3264 L 40.3629 37.8317 L 11.3201 36.5992 " stroke-width="0.9999999709831839"/>
+    <path id="ID0.15867031691595912" fill="none" stroke="#FFFFFF" stroke-width="1.9999999419663679" d="M 11.3201 36.5992 L 21.9512 60.3264 L 40.3629 37.8317 L 11.3201 36.5992 "/>
+  </g>
+</svg>

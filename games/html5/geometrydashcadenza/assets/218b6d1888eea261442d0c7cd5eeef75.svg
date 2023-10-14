@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="28" height="15" viewBox="1.5 0.7999999523162842 28 15">
+  <defs>
+    <linearGradient id="grad_1" x1="32" y1="58" x2="32" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.8367" stop-color="#000000" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="grad_2" x1="32" y1="58" x2="32" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient>
+  <linearGradient id="grad_1-,0,0,-1,-16.5,59.8" x1="15.5" y1="1.8" x2="15.5" y2="14.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.8367" stop-color="#000000" stop-opacity="0.8"/>
+    </linearGradient><linearGradient id="grad_2-,0,0,-1,-16.5,59.8" x1="15.5" y1="1.8" x2="15.5" y2="14.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.7551" stop-color="#000000"/>
+    </linearGradient></defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <image id="ID0.5497143589891493" width="56" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAe0lEQVR42u3WsQ2AMAxFwUSKxP6DMgCkMNQU1LFz3uD0XxAj3muFb7TiB1gO2HtPDfp+UiQKCAgICAgICJgKeCU3HdsDb4kCrg2UKKBELQgo0R/glCigN2hBQIlKVKIWBJSon22JeoMWBJSoBQElutOCEXFWX7ABAq5zDz6xLuho1hifAAAALXRFWHRTb2Z0d2FyZQBieS5ibG9vZGR5LmNyeXB0by5pbWFnZS5QTkcyNEVuY29kZXKoBn/uAAAAAElFTkSuQmCC" transform="matrix(0,0,0,0,23,9)" stroke-width="1"/>
+  <g id="ID0.24917651200667024">
+    <path id="ID0.1951387282460928" fill="url(#grad_1-,0,0,-1,-16.5,59.8)" d="M 28.5 1.8 L 2.5 1.8 L 15.5 14.8 L 28.5 1.8 " stroke-width="1"/>
+    <path id="ID0.7516643544659019" fill="url(#grad_2-,0,0,-1,-16.5,59.8)" stroke="#FFFFFF" stroke-width="2" d="M 28.5 1.8 L 2.5 1.8 L 15.5 14.8 L 28.5 1.8 "/>
+  </g>
+</svg>
