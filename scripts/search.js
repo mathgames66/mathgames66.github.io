@@ -21,16 +21,17 @@ if ("maxTouchPoints" in navigator) {
 			/\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA);
 	}
 }
-// "pDepth" or periodDepth gets how far it should go back o get the json
 // Built with being a subdomain in mind
-let pDepth =
+let fileDepth =
 	document.URL.includes("/search") || document.URL.includes("/p/")
 		? ".."
 		: ".";
+// Check if the false cards are removed (later)
+let cardsRemoved = false
 // Request the game json file
-let gameDataRequest = new Request(pDepth + "/gamedata.json");
+let gameDataRequest = new Request(fileDepth + "/gamedata.json");
 // Declares gameDataObject (for later use)
-// let gameDataObj;
+let gameDataObj;
 
 function validateInputs(form) {
 	let validValues = false;
@@ -66,9 +67,11 @@ const baseCard = (function () {
 })();
 function makeFakeCards() {
 	for (let i = 0; i < 8; i++) {
-		clone = baseCard.cloneNode(true);
-		clone.className = "fake-card";
-		document.getElementById("container").appendChild(clone);
+		if (!cardsRemoved){ 
+			clone = baseCard.cloneNode(true);
+			clone.className = "fake-card";
+			document.getElementById("container").appendChild(clone);
+		}
 	}
 }
 
@@ -146,12 +149,14 @@ async function getGameData() {
 		<p style="text-align:left; color:#F00; background:#111; font-family:monospace;">${error}<br />${
 				error.lineNumber
 					? "lineNum: " + error.lineNumber
-					: "couldn't fetch line number"}
+					: "couldn't fetch line number"
+			}
 				 <br />
-				${error.lineNumber
-					? +"fileName: " + error.fileName
-					: "couldn't fetch file name"
-			}</p>
+				${
+					error.lineNumber
+						? +"fileName: " + error.fileName
+						: "couldn't fetch file name"
+				}</p>
 		  </div>`;
 			throw error;
 		});
@@ -223,51 +228,43 @@ function isArrayInArray(arr, item) {
 let fuseSearch;
 getGameData().then(searchFunction);
 async function searchFunction() {
-	console.log("START");
 	if (searchQueryObject.search) {
-		console.log("hi1");
 		fuseSearch = new Fuse(gameDataObj, fuseOptions);
 		gameDataObj = fuseSearch.search(searchQueryObject.search);
 		gameDataObj.forEach((item, i) => {
-			// console.log(item);
 			gameDataObj[i] = item.item;
 		});
 	}
 	if (searchQueryObject.series) {
-		console.log("hi2");
 		gameDataObj = gameDataObj.filter(thing => {
 			return thing.series == searchQueryObject.series;
 		});
 	}
 	if (searchQueryObject.tags) {
 		gameDataObj = gameDataObj.filter(thing => {
-			if (isArrayInArray(thing.siteTags, searchQueryObject.tags)) {
-				console.log(thing.siteTags, searchQueryObject.tags);
-			}
 			return isArrayInArray(thing.siteTags, searchQueryObject.tags);
 		});
 	}
 	if (searchQueryObject.create) {
-		console.log("hi2");
 		gameDataObj = gameDataObj.filter(thing => {
 			return thing.creator == searchQueryObject.create;
 		});
 	}
 	if (searchQueryObject.uploader) {
-		console.log("hi2");
 		gameDataObj = gameDataObj.filter(thing => {
 			return thing.uploader == searchQueryObject.uploader;
 		});
 	}
 	document.getElementById("container").replaceChildren();
-	 if(["hi", "hello", "hey"].includes(searchQueryObject.search)){
+	cardsRemoved = true;
+	if (["hi", "hello", "hey"].includes(searchQueryObject.search)) {
 		document.getElementById(
 			"container"
 		).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323;">
     <h1>hi :)</h1>
     <h1>hope you're enjoying the site! :D</h1>
       </div>`;
-	}else if(["secret", "hidden"].includes(searchQueryObject.search)){
+	} else if (["secret", "hidden"].includes(searchQueryObject.search)) {
 		document.getElementById(
 			"container"
 		).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323;">
@@ -290,9 +287,9 @@ async function searchFunction() {
 			let card = baseCard.cloneNode(true);
 			let children = card.children[0].children;
 
-			card.href = pDepth + `/p/${obj["url"]}.html`;
+			card.href = fileDepth + `/p/${obj["url"]}.html`;
 			children[0].src = `${
-				obj["thumbnailURL"] ? pDepth + "/mgthumbnails/" : ""
+				obj["thumbnailURL"] ? fileDepth + "/mgthumbnails/" : ""
 			}${obj["thumbnailURL"]}`;
 			children[1].innerText = obj["dispName"];
 			children[2].innerText = `by ${obj["creator"]} [${
