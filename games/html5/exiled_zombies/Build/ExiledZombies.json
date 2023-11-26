@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "ExiledZombies.data.unityweb",
+"asmCodeUrl": "ExiledZombies.asm.code.unityweb",
+"asmMemoryUrl": "ExiledZombies.asm.memory.unityweb",
+"asmFrameworkUrl": "ExiledZombies.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
