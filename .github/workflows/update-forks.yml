@@ -1,0 +1,30 @@
+name: Update Forks
+
+on:
+  push:
+    branches:
+      - main  # Change this to the default branch of your base repository
+
+jobs:
+  update-forks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+
+      - name: Fetch upstream changes
+        run: |
+          git remote add upstream https://github.com/mathgames66/mathgames66.github.io.git
+          git fetch upstream
+
+      - name: Update forks
+        run: |
+          git checkout main
+          git merge upstream/main
+          git push origin main
