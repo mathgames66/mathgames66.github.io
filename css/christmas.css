@@ -1,0 +1,25 @@
+:root {
+	--color-hue: 130 !important;
+	--color-saturation: 76% !important;
+	--dark-background: hsl(0, 70%, 15%);
+}
+
+.circles li img {
+	top: -50%;
+	left: -10%;
+}
+.circles li {
+	background: hsla(0, 100%, 50%, 0.5);
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+		border-radius: 100%;
+	}
+	100% {
+		transform: translateY(-1000px) rotate(720deg);
+		opacity: 0;
+		border-radius: 100%;
+	}
+}
